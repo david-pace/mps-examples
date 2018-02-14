@@ -14,7 +14,7 @@ composer "The Beatles"
 
 composition
 {
-    time 4/4, tempo 72, key F, scale major
+    time 4/4, tempo 74, key F
     {
         repeat 2 as verseRepetition
         {
@@ -179,7 +179,6 @@ fragment chorus scoreLabel "Chorus"
                                     lyrics "for now you know that it's a fool"
                                     lyrics "So let it out and let it in"
                                     lyrics "And don't you know that it's just you" // TODO: other rhythm/pitches
-
                                 }
                             }
                         }
@@ -248,7 +247,7 @@ fragment chorus scoreLabel "Chorus"
                                     lyrics "shoul-de-rs"
                                     lyrics "col-de-r"
                                     lyrics "form wi-th"
-                                    lyrics "shoul-der"
+                                    lyrics "shoul-de-r"
                                 }
                             }
                         }
@@ -368,6 +367,7 @@ fragment bridge scoreLabel "Bridge"
 
 fragment bridgeToOutro
 {
+    // TODO
 }
 
 fragment outro scoreLabel "Outro"

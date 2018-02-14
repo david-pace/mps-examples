@@ -15,6 +15,7 @@
             \set Staff.midiInstrument = #"voice oohs"
             \clef treble
             \time 4/4
+            \tempo 4 = 74
             \key f \major
             \mark "Verse"
             \partial 4 c''4
@@ -461,7 +462,7 @@
             c''
             r2.
         }\addlyrics {
-            Hey Jude don't make it bad take a sad song and make it bet -- te --  _ r re -- mem -- ber to let her in -- to your heart then you can sta -- rt to make it bet --  _ ter Hey Jude don't be af -- raid you were made to go out and get he --  _ r the mi -- nute you let her un -- der your skin then you be -- gi -- n to make it bet --  _ ter and a -- ny -- time you feel the pain Hey Jude re -- frain don't car -- ry the world up -- on your shoul -- de -- rs for now you know that it's a fool who plays it cool by ma -- king his world a lit -- tle col -- de -- r na na na na _ na na na na na Hey Jude don't let me down you have found her now go and get he --  _ r re -- mem -- ber to let her in -- to your heart then you can sta -- rt to make it bet --  _ ter So let it out and let it in Hey Jude be -- gin you're wai -- ting for some -- one to per form wi -- th And don't you know that it's just you Hey Jude you'll do the move -- ment you need is on your shoul -- der shoul -- na na na na _ na na na na na Hey Jude don't make it bad take a sad song and make it bet -- te --  _ r re -- mem -- ber you let her un -- der your skin then you be -- gi -- n to make it bet --  _ ter na na na na na na na na na na na Hey Jude na na na na na na na na na na na Hey Jude na na na na na na na na na na na Hey Jude na na na na na na na na na na na Hey Jude na na na na na na na na na na na Hey Jude na na na na na na na na na na na Hey Jude na na na na na na na na na na na Hey Jude 
+            Hey Jude don't make it bad take a sad song and make it bet -- te --  _ r re -- mem -- ber to let her in -- to your heart then you can sta -- rt to make it bet --  _ ter Hey Jude don't be af -- raid you were made to go out and get he --  _ r the mi -- nute you let her un -- der your skin then you be -- gi -- n to make it bet --  _ ter and a -- ny -- time you feel the pain Hey Jude re -- frain don't car -- ry the world up -- on your shoul -- de -- rs for now you know that it's a fool who plays it cool by ma -- king his world a lit -- tle col -- de -- r na na na na _ na na na na na Hey Jude don't let me down you have found her now go and get he --  _ r re -- mem -- ber to let her in -- to your heart then you can sta -- rt to make it bet --  _ ter So let it out and let it in Hey Jude be -- gin you're wai -- ting for some -- one to per form wi -- th And don't you know that it's just you Hey Jude you'll do the move -- ment you need is on your shoul -- de -- r na na na na _ na na na na na Hey Jude don't make it bad take a sad song and make it bet -- te --  _ r re -- mem -- ber you let her un -- der your skin then you be -- gi -- n to make it bet --  _ ter na na na na na na na na na na na Hey Jude na na na na na na na na na na na Hey Jude na na na na na na na na na na na Hey Jude na na na na na na na na na na na Hey Jude na na na na na na na na na na na Hey Jude na na na na na na na na na na na Hey Jude na na na na na na na na na na na Hey Jude 
         }
 
 
@@ -470,6 +471,7 @@
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble
             \time 4/4
+            \tempo 4 = 74
             \key f \major
             \mark "Verse"
             \partial 4 r4
@@ -831,6 +833,7 @@
             \set Staff.midiInstrument = #"electric bass (finger)"
             \clef bass
             \time 4/4
+            \tempo 4 = 74
             \key f \major
             \mark "Verse"
             \partial 4 r4
