@@ -1,0 +1,71 @@
+/*
+ * Example composition model for Music Processing Suite
+ * written in MC2L (Musical Context Composition Language)
+ * 
+ * Website: www.musicprocessing.net
+ * 
+ * License: www.musicprocessing.net/license/license.html
+ * 
+ * @author: David Hofmann <dev@davehofmann.de>
+ */
+
+composer "Ludwig van Beethoven"
+title "Piano Sonata No. 14 in C♯ minor, Op. 27, No. 2"
+
+composition
+{
+    instrument piano, time 2/2, tempo 54, loudness pp, key C#m
+    {
+        harmonicProgression C#m C#m/B A D/F# G#7-D# C#m/G# G# sus4 G#7-G#_3
+        {
+            harmonicRhythm 1 1 2 2 4 4 4 4
+            {
+                repeat 2
+                {
+                    parallel
+                    {
+                        repeat 4
+                        {
+                            fragmentRef chordArpeggio
+                        }
+                        rhythm 1
+                        {
+                            fragmentRef bassOctaves
+                        }
+                    }
+                }
+                repeat 4
+                {
+                    parallel
+                    {
+                        repeat 2
+                        {
+                            fragmentRef chordArpeggio
+                        }
+                        rhythm 2
+                        {
+                            fragmentRef bassOctaves
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+fragment chordArpeggio
+{
+    rhythm (3/2 : 8 8 8)
+    {
+        arpeggioGenerator (startInversion 2 startOctave 3 findNearestInversion true noteIndexSequence 0 1 2)
+    }
+}
+
+fragment bassOctaves
+{
+    pitches (startOctave 3 findNearestOctave true) @getBassNote()
+    {
+        parallelInterval mode octaves -1
+    }
+}

@@ -1,0 +1,92 @@
+/*
+ * Example composition model for Music Processing Suite
+ * written in MC2L (Musical Context Composition Language)
+ * 
+ * Website: www.musicprocessing.net
+ * 
+ * License: www.musicprocessing.net/license/license.html
+ * 
+ * @author: David Hofmann <dev@davehofmann.de>
+ */
+
+title "Bohemian Rhapsody"
+composer "Freddie Mercury"
+
+composition
+{
+    time 4/4, tempo 72, instrument vocals, key Bb
+    {
+        rhythm _8 8 8 8 4 4
+        {
+            harmony Gm7, lyrics "Is this the real life?"
+            {
+                parallel
+                {
+                    pitches (relative to harmony) 2
+                    pitches (relative to harmony) 0
+                    pitches (relative to harmony) -1
+                    pitches (relative to harmony) -3
+                }
+            }
+            rhythmicInsertion mode overwrite offset 2 rhythm 8 16 5/16 , harmony C7
+            {
+                lyrics "Is this just fan-ta-sy?"
+                {
+                    parallel
+                    {
+                        pitches (relative to harmony) 6b 6b 6b 6b 4 4
+                        pitches (relative to harmony) 4 4 4 4 3 2
+                        pitches (relative to harmony) 2 2 3 2 1 0
+                        pitches (relative to harmony) 0 0 1 0 -1b -1b
+                    }
+                }
+            }
+            time 5/4, harmony F7
+            {
+                lyrics "Caught in a land-slide"
+                {
+                    parallel
+                    {
+                        pitches (relative to harmony) 2 2 2 3 2
+                        pitches (relative to harmony) 0 0 0 1 0
+                        pitches (relative to harmony) -1b
+                        pitches (relative to harmony) -3 
+                    }
+                }
+                lyrics "no es-"
+                {
+                    parallel
+                    {
+                        fragmentRef quarterRest
+                        fragmentRef quarterRest
+                        fragmentRef unisono
+                        fragmentRef unisono
+                    }
+                }
+            }
+        }
+        rhythm 8 8 8 8 8 4., harmony Bb
+        {
+            lyrics "cape from re-a-li-ty"
+            {
+                parallel
+                {
+                    pitches (relative to harmony) 0 0 0 0 -3 -3
+                    pitches (relative to harmony) -3 -3 -2 -3 -4 -5
+                    pitches (relative to harmony) -5 -5 -4 -5 -6 -7
+                    pitches (relative to harmony) -7 -7 -6 -7 -8 -10
+                }
+            }
+        }
+    }
+}
+
+fragment quarterRest
+{
+    rhythm _4
+}
+
+fragment unisono
+{
+    rhythm 8 8, pitches (relative to harmony) -7 -7
+}

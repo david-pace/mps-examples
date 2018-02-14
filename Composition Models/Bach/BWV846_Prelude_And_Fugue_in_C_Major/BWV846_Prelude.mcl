@@ -1,0 +1,41 @@
+/*
+ * Example composition model for Music Processing Suite
+ * written in MC2L (Musical Context Composition Language)
+ * 
+ * Website: www.musicprocessing.net
+ * 
+ * License: www.musicprocessing.net/license/license.html
+ * 
+ * @author: David Hofmann <dev@davehofmann.de>
+ */
+
+title "Prelude in C major"
+composer "J.S. Bach"
+
+composition
+{
+    time 4/4
+    {
+        harmonicProgression C Dm/C G7/B-B C, harmonicRhythm 1 1 1 1
+        {
+            repeat 4, repeat 2
+            {
+                parallel
+                {
+                    arpeggioGenerator (numberOfNotes 2 includeBassNote true)
+                    {
+                        parallel
+                        {
+                            rhythm 2
+                            rhythm _16 7/16
+                        }
+                    }
+                    arpeggioGenerator (numberOfNotes 3 startInversion 2 noteIndexSequence 0 1 2 0 1 2)
+                    {
+                        rhythm _8 16 16 16 16 16 16
+                    }
+                }
+            }
+        }
+    }
+}

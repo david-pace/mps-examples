@@ -1,0 +1,47 @@
+/*
+ * Example composition model for Music Processing Suite
+ * written in MC2L (Musical Context Composition Language)
+ * 
+ * Website: www.musicprocessing.net
+ * 
+ * License: www.musicprocessing.net/license/license.html
+ * 
+ * @author: David Hofmann <dev@davehofmann.de>
+ */
+
+composer "Antonin Dvořák"
+title "Symphony No. 9 in E minor, Op. 95, 2nd Mvmt. Theme"
+
+composition
+{
+    tempo 50, instrument englishHorn
+    {
+        key Db
+        {
+            scale majorPentatonic
+            {
+                rhythm 8. 16 4
+                {
+                    pitches 2 3 3
+                    pitches 2 1 0
+                }
+                
+                rhythm 8. 16
+                {
+                    pitches 1 2
+                    pitches 3 2
+                }
+                
+                rhythm 2, pitches 1
+                
+                rhythm 8. 16 4
+                {
+                    pitches 2 3 3
+                    pitches 2 1 0
+                }
+                
+                rhythm 8 8 8. 16 2, pitches 1 2 1 0 0
+            }
+        }
+    }
+}

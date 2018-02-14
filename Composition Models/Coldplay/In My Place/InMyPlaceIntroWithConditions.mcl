@@ -1,0 +1,54 @@
+/*
+ * Example composition model for Music Processing Suite
+ * written in MC2L (Musical Context Composition Language)
+ * 
+ * Website: www.musicprocessing.net
+ * 
+ * License: www.musicprocessing.net/license/license.html
+ * 
+ * @author: David Hofmann <dev@davehofmann.de>
+ */
+
+title "In My Place"
+composer "Coldplay"
+
+composition
+{
+    time 4/4, tempo 72
+    {
+        repeat 2 as outerCount
+        {
+            parallel
+            {
+                fragment cymbals
+                {
+                    repeat 8 as innerCount
+                    {
+                        rhythm 8 
+                        {
+                            if outerCount == 1 and innerCount == 1
+                            {
+                                instrument crash
+                            }
+                            else
+                            {
+                                instrument hiHatOpen
+                            }
+                        }
+                    }
+                }
+
+                instrument bassDrum
+                {
+                    rhythm 4 _8. 16 _16 16 8 _4
+                }
+                
+                instrument snare
+                {
+                    rhythm _4 8. _16 _4 4    
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,348 @@
+/*
+ * Example composition model for Music Processing Suite
+ * written in MC2L (Musical Context Composition Language)
+ * 
+ * Website: www.musicprocessing.net
+ * 
+ * License: www.musicprocessing.net/license/license.html
+ * 
+ * @author: David Hofmann <dev@davehofmann.de>
+ */
+
+composer "Ludwig van Beethoven"
+title "Symphony No. 5, 1st Movement"
+
+composition
+{
+    tonalSystem western
+    {
+        key Cm
+        {
+            time 2/4, tempo 108 noteDuration 2
+            {
+                scale minor
+                {
+                    rhythm _8 8 8 8 2
+                    {
+                        harmonicProgression Cm G/B
+                        {
+                            harmonicRhythm 3/2 1
+                            {
+                                loudness ff
+                                {
+                                    fragmentRef instrumentation
+                                    {
+                                        pitches 4 4 4 2
+                                        pitches 3 3 3 1
+                                        {
+                                            rhythmicExtension 2
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        harmonicProgression G/B Cm G/B Cm G/B Cm
+                        {
+                            harmonicRhythm 2 2! 2! 2 2 2
+                            {
+                                loudness p
+                                {
+                                    parallel
+                                    {
+                                        instrument violin
+                                        {
+                                            rhythmicExtension 9/8
+                                            {
+                                                pitches 4 4 4 2
+                                            }
+                                            rhythmicAdjustment startDelta 8 endDelta 2
+                                            {
+                                                pitches 4 4 4 1
+                                            }
+                                            rhythm 9/8
+                                            {
+                                                pitches 4
+                                            }
+                                            rhythmicAdjustment startDelta 8 endDelta 8
+                                            {
+                                                pitches 2 2 3 4
+                                            }
+                                            rhythmicAdjustment startDelta 8 endDelta -1/2
+                                            {
+                                                pitches 2 2 3
+                                            }
+                                        }
+                                        instrument viola
+                                        {
+                                            pitches 5 5 5 4
+                                            {
+                                                rhythmicAdjustment startDelta -1/2 endDelta 6/8
+                                                rhythmicAdjustment startDelta -1/4 //endDelta 1
+                                            }
+                                            rhythm 1
+                                            {
+                                                pitches 1
+                                            }
+                                            rhythmicInsertion mode overwrite offset 0 rhythm 8
+                                            {
+                                                rhythmicExtension 8
+                                                {
+                                                    pitches 2 2 2 3 4
+                                                }
+                                            }
+                                            rhythmicAdjustment startDelta 8 endDelta -1/2
+                                            {
+                                                pitches 2 2 3
+                                            }
+                                        }
+                                        instrument violin
+                                        {
+                                            rhythmicAdjustment startDelta -1! endDelta 4
+                                            {
+                                                pitches 9 9 9 7
+                                            }
+                                            rhythmicAdjustment startDelta -3/4 endDelta 8
+                                            {
+                                                pitches 10 10 10 8
+                                            }
+                                            rhythmicAdjustment startDelta 8 //endDelta 1
+                                            {
+                                                pitches 11 11 10 9 8
+                                                pitches 11 11 10 9
+                                            }
+                                        }
+                                        instrument bassoon
+                                        {
+                                            fragmentRef bassoonAndCelloPart1
+                                        }
+                                        instrument cello
+                                        {
+                                            fragmentRef bassoonAndCelloPart1
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        loudness p -> f
+                        {
+                            harmony G/B
+                            {
+                                rhythmicExtension -1/2
+                                {
+                                    parallel
+                                    {
+                                        instrument flute
+                                        {
+                                            pitches (startOctave 6) [D G] [D G] [D F]
+                                        }
+                                        instrument oboe
+                                        {
+                                            pitches (startOctave 5) [D G] [D G] [D F]
+                                        }
+                                        instrument clarinet
+                                        {
+                                            pitches [B_3 G_3] [B_3 D] [D G]
+                                        }
+                                        instrument bassoon
+                                        {
+                                            fragmentRef bassoonAndCelloPart2
+                                        }
+                                        instrument frenshHorn
+                                        {
+                                            pitches (startOctave 5) G G G
+                                        }
+                                        instrument trumpet
+                                        {
+                                            pitches G G G
+                                            {
+                                                parallelInterval -12
+                                            }
+                                        }
+                                        instrument timpani
+                                        {
+                                            pitches (startOctave 2) G G G
+                                        }
+                                        instrument violin
+                                        {
+                                            rhythm 8 8 8 8
+                                            {
+                                                pitches 4 8 8 4
+                                            }
+                                        }
+                                        instrument violin
+                                        {
+                                            rhythm 8 8 8 8
+                                            {
+                                                pitches 8 11 11 10
+                                            }
+                                        }
+                                        instrument viola
+                                        {
+                                            rhythm 4. 8
+                                            {
+                                                pitches 4 1
+                                            }
+                                        }
+                                        instrument cello
+                                        {
+                                            fragmentRef bassoonAndCelloPart2
+                                        }
+                                        instrument doubleBass
+                                        {
+                                            pitches B B B
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        harmonicProgression Cm Ab7 G
+                        {
+                            harmonicRhythm 2 2 2
+                            {
+                                loudness f
+                                {
+                                    rhythm 4 _4
+                                    {
+                                        parallel
+                                        {
+                                            instrument flute
+                                            {
+                                                pitches (startOctave 6) [C Eb]
+                                                pitches (startOctave 6) C
+                                                pitches (startOctave 6) [B_5 G]
+                                            }
+                                            instrument oboe
+                                            {
+                                                pitches (startOctave 5) [C Eb]
+                                                pitches (startOctave 5) [C F#]
+                                                pitches (startOctave 5) [B_4 G]
+                                            }
+                                            instrument clarinet
+                                            {
+                                                pitches [G Eb]
+                                                pitches [F# C]
+                                                pitches [B_3 D]
+                                            }
+                                            instrument bassoon
+                                            {
+                                                fragmentRef bassoonAndCelloPart3
+                                            }
+                                            instrument frenshHorn
+                                            {
+                                                pitches (startOctave 5) G
+                                                parallelInterval -12
+                                                {
+                                                    pitches (startOctave 5) C
+                                                    pitches (startOctave 5) G
+                                                }
+                                            }
+                                            instrument trumpet
+                                            {
+                                                parallelInterval -12
+                                                {
+                                                    pitches C_5
+                                                    pitches C_5
+                                                    pitches G
+                                                }
+                                            }
+                                            instrument timpani
+                                            {
+                                                pitches (startOctave 3) C
+                                                pitches (startOctave 3) C
+                                                pitches (startOctave 2) G
+                                            }
+                                            instrument violin
+                                            {
+                                                pitches [C G Eb_5]
+                                                pitches [Ab_3 F# C_5]
+                                                pitches [G_3 D B]
+                                            }
+                                            instrument violin
+                                            {
+                                                pitches Eb_5
+                                                pitches [Ab_3 F# C_5]
+                                                pitches [G_3 D B G_5]
+                                            }
+                                            instrument viola
+                                            {
+                                                pitches Eb
+                                                transpose mode octaves -1
+                                                {
+                                                    pitches Ab
+                                                    pitches G
+                                                }
+                                            }
+                                            instrument cello
+                                            {
+                                                fragmentRef bassoonAndCelloPart3
+                                            }
+                                            instrument doubleBass
+                                            {
+                                                pitches (relative to harmony) 7
+                                                pitches (relative to harmony) 0
+                                                pitches (relative to harmony) 0
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+fragment bassoonAndCelloPart1
+{
+    rhythm _2
+    rhythm 2!
+    {
+        pitches C
+        pitches B_3
+    }
+    rhythm 2
+    {
+        pitches C
+        pitches B_3
+        pitches C
+    }
+}
+
+fragment bassoonAndCelloPart2
+{
+    rhythm 8 8 8 8
+    {
+        pitches (startOctave 3) B B B B
+    }
+}
+
+fragment bassoonAndCelloPart3
+{
+    pitches (relative to harmony) 0
+    transpose mode octaves -2
+    {
+        pitches (relative to harmony) 0
+        pitches (relative to harmony) 0
+    }
+}
+
+fragment instrumentation
+{
+    parallel
+    {
+        instrument violin
+        instrument violin
+        instrument clarinet
+        instrument viola
+        instrument cello
+        {
+            transpose mode octaves -2
+        }
+        instrument doubleBass
+        {
+            transpose mode octaves -2
+        }
+    }
+}

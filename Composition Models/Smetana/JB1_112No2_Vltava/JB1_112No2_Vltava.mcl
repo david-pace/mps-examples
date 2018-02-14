@@ -1,0 +1,58 @@
+/*
+ * Example composition model for Music Processing Suite
+ * written in MC2L (Musical Context Composition Language)
+ * 
+ * Website: www.musicprocessing.net
+ * 
+ * License: www.musicprocessing.net/license/license.html
+ * 
+ * @author: David Hofmann <dev@davehofmann.de>
+ */
+
+title "Vltava (Moldau)"
+composer "Bedřich Smetana"
+
+composition
+{
+    time 6/8, tempo 74 noteDuration 4., key Em, instrument violin
+    {
+        scale minor
+        {
+            fragmentRef theme
+        }
+        scale major, key E
+        {
+            fragmentRef theme
+        }
+    }
+
+}
+
+fragment theme
+{
+    rhythm (8)
+    {
+        pitches 4
+    }
+    rhythm 4 8
+    {
+        pitches 7 8
+        pitches 9 10
+    }
+    rhythm 4 8 4.
+    {
+        pitches 11
+    }
+    rhythm 4. 4.
+    {
+        pitches 12
+    }
+    rhythm 4. ~ 4 8
+    {
+        pitches 11
+    }
+    rhythm 4. 4 8 4 8 4 8 4. 4 8 4 _8 _4.
+    {
+        pitches 10 10 10 9 10 9 9 8 8 8 7
+    }
+}

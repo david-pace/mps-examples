@@ -1,0 +1,45 @@
+/*
+ * Example composition model for Music Processing Suite
+ * written in MC2L (Musical Context Composition Language)
+ * 
+ * Website: www.musicprocessing.net
+ * 
+ * License: www.musicprocessing.net/license/license.html
+ * 
+ * @author: David Hofmann <dev@davehofmann.de>
+ */
+
+title "Clapping Music"
+composer "Steve Reich"
+
+composition
+{
+    time 12/8, tempo 168
+    {
+        instrument handClaps
+        {
+            parallel
+            {
+                repeat 13
+                {
+                    fragmentRef motiv
+                }
+                for n in 0 to -12 step -1
+                {
+                    fragmentRef motiv
+                    {
+                        rhythmicDisplacement mode wrap offset n/8
+                    }
+                }
+            }
+        }
+    }
+}
+
+fragment motiv
+{
+    repeat 4
+    {
+        rhythm 8 8 8 _8 8 8 _8 8 _8 8 8 _8
+    }
+}

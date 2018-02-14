@@ -1,0 +1,29 @@
+digraph compositionModel {
+    graph [ordering="out"];
+    n0 [fillcolor="#cef2f3",style="filled",label="composition"];
+    n1 [fillcolor="#f3e1ce",style="filled",label="12/8 time"];
+    n0 -> n1;
+    n2 [fillcolor="#f3e1ce",style="filled",label="tempo 168"];
+    n1 -> n2;
+    n3 [fillcolor="#f3f3ce",style="filled",label="instrument handClaps"];
+    n2 -> n3;
+    n4 [fillcolor="#f0f0f0",style="filled",label="parallelization"];
+    n3 -> n4;
+    n5 [fillcolor="#f0f0f0",style="filled",label="repeat 13"];
+    n4 -> n5;
+    n6 [fillcolor="#f0f0f0",style="filled",label="reference"];
+    n5 -> n6;
+    n7 [fillcolor="#f0f0f0",style="filled",label="for n in 0 to -12 step -1"];
+    n4 -> n7;
+    n8 [fillcolor="#f0f0f0",style="filled",label="reference"];
+    n7 -> n8;
+    n9 [fillcolor="#f3ced0",style="filled",label="rhythmic displacement offset n / 8 mode wrap"];
+    n8 -> n9;
+    n10 [fillcolor="#cef2f3",style="filled",label="motiv"];
+    n11 [fillcolor="#f0f0f0",style="filled",label="repeat 4"];
+    n10 -> n11;
+    n12 [fillcolor="#f3ced0",style="filled",label="rhythm 8 8 8 _8 8 8 _8 8 _8 8 8 _8"];
+    n11 -> n12;
+    n6 -> n10 [style="dashed"];
+    n8 -> n10 [style="dashed"];
+}

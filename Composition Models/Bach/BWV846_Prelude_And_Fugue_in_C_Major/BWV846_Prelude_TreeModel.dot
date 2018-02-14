@@ -1,0 +1,30 @@
+digraph compositionModel {
+    graph [ordering="out"];
+    n0 [fillcolor="#cef2f3",style="filled",label="composition"];
+    n1 [fillcolor="#f3e1ce",style="filled",label="4/4 time"];
+    n0 -> n1;
+    n2 [fillcolor="#daf3ce",style="filled",label="harmonicProgression C Dm/C G7/B C"];
+    n1 -> n2;
+    n3 [fillcolor="#f3ced0",style="filled",label="harmonic rhythm 1 1 1 1"];
+    n2 -> n3;
+    n4 [fillcolor="#f0f0f0",style="filled",label="repeat 4"];
+    n3 -> n4;
+    n5 [fillcolor="#f0f0f0",style="filled",label="repeat 2"];
+    n4 -> n5;
+    n6 [fillcolor="#f0f0f0",style="filled",label="parallelization"];
+    n5 -> n6;
+    n7 [fillcolor="#cee8f3",style="filled",label="arpeggio generator
+(numberOfNotes 2, includeBassNote true)"];
+    n6 -> n7;
+    n8 [fillcolor="#f0f0f0",style="filled",label="parallelization"];
+    n7 -> n8;
+    n9 [fillcolor="#f3ced0",style="filled",label="rhythm 2"];
+    n8 -> n9;
+    n10 [fillcolor="#f3ced0",style="filled",label="rhythm _16 7 / 16"];
+    n8 -> n10;
+    n11 [fillcolor="#cee8f3",style="filled",label="arpeggio generator
+(numberOfNotes 3, startInversion 2, noteIndexSequence [0, 1, 2, 0, 1, 2])"];
+    n6 -> n11;
+    n12 [fillcolor="#f3ced0",style="filled",label="rhythm _8 16 16 16 16 16 16"];
+    n11 -> n12;
+}

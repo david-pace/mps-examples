@@ -1,0 +1,450 @@
+/*
+ * Example composition model for Music Processing Suite
+ * written in MC2L (Musical Context Composition Language)
+ * 
+ * Website: www.musicprocessing.net
+ * 
+ * License: www.musicprocessing.net/license/license.html
+ * 
+ * @author: David Hofmann <dev@davehofmann.de>
+ */
+
+title "Hey Jude"
+composer "The Beatles"
+
+composition
+{
+    time 4/4, tempo 72, key F, scale major
+    {
+        repeat 2 as verseRepetition
+        {
+            fragmentRef verse
+        }
+        fragmentRef chorusAndBridge
+        fragmentRef verse
+        fragmentRef chorusAndBridge
+        fragmentRef verse
+        fragmentRef bridgeToOutro
+        fragmentRef outro
+    }
+}
+
+fragment chorusAndBridge
+{
+    fragmentRef chorus
+    fragmentRef bridge
+}
+
+fragment verse scoreLabel "Verse"
+{
+    harmonicRhythm 1 1 1 1 1 1 1 1
+    {
+        harmonicProgression F C C7 F Bb F C7 F
+        {
+            parallel
+            {
+                instrument vocals
+                {
+                    rhythm (4) 4 _2.
+                    {
+                        pitches 4 2
+                        {
+                            lyrics "Hey Jude"
+                        }
+                    }
+                    rhythm (8 8 8) 4 _2.
+                    {
+                        pitches 2 4 5 1
+                        {
+                            switch
+                            {
+                                lyrics "don't make it bad"
+                                lyrics "don't be af-raid"
+                                lyrics "don't let me down"
+                            }
+                        }
+                    }
+                    rhythm (8 8) 4 4 _2
+                    {
+                        pitches 1 2 3 7
+                        {
+                            switch
+                            {
+                                lyrics "take a sad song"
+                                lyrics "you were made to"
+                                lyrics "you have found her"
+                            }
+                        }
+                    }
+                    rhythm (8 8 8) 8 16 16 4 _2
+                    {
+                        pitches 7 6 4 5 4 3 2
+                        {
+                            switch
+                            {
+                                lyrics "and make it bet-te--r"
+                                lyrics "go out and get he--r"
+                                lyrics "now go and get he--r"
+                            }
+                        }
+                    }
+                    pitches 4 5 5
+                    {
+                        switch childIndexSequence 0 1 0 0
+                        {
+                            rhythm (8) 8 8 _2.
+                            {
+                                lyrics "re-mem-ber"
+                            }
+                            rhythm (8) 16 16 _8 _2.
+                            {
+                                lyrics "the mi-nute"
+                            }
+                        }
+                    }
+                    rhythm (8 16 8 8 16 8) 4 _2.
+                    {
+                        pitches 5 8 7 6 7 5 4
+                        {
+                            switch
+                            {
+                                lyrics "to let her in-to your heart"
+                                lyrics "you let her un-der your skin"
+                            }
+                        }
+                    }
+                    rhythm (8 8 8 8) 4 _2.
+                    {
+                        pitches 0 1 2 5 4
+                        {
+                            switch
+                            {
+                                lyrics "then you can sta-rt"
+                                lyrics "then you be-gi-n"
+                            }
+                        }
+                    }
+                    rhythm (8 8 4 16 16) 4 _2.
+                    {
+                        pitches 4 3 2 -1 0 0
+                        {
+                            lyrics "to make it bet--ter"
+                        }
+                    }
+                }
+                instrument piano
+                {
+                    repeat 8
+                    {
+                        rhythm 4 4 4 4
+                        {
+                            chordGenerator
+                        }
+                    }
+                }
+                instrument bass
+                {
+                    repeat 8
+                    {
+                        rhythm 8 4 4 4 8
+                        {
+                            pitches (relative to harmony) 0 0 0 0 0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+fragment chorus scoreLabel "Chorus"
+{
+    repeat 2
+    {
+        harmonicRhythm 1 2 2 2 2 2 2 1
+        {
+            harmonicProgression F7 Bb Bb/A Gm Gm/F C/E C F
+            {
+                parallel
+                {
+                    instrument vocals
+                    {
+                        rhythm _8. 16 16 8 8. 8 8 16 5/16
+                        {
+                            pitches 0 7 5 5 4 4 3 5
+                            {
+                                switch
+                                {
+                                    lyrics "and a-ny-time you feel the pain"
+                                    lyrics "for now you know that it's a fool"
+                                    lyrics "So let it out and let it in"
+                                    lyrics "And don't you know that it's just you" // TODO: other rhythm/pitches
+
+                                }
+                            }
+                        }
+                        rhythm 8 4.
+                        {
+                            pitches 7 5
+                            {
+                                switch childIndexSequence 0 1 0 0
+                                {
+                                    lyrics "Hey Jude"
+                                    lyrics "who plays"
+                                }
+                            }
+                            pitches 7 3
+                            {
+                                switch
+                                {
+                                    lyrics "re-frain"
+                                    lyrics "it cool"
+                                    lyrics "be-gin"
+                                    lyrics "you'll do"
+                                }
+                            }
+                        }
+                        rhythm 8 4 8
+                        {
+                            pitches 7 5 4
+                            {
+                                switch
+                                {
+                                    lyrics "don't car-ry"
+                                    lyrics "by ma-king"
+                                    lyrics "you're wai-ting"
+                                    lyrics "the move-ment"
+                                }
+                            }
+                        }
+                        pitches 3 4 5 4 3
+                        {
+                            switch
+                            {
+                                rhythm 8 4. 8 4. 8
+                                {
+                                    lyrics "the world up-on your"
+                                }
+                                rhythm 8 4. 8 4 4
+                                {
+                                    lyrics "his world a lit-tle"
+                                }
+                                rhythm 8 4 4 4. 8
+                                {
+                                    lyrics "for some-one to per"
+                                }
+                                rhythm 8 4. 8 4 4
+                                {
+                                    lyrics "you need is on your"
+                                }
+                            }
+                        }
+                        rhythm 4 16 5/16 _2
+                        {
+                            pitches 2 1 0
+                            {
+                                switch
+                                {
+                                    lyrics "shoul-de-rs"
+                                    lyrics "col-de-r"
+                                    lyrics "form wi-th"
+                                    lyrics "shoul-der"
+                                }
+                            }
+                        }
+                    }
+                    instrument piano
+                    {
+                        repeat 5
+                        {
+                            rhythm 4 4 4 4
+                            {
+                                chordGenerator
+                            }
+                        }
+                    }
+                    instrument bass
+                    {
+                        rhythm 8 8 8 8 8 8 8 8
+                        {
+                            pitches 0 0 0 0 0 0 1 2
+                        }
+                        repeat 12
+                        {
+                            rhythm 4
+                            {
+                                pitches @getBassNote()
+                            }
+                        }
+                        repeat 8
+                        {
+                            rhythm 8
+                            {
+                                pitches @getBassNote()
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+fragment bridge scoreLabel "Bridge"
+{
+    time 2/4
+    {
+        harmonicRhythm 2
+        {
+            harmony F7
+            {
+                parallel
+                {
+                    instrument vocals
+                    {
+                        rhythm (8 8 8) 8 8 4
+                        {
+                            pitches 0 4 5 6b 5 6b
+                            {
+                                lyrics "na na na na _ na"
+                            }
+                        }
+                    }
+                    instrument piano
+                    {
+                        rhythm 4 4
+                        {
+                            chordGenerator
+                        }
+                    }
+                    instrument bass
+                    {
+                        rhythm 8 8 8 8
+                        {
+                            pitches (relative to harmony) 0 0 0 0
+                        }
+                    }
+                }
+            }
+        }
+    }
+    harmonicRhythm 1 1
+    {
+        harmonicProgression C C7
+        {
+            parallel
+            {
+                instrument vocals
+                {
+                    rhythm 8 8 4 2 _1
+                    {
+                        pitches 6 7 8 8
+                        {
+                            lyrics "na na na na"
+                        }
+                    }
+                }
+                instrument piano
+                {
+                    repeat 2
+                    {
+                        rhythm 4 4 4 4
+                        {
+                            chordGenerator
+                        }
+                    }
+                }
+                instrument bass
+                {
+                    rhythm 4 4 4 4 1
+                    {
+                        pitches (relative to harmony) 0 0 0 0 0
+                    }
+                }
+            }
+        }
+    }
+}
+
+fragment bridgeToOutro
+{
+}
+
+fragment outro scoreLabel "Outro"
+{
+    repeat 3
+    {
+        fragmentRef nanana
+    }
+    loudness current -> silence
+    {
+        repeat 4
+        {
+            fragmentRef nanana
+        }
+    }
+}
+
+fragment nanana
+{
+    harmonicRhythm 1 1 1 1
+    {
+        harmonicProgression F Eb Bb F
+        {
+            parallel
+            {
+                instrument vocals
+                {
+                    rhythm 2 4 4
+                    {
+                        pitches 0 2 4
+                        {
+                            lyrics "na na na"
+                        }
+                    }
+                    fragmentRef highNaNaNa
+                    rhythm _4
+                    fragmentRef highNaNaNa
+                    rhythm 4 4 _2.
+                    {
+                        pitches 5 4
+                        {
+                            lyrics "Hey Jude"
+                        }
+                    }
+                }
+                instrument piano
+                {
+                    repeat 4
+                    {
+                        rhythm 4 4 4 4
+                        {
+                            chordGenerator
+                        }
+                    }
+                }
+                instrument bass
+                {
+                    repeat 8
+                    {
+                        rhythm 8 8 8 8
+                        {
+                            pitches (relative to harmony) 0 0 0 0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+fragment highNaNaNa
+{
+    rhythm 16 16 8 2
+    {
+        pitches 8 7 8 7
+        {
+            lyrics "na na na na"
+        }
+    }
+}
