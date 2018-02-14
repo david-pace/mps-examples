@@ -12,7 +12,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Violin"
-            \set Staff.midiInstrument = #"acoustic grand"
+            \set Staff.midiInstrument = #"violin"
             \clef treble
             \time 2/4
             \tempo 2 = 108
@@ -63,7 +63,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Violin"
-            \set Staff.midiInstrument = #"acoustic grand"
+            \set Staff.midiInstrument = #"violin"
             \clef treble
             \time 2/4
             \tempo 2 = 108
@@ -157,7 +157,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Viola"
-            \set Staff.midiInstrument = #"acoustic grand"
+            \set Staff.midiInstrument = #"viola"
             \clef alto
             \time 2/4
             \tempo 2 = 108
@@ -209,7 +209,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Cello"
-            \set Staff.midiInstrument = #"acoustic grand"
+            \set Staff.midiInstrument = #"cello"
             \clef bass
             \time 2/4
             \tempo 2 = 108
@@ -247,7 +247,7 @@
         }
 
         \new Staff {
-            \set Staff.instrumentName = #"DoubleBass"
+            \set Staff.instrumentName = #"Double Bass"
             \set Staff.midiInstrument = #"contrabass"
             \clef bass
             \time 2/4
@@ -376,7 +376,7 @@
         }
 
         \new Staff {
-            \set Staff.instrumentName = #"FrenshHorn"
+            \set Staff.instrumentName = #"Frensh Horn"
             \set Staff.midiInstrument = #"frensh horn"
             \clef treble
             \tempo 2 = 108

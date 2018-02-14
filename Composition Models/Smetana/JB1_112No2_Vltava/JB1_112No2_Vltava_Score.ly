@@ -12,7 +12,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Violin"
-            \set Staff.midiInstrument = #"acoustic grand"
+            \set Staff.midiInstrument = #"violin"
             \clef treble
             \time 6/8
             \tempo 4. = 74
