@@ -235,7 +235,7 @@ digraph compositionModel {
     n118 [fillcolor="#f3ced0",style="filled",label="rhythm 4 4 4 4"];
     n117 -> n118;
     n119 [fillcolor="#cee8f3",style="filled",label="chordGenerator
-(resetOnContextChange: true)"];
+resetOnContextChange: true"];
     n118 -> n119;
     n120 [fillcolor="#f3f3ce",style="filled",label="instrument bass"];
     n72 -> n120;

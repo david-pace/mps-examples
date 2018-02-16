@@ -13,7 +13,7 @@ digraph compositionModel {
     n4 -> n5;
     n6 [fillcolor="#f3ced0",style="filled",label="rhythm 2 4 4 4. 16 16 4 _4"];
     n5 -> n6;
-    n7 [fillcolor="#cee8f3",style="filled",label="pitches (startOctave 5) 0 2 4 @-1 0 1 0"];
+    n7 [fillcolor="#cee8f3",style="filled",label="pitches (startOctave 5) 0 2 4 -1 0 1 0"];
     n6 -> n7;
     n8 [fillcolor="#f3ced0",style="filled",label="rhythmic insertion (offset 1, rhythm 4 8 16 16 4, mode overwrite)"];
     n6 -> n8;
@@ -26,7 +26,7 @@ digraph compositionModel {
     n12 [fillcolor="#f3ced0",style="filled",label="rhythm 8 8 8 8"];
     n11 -> n12;
     n13 [fillcolor="#cee8f3",style="filled",label="arpeggio generator
-(numberOfNotes: 3, noteIndexSequence: [0, 2, 1, 2])"];
+numberOfNotes: 3, noteIndexSequence: [0, 2, 1, 2]"];
     n12 -> n13;
     n14 [fillcolor="#cef2f3",style="filled",label="section1"];
     n0 -> n14;
@@ -40,7 +40,7 @@ digraph compositionModel {
     n17 -> n18;
     n19 [fillcolor="#f3ced0",style="filled",label="rhythm 8 16 16 16 16 16 16 16 16 16 16 16 16 16 16"];
     n18 -> n19;
-    n20 [fillcolor="#cee8f3",style="filled",label="pitches (startOctave 5) -2 -1 0 1 2 3 4 5 4 3 2 1 0 @-1 @-2"];
+    n20 [fillcolor="#cee8f3",style="filled",label="pitches (startOctave 5) -2 -1 0 1 2 3 4 5 4 3 2 1 0 -1 -2"];
     n19 -> n20;
     n21 [fillcolor="#f0f0f0",style="filled",label="sequence (4 times, step -1, mode inScale)"];
     n20 -> n21;

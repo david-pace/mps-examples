@@ -43,7 +43,7 @@ digraph compositionModel {
     n21 [fillcolor="#f3ced0",style="filled",label="rhythm tuplet (3/2: 8 8 8)"];
     n20 -> n21;
     n22 [fillcolor="#cee8f3",style="filled",label="arpeggio generator
-(startInversion 2, startOctave 3, findNearestInversion true, noteIndexSequence [0, 1, 2])"];
+findNearestInversion: true, startInversion: 2, startOctave: 3, noteIndexSequence: [0, 1, 2]"];
     n21 -> n22;
     n23 [fillcolor="#cef2f3",style="filled",label="bassOctaves"];
     n24 [fillcolor="#cee8f3",style="filled",label="pitches (startOctave 3, findNearestOctave true) @getBassNote()"];

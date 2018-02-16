@@ -22,7 +22,7 @@ composition
             {
                 parallel
                 {
-                    arpeggioGenerator (numberOfNotes 2 includeBassNote true)
+                    arpeggioGenerator numberOfNotes 2 includeBassNote true
                     {
                         parallel
                         {
@@ -30,7 +30,7 @@ composition
                             rhythm _16 7/16
                         }
                     }
-                    arpeggioGenerator (numberOfNotes 3 startInversion 2 noteIndexSequence 0 1 2 0 1 2)
+                    arpeggioGenerator numberOfNotes 3 startInversion 2 noteIndexSequence 0 1 2 0 1 2
                     {
                         rhythm _8 16 16 16 16 16 16
                     }

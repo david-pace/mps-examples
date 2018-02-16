@@ -58,7 +58,7 @@ fragment chordArpeggio
 {
     rhythm (3/2 : 8 8 8)
     {
-        arpeggioGenerator (startInversion 2 startOctave 3 findNearestInversion true noteIndexSequence 0 1 2)
+        arpeggioGenerator startInversion 2 startOctave 3 findNearestInversion true noteIndexSequence 0 1 2
     }
 }
 

@@ -10,6 +10,10 @@
 \score {
     <<
 
+        \context ChordNames {
+            \chordmode {cis1:m cis:m/+b a2 d/+fis gis4:7 cis:m/+gis gis:sus4 gis:7 }
+        }
+
         \new Staff {
             \set Staff.instrumentName = #"Piano"
             \set Staff.midiInstrument = #"acoustic grand"

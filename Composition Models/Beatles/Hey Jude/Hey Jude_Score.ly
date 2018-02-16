@@ -10,6 +10,10 @@
 \score {
     <<
 
+        \context ChordNames {
+            \chordmode {r4 f1 c c:7 f bes f c:7 f f c c:7 f bes f c:7 f f:7 bes2 bes/+a g:m g:m/+f c/+e c f1 f:7 bes2 bes/+a g:m g:m/+f c/+e c f1 f2:7 c1 c:7 f c c:7 f bes f c:7 f f:7 bes2 bes/+a g:m g:m/+f c/+e c f1 f:7 bes2 bes/+a g:m g:m/+f c/+e c f1 f2:7 c1 c:7 f c c:7 f bes f c:7 f f es bes f f es bes f f es bes f f es bes f f es bes f f es bes f f es bes f }
+        }
+
         \new Staff {
             \set Staff.instrumentName = #"Vocals"
             \set Staff.midiInstrument = #"voice oohs"

@@ -258,7 +258,7 @@ fragment chorus scoreLabel "Chorus"
                         {
                             rhythm 4 4 4 4
                             {
-                                chordGenerator (resetOnContextChange true)
+                                chordGenerator resetOnContextChange true
                             }
                         }
                     }

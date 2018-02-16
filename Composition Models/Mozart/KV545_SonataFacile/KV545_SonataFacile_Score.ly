@@ -15,7 +15,6 @@
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble
             \time 4/4
-            \tempo 4 = 120
             \key c \major
             c''2
             e''4
@@ -101,7 +100,6 @@
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble
             \time 4/4
-            \tempo 4 = 120
             \key c \major
             c'8
             g'
