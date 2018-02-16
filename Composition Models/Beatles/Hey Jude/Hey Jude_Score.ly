@@ -4,7 +4,7 @@
 
 \header {
     title = "Hey Jude"
-    composer = "The Beatles"
+    composer = "John Lennon & Paul McCartney"
 }
 
 \score {
@@ -627,46 +627,46 @@
             <f' a' c''>
             <f' a' c''>
             \mark "Chorus"
-            <es'' f'' a'' c'''>
-            <es'' f'' a'' c'''>
-            <es'' f'' a'' c'''>
-            <es'' f'' a'' c'''>
-            <d'' f'' bes''>
-            <d'' f'' bes''>
-            <d'' f'' bes''>
-            <d'' f'' bes''>
-            <d'' g'' bes''>
-            <d'' g'' bes''>
-            <d'' g'' bes''>
-            <d'' g'' bes''>
-            <e'' g'' c'''>
-            <e'' g'' c'''>
-            <e'' g'' c'''>
-            <e'' g'' c'''>
-            <f'' a'' c'''>
-            <f'' a'' c'''>
-            <f'' a'' c'''>
-            <f'' a'' c'''>
-            <f'' a'' c''' es'''>
-            <f'' a'' c''' es'''>
-            <f'' a'' c''' es'''>
-            <f'' a'' c''' es'''>
-            <f'' bes'' d'''>
-            <f'' bes'' d'''>
-            <f'' bes'' d'''>
-            <f'' bes'' d'''>
-            <g'' bes'' d'''>
-            <g'' bes'' d'''>
-            <g'' bes'' d'''>
-            <g'' bes'' d'''>
-            <g'' c''' e'''>
-            <g'' c''' e'''>
-            <g'' c''' e'''>
-            <g'' c''' e'''>
-            <a'' c''' f'''>
-            <a'' c''' f'''>
-            <a'' c''' f'''>
-            <a'' c''' f'''>
+            <f' a' c'' es''>
+            <f' a' c'' es''>
+            <f' a' c'' es''>
+            <f' a' c'' es''>
+            <f' bes' d''>
+            <f' bes' d''>
+            <f' bes' d''>
+            <f' bes' d''>
+            <g' bes' d''>
+            <g' bes' d''>
+            <g' bes' d''>
+            <g' bes' d''>
+            <g' c'' e''>
+            <g' c'' e''>
+            <g' c'' e''>
+            <g' c'' e''>
+            <a' c'' f''>
+            <a' c'' f''>
+            <a' c'' f''>
+            <a' c'' f''>
+            <a' c'' es'' f''>
+            <a' c'' es'' f''>
+            <a' c'' es'' f''>
+            <a' c'' es'' f''>
+            <bes' d'' f''>
+            <bes' d'' f''>
+            <bes' d'' f''>
+            <bes' d'' f''>
+            <bes' d'' g''>
+            <bes' d'' g''>
+            <bes' d'' g''>
+            <bes' d'' g''>
+            <c'' e'' g''>
+            <c'' e'' g''>
+            <c'' e'' g''>
+            <c'' e'' g''>
+            <c'' f'' a''>
+            <c'' f'' a''>
+            <c'' f'' a''>
+            <c'' f'' a''>
             \time 2/4
             \mark "Bridge"
             <f' a' c'' es''>

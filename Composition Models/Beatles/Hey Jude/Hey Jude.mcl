@@ -10,7 +10,7 @@
  */
 
 title "Hey Jude"
-composer "The Beatles"
+composer "John Lennon & Paul McCartney"
 
 composition
 {
@@ -258,7 +258,7 @@ fragment chorus scoreLabel "Chorus"
                         {
                             rhythm 4 4 4 4
                             {
-                                chordGenerator
+                                chordGenerator (resetOnContextChange true)
                             }
                         }
                     }
