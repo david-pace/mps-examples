@@ -342,7 +342,8 @@ fragment instrumentation
         }
         instrument doubleBass
         {
-            transpose mode octaves -2
+            // default octave of the double bass is 1, transpose up to 2
+            transpose mode octaves 1
         }
     }
 }

@@ -15,7 +15,6 @@
             \set Staff.midiInstrument = #"violin"
             \clef treble
             \time 2/4
-            \tempo 2 = 108
             \key c \minor
             r8
             g'\ff
@@ -66,7 +65,6 @@
             \set Staff.midiInstrument = #"violin"
             \clef treble
             \time 2/4
-            \tempo 2 = 108
             \key c \minor
             r8
             g'\ff
@@ -118,7 +116,6 @@
             \set Staff.midiInstrument = #"clarinet"
             \clef treble
             \time 2/4
-            \tempo 2 = 108
             \key c \minor
             r8
             g'\ff
@@ -160,7 +157,6 @@
             \set Staff.midiInstrument = #"viola"
             \clef alto
             \time 2/4
-            \tempo 2 = 108
             \key c \minor
             r8
             g'\ff
@@ -212,7 +208,6 @@
             \set Staff.midiInstrument = #"cello"
             \clef bass
             \time 2/4
-            \tempo 2 = 108
             \key c \minor
             r8
             g,\ff
@@ -251,19 +246,18 @@
             \set Staff.midiInstrument = #"contrabass"
             \clef bass
             \time 2/4
-            \tempo 2 = 108
             \key c \minor
             r8
-            g,,,\ff
-            g,,,
-            g,,,
-            es,,,2
+            g\ff
+            g
+            g
+            es2
             r8
-            f,,,
-            f,,,
-            f,,,
-            d,,,2~
-            d,,,
+            f
+            f
+            f
+            d2~
+            d
             r
             r
             r
@@ -292,7 +286,6 @@
             \set Staff.instrumentName = #"Bassoon"
             \set Staff.midiInstrument = #"bassoon"
             \clef treble
-            \tempo 2 = 108
             \key c \minor
             r1
             r2
@@ -323,7 +316,6 @@
             \set Staff.instrumentName = #"Flute"
             \set Staff.midiInstrument = #"flute"
             \clef treble
-            \tempo 2 = 108
             \key c \minor
             r1
             r2
@@ -351,7 +343,6 @@
             \set Staff.instrumentName = #"Oboe"
             \set Staff.midiInstrument = #"oboe"
             \clef treble
-            \tempo 2 = 108
             \key c \minor
             r1
             r2
@@ -379,7 +370,6 @@
             \set Staff.instrumentName = #"Frensh Horn"
             \set Staff.midiInstrument = #"frensh horn"
             \clef treble
-            \tempo 2 = 108
             \key c \minor
             r1
             r2
@@ -407,7 +397,6 @@
             \set Staff.instrumentName = #"Trumpet"
             \set Staff.midiInstrument = #"trumpet"
             \clef treble
-            \tempo 2 = 108
             \key c \minor
             r1
             r2
@@ -435,7 +424,6 @@
             \set Staff.instrumentName = #"Timpani"
             \set Staff.midiInstrument = #"timpani"
             \clef bass
-            \tempo 2 = 108
             \key c \minor
             r1
             r2
