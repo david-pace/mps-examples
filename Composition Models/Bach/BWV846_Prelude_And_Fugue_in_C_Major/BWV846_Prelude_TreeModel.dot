@@ -14,7 +14,7 @@ digraph compositionModel {
     n6 [fillcolor="#f0f0f0",style="filled",label="parallelization"];
     n5 -> n6;
     n7 [fillcolor="#cee8f3",style="filled",label="arpeggio generator
-children: [parallelization], numberOfNotes: 2, includeBassNote: true"];
+numberOfNotes: 2, includeBassNote: true"];
     n6 -> n7;
     n8 [fillcolor="#f0f0f0",style="filled",label="parallelization"];
     n7 -> n8;
@@ -23,7 +23,7 @@ children: [parallelization], numberOfNotes: 2, includeBassNote: true"];
     n10 [fillcolor="#f3ced0",style="filled",label="rhythm _16 7 / 16"];
     n8 -> n10;
     n11 [fillcolor="#cee8f3",style="filled",label="arpeggio generator
-children: [rhythm _8 16 16 16 16 16 16], startInversion: 2, numberOfNotes: 3, noteIndexSequence: [0, 1, 2, 0, 1, 2]"];
+startInversion: 2, numberOfNotes: 3, noteIndexSequence: [0, 1, 2, 0, 1, 2]"];
     n6 -> n11;
     n12 [fillcolor="#f3ced0",style="filled",label="rhythm _8 16 16 16 16 16 16"];
     n11 -> n12;
