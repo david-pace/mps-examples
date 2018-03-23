@@ -25,7 +25,8 @@ digraph compositionModel {
     n8 -> n11;
     n12 [fillcolor="#cee8f3",style="filled",label="pitches (relative to harmony) -3"];
     n8 -> n12;
-    n13 [fillcolor="#f3ced0",style="filled",label="rhythmic insertion (offset 2, rhythm 8 16 5 / 16, mode overwrite)"];
+    n13 [fillcolor="#f3ced0",style="filled",label="rhythmic insertion
+mode: overwrite, offset: 2, rhythm 8 16 5 / 16"];
     n5 -> n13;
     n14 [fillcolor="#daf3ce",style="filled",label="harmony C7"];
     n13 -> n14;

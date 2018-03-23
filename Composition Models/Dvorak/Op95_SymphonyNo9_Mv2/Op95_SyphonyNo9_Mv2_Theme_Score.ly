@@ -11,7 +11,7 @@
     <<
 
         \new Staff {
-            \set Staff.instrumentName = #"EnglishHorn"
+            \set Staff.instrumentName = #"English Horn"
             \set Staff.midiInstrument = #"english horn"
             \clef treble
             \time 4/4

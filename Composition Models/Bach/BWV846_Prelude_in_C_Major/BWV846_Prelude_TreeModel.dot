@@ -3,7 +3,7 @@ digraph compositionModel {
     n0 [fillcolor="#cef2f3",style="filled",label="composition"];
     n1 [fillcolor="#f3e1ce",style="filled",label="4/4 time"];
     n0 -> n1;
-    n2 [fillcolor="#daf3ce",style="filled",label="harmonicProgression C Dm/C G7/B C"];
+    n2 [fillcolor="#daf3ce",style="filled",label="harmonic progression C Dm/C G7/B-B4 C"];
     n1 -> n2;
     n3 [fillcolor="#f3ced0",style="filled",label="harmonic rhythm 1 1 1 1"];
     n2 -> n3;

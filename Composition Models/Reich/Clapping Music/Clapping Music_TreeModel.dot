@@ -17,7 +17,8 @@ digraph compositionModel {
     n4 -> n7;
     n8 [fillcolor="#f0f0f0",style="filled",label="reference"];
     n7 -> n8;
-    n9 [fillcolor="#f3ced0",style="filled",label="rhythmic displacement offset n / 8 mode wrap"];
+    n9 [fillcolor="#f3ced0",style="filled",label="rhythmic displacement
+offset: n / 8, mode: wrap"];
     n8 -> n9;
     n10 [fillcolor="#cef2f3",style="filled",label="motiv"];
     n11 [fillcolor="#f0f0f0",style="filled",label="repeat 4"];

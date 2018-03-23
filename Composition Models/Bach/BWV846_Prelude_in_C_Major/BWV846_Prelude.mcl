@@ -8,7 +8,6 @@
  * 
  * @author: David Hofmann <dev@davehofmann.de>
  */
-
 title "Prelude in C major"
 composer "J.S. Bach"
 
@@ -16,7 +15,7 @@ composition
 {
     time 4/4
     {
-        harmonicProgression C Dm/C G7/B-B C, harmonicRhythm 1 1 1 1
+        harmonicProgression C Dm/C G7/B-B_4 C, harmonicRhythm 1 1 1 1
         {
             repeat 4, repeat 2
             {

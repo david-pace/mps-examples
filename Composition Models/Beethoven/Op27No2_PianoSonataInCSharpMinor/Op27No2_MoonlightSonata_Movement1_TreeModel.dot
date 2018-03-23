@@ -11,7 +11,7 @@ digraph compositionModel {
     n3 -> n4;
     n5 [fillcolor="#daf3ce",style="filled",label="key C#m"];
     n4 -> n5;
-    n6 [fillcolor="#daf3ce",style="filled",label="harmonicProgression C#m C#m/B A D/F# G#7 C#m/G# G#sus4 G#7"];
+    n6 [fillcolor="#daf3ce",style="filled",label="harmonic progression C#m C#m/B A D/F# G#7-D# C#m/G# G#sus4 G#7-G#3"];
     n5 -> n6;
     n7 [fillcolor="#f3ced0",style="filled",label="harmonic rhythm 1 1 2 2 4 4 4 4"];
     n6 -> n7;

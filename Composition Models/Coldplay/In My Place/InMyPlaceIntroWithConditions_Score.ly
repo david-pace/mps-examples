@@ -23,7 +23,7 @@
         }
 
         \new DrumStaff {
-            \set DrumStaff.instrumentName = #"HiHatOpen"
+            \set DrumStaff.instrumentName = #"Hi Hat Open"
             \drummode {
                 \time 4/4
                 \tempo 4 = 72
@@ -48,7 +48,7 @@
         }
 
         \new DrumStaff {
-            \set DrumStaff.instrumentName = #"BassDrum"
+            \set DrumStaff.instrumentName = #"Bass Drum"
             \drummode {
                 \time 4/4
                 \tempo 4 = 72
