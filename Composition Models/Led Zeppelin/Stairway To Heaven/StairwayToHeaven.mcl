@@ -1,0 +1,63 @@
+title "Stairway To Heaven"
+composer "Jimmy Page, Robert Plant"
+
+composition
+{
+    key Am
+    {
+        fragmentRef intro
+    }
+}
+
+fragment intro
+{
+    tempo 70
+    {
+        harmonicProgression Am Am maj7 9 / G# C/G D/F# Fmaj7 G/B Am 
+        {
+            harmonicRhythm 2 2 2 2 1 8 7/8
+            {
+                instrument electricGuitar
+                {
+                    parallel
+                    {
+                        fragmentRef guitarUpper
+                        fragmentRef guitarLower
+                    }
+                }        
+            }
+        }
+    }
+}
+
+fragment guitarUpper
+{
+    rhythm _8
+    rhythm 8
+    {
+        pitches 2 4 7 8 4 2 8 9 4 2 9 5# 3 0 5# 4 2 0
+        rhythm 4
+        {
+            pitches 2
+        }
+        pitches 4 2 0
+        pitches [-1 1] [0 2]
+    }
+    rhythm 4., pitches [0 2]
+}
+
+fragment guitarLower
+{
+    rhythm 2
+    {
+        pitches 0 -1# -1 -2#
+    }
+    rhythm 1
+    {
+        pitches -2
+    }
+    rhythm 8 8 4.
+    {
+        pitches -6 -7 -7
+    }
+}

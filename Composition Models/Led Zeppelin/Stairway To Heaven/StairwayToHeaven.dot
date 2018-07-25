@@ -1,0 +1,8 @@
+digraph compositionModel {
+    graph [ordering="out"];
+    n0 [fillcolor="#cef2f3",style="filled",label="composition"];
+    n1 [fillcolor="#cef2f3",style="filled",label="intro"];
+    n2 [fillcolor="#daf3ce",style="filled",label="chord progression Am Ammaj79/G# C/G D/F# Am/F G Am"];
+    n1 -> n2;
+    n0 -> n1 [style="dashed"];
+}
