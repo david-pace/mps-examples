@@ -1,0 +1,46 @@
+title "Golliwog's Cakewalk"
+composer "Claude Debussy"
+
+composition
+{
+    time 2/4
+    {
+        key Eb
+        {
+            parallel
+            {
+                fragmentRef intro
+                transpose mode octaves -1, fragmentRef intro 
+            }
+            rhythm 8
+            {
+                parallel
+                {
+                    pitches (startOctave 3) [D G]
+                    pitches [Bb_1 Bb_2]
+                }
+            }
+        }
+    }
+}
+
+fragment intro
+{
+    rhythm 16 8 16 8 8
+    {
+        pitches (startOctave 5) Bb Ab Bb F Bb 
+        rhythmicInsertion mode overwrite offset 4 rhythm 4
+        {
+            pitches (startOctave 5) Ab F Eb Cb
+        }
+    }
+    
+    rhythm _16 16 16 16 4
+    {
+        pitches (startOctave 4) Ab F Eb Cb 
+        rhythmicAdjustment startDelta 0 endDelta -1/8
+        {
+            pitches (startOctave 3) Ab F Eb Cb
+        }
+    }
+}
