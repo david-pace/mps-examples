@@ -1,0 +1,43 @@
+title "Hey Jude"
+composer "The Beatles"
+
+composition
+{
+    time 4/4, tempo 72, key F
+    {
+        harmonicProgression F C C7 F, harmonicRhythm 1 1 1 1
+        {
+            instrument vocals
+            {
+                rhythm (4) 4 _2.
+                {
+                    pitches 4 2
+                    {
+                        lyrics "Hey Jude"
+                    }
+                }
+                rhythm (8 8 8) 4 _2.
+                {
+                    pitches 2 4 5 1
+                    {
+                        lyrics "don't make it bad"
+                    }
+                }
+                rhythm (8 8) 4 4 _2
+                {
+                    pitches 1 2 3 7
+                    {
+                        lyrics "take a sad song"
+                    }
+                }
+                rhythm (8 8 8) 8 16 16 4 _2
+                {
+                    pitches 7 6 4 5 4 3 2
+                    {
+                        lyrics "and make it bet-te--r"
+                    }
+                }
+            }
+        }
+    }
+}
