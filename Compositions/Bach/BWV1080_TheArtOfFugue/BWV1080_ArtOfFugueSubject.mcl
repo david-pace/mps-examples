@@ -1,0 +1,27 @@
+title "Art of Fugue Subject"
+composer "J. S. Bach"
+
+composition
+{
+    key Dm
+    {
+        rhythm 2
+        {
+            pitches D A F D C#
+        }
+        
+        rhythm 4
+        {
+            pitches D E
+        }
+        
+        rhythm 5/8, pitches F
+        
+        rhythm 8
+        {
+            pitches G F E            
+        }
+        
+        rhythm 4, pitches D
+    }
+}
