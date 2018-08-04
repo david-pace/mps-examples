@@ -1,0 +1,27 @@
+title "Symphony No. 9, Mv. IV, Chorus"
+composer "Ludwig van Beethoven"
+
+composition
+{
+    instrument vocals, time 6/8, tempo 120 noteDuration 4., key D
+    {
+        rhythm 4.
+        {
+            pitches(startOctave 5) 2
+            {
+                lyrics "Freu-de"
+            }
+            pitches(startOctave 5) 3 4 4 3 2 1 0 0 1 2
+            {
+                lyrics "schö-ner Göt-ter-fun-ken, Toch-ter aus E-"
+            }
+        }
+        rhythm 5/8 8 4 _8 _4.
+        {
+            pitches(startOctave 5) 2 1 1
+            {
+                lyrics "ly-si-um"
+            }
+        }
+    }
+}
