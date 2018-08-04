@@ -1,0 +1,74 @@
+title "Inventio 4"
+composer "J.S. Bach"
+
+composition
+{
+    time 3/8, key Dm
+    {
+        fragmentRef theme
+        parallel
+        {
+
+            fragment eights
+            {
+                fragmentRef eighthMotive
+                fragmentRef eighthMotive
+                {
+                    pitches 3 6# 8
+                }
+            }
+            fragmentRef theme, transpose mode octaves -1
+        }
+        parallel
+        {
+            fragmentRef theme, transpose mode octaves 1
+
+            fragment eights
+            {
+                fragmentRef eighthMotive, pitches -5 -3 0
+                fragmentRef eighthMotive, pitches -6 -4 -1#
+            }
+        }
+        parallel
+        {
+            rhythm 16
+            {
+                pitches 9 7 8 9 10 11 5 11 10 9 8 7
+                {
+                    sequence 2 times step -1 mode inScale
+                }
+            }
+            rhythm 8
+            {
+                pitches 0 7 2 3 4 5, transpose mode octaves -1
+                {
+                    sequence 2 times step -1 mode inScale
+                }
+            }
+        }
+    }
+}
+
+fragment theme
+{
+    rhythm 16
+    {
+        for degree in 0 to 5
+        {
+            pitches @degree
+        }
+        pitches -1#
+        for degree in 5 to 1 step -1
+        {
+            pitches @degree
+        }
+    }
+}
+
+fragment eighthMotive
+{
+    rhythm 8 8 8
+    {
+        pitches 2 4 7
+    }
+}

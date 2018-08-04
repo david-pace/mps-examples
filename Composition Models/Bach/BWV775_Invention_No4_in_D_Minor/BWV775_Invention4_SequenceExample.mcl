@@ -1,0 +1,23 @@
+composition
+{
+    time 3/8, key Dm
+    {
+        parallel
+        {
+            rhythm 16
+            {
+                pitches 9 7 8 9 10 11 5 11 10 9 8 7
+                {
+                    sequence 2 times step -1 mode inScale
+                }
+            }
+            rhythm 8
+            {
+                pitches 0 7 2 3 4 5, transpose mode octaves -1
+                {
+                    sequence 2 times step -1 mode inScale
+                }
+            }
+        }
+    }
+}
