@@ -1,0 +1,32 @@
+title "Simple Drum Groove"
+
+composition
+{
+    time 4/4, tempo 100
+    {
+        repeat 2
+        {
+            parallel
+            {
+                instrument hiHatClosed
+                {
+                    repeat 8
+                    {
+                        rhythm 8
+                    }
+                }
+                instrument bassDrum
+                {
+                    rhythm 4 _4 8 8 _4
+                }
+                instrument snare
+                {
+                    repeat 2
+                    {
+                        rhythm _4 4
+                    }
+                }
+            }
+        }
+    }
+}
