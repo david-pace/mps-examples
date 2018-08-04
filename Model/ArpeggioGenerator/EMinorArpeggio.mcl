@@ -1,0 +1,10 @@
+composition
+{
+    time 6/8, harmony Em
+    {
+        rhythm 8 8 8 8 8 8
+        {
+            arpeggioGenerator numberOfNotes 4 noteIndexSequence 0 1 2 3 2 1
+        }
+    }
+}
