@@ -13,7 +13,6 @@
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble
             \time 4/4
-            \tempo 4 = 120
             \key a \major
             <a' cis'' e'' g''>1
             <a' cis'' e'' gis''>
