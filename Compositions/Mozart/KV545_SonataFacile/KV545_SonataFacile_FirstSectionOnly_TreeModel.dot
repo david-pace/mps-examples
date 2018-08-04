@@ -1,0 +1,26 @@
+digraph compositionModel {
+    graph [ordering="out"];
+    n0 [fillcolor="#cef2f3",style="filled",label="composition"];
+    n1 [fillcolor="#daf3ce",style="filled",label="harmonic progression C G7 C F C G7-F4 C"];
+    n0 -> n1;
+    n2 [fillcolor="#f3ced0",style="filled",label="harmonic rhythm 1 2 2 2 2 2 2"];
+    n1 -> n2;
+    n3 [fillcolor="#f0f0f0",style="filled",label="parallelization"];
+    n2 -> n3;
+    n4 [fillcolor="#f3ced0",style="filled",label="rhythm 2 4 4 4. 16 16 4 _4"];
+    n3 -> n4;
+    n5 [fillcolor="#cee8f3",style="filled",label="pitches (startOctave 5) 0 2 4 -1 0 1 0"];
+    n4 -> n5;
+    n6 [fillcolor="#f3ced0",style="filled",label="rhythmic insertion
+mode: overwrite, offset: 1, rhythm 4 8 16 16 4"];
+    n4 -> n6;
+    n7 [fillcolor="#cee8f3",style="filled",label="pitches (startOctave 5) 5 4 7 4 3 2 3 2"];
+    n6 -> n7;
+    n8 [fillcolor="#f0f0f0",style="filled",label="repeat 8"];
+    n3 -> n8;
+    n9 [fillcolor="#f3ced0",style="filled",label="rhythm 8 8 8 8"];
+    n8 -> n9;
+    n10 [fillcolor="#cee8f3",style="filled",label="arpeggio generator
+numberOfNotes: 3, noteIndexSequence: [0, 2, 1, 2]"];
+    n9 -> n10;
+}

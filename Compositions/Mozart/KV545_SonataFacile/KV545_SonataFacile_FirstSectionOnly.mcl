@@ -1,0 +1,30 @@
+composer "W.A. Mozart"
+title "Sonata Facile (KV 545), 1st movement"
+
+composition
+{
+    harmonicProgression C G7 C F C G7-F_4 C
+    {
+        harmonicRhythm 1 2 2 2 2 2 2
+        {
+            parallel
+            {
+                rhythm 2 4 4 4. 16 16 4 _4
+                {
+                    pitches (startOctave 5) 0 2 4 -1 0 1 0
+                    rhythmicInsertion mode overwrite offset 1 rhythm 4 8 16 16 4
+                    {
+                        pitches (startOctave 5) 5 4 7 4 3 2 3 2
+                    }
+                }
+                repeat 8
+                {
+                    rhythm 8 8 8 8
+                    {
+                        arpeggioGenerator numberOfNotes 3 noteIndexSequence 0 2 1 2
+                    }
+                }
+            }
+        }
+    }
+}
