@@ -1,0 +1,11 @@
+composition
+{
+    time 2/4, key Cm
+    {
+        rhythm _8 8 8 8 2
+        {
+            pitches 4 4 4 2
+            pitches 3 3 3 1, rhythmicExtension 2
+        }
+    }
+}
