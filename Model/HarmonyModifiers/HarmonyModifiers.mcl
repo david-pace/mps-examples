@@ -1,0 +1,17 @@
+composition
+{
+    harmony A
+    {
+        rhythm 1
+        {
+            chordGenerator
+            {
+                harmonyModifier 7
+                harmonyModifier maj7
+                harmonyModifier sus4
+                harmonyModifier +
+                harmonyModifier °
+            }
+        }
+    }
+}

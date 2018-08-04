@@ -1,0 +1,21 @@
+digraph compositionModel {
+    graph [ordering="out"];
+    n0 [fillcolor="#cef2f3",style="filled",label="composition"];
+    n1 [fillcolor="#daf3ce",style="filled",label="harmony A"];
+    n0 -> n1;
+    n2 [fillcolor="#f3ced0",style="filled",label="rhythm 1"];
+    n1 -> n2;
+    n3 [fillcolor="#cee8f3",style="filled",label="chordGenerator
+"];
+    n2 -> n3;
+    n4 [fillcolor="#daf3ce",style="filled",label="harmonyModifier 7"];
+    n3 -> n4;
+    n5 [fillcolor="#daf3ce",style="filled",label="harmonyModifier maj7"];
+    n3 -> n5;
+    n6 [fillcolor="#daf3ce",style="filled",label="harmonyModifier sus4"];
+    n3 -> n6;
+    n7 [fillcolor="#daf3ce",style="filled",label="harmonyModifier +"];
+    n3 -> n7;
+    n8 [fillcolor="#daf3ce",style="filled",label="harmonyModifier °"];
+    n3 -> n8;
+}
