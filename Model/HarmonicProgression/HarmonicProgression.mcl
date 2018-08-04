@@ -1,0 +1,16 @@
+composition
+{
+    key Am
+    {
+        rhythm 1
+        {
+            pitches (relative to harmony) [0 2 4]
+            {
+                harmony Am
+                harmony G
+                harmony F
+                harmony E
+            }
+        }
+    }
+}
