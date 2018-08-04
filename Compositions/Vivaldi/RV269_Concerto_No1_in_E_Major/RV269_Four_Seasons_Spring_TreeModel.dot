@@ -1,0 +1,14 @@
+digraph compositionModel {
+    graph [ordering="out"];
+    n0 [fillcolor="#cef2f3",style="filled",label="composition"];
+    n1 [fillcolor="#daf3ce",style="filled",label="key E"];
+    n0 -> n1;
+    n2 [fillcolor="#f3ced0",style="filled",label="rhythm (8) 8 8 8 16 16 4. _8"];
+    n1 -> n2;
+    n3 [fillcolor="#cee8f3",style="filled",label="pitches 7 9 9 9 8 7 11"];
+    n2 -> n3;
+    n4 [fillcolor="#f3ced0",style="filled",label="rhythm (16 16) 8 8 8 16 16 4. _8"];
+    n1 -> n4;
+    n5 [fillcolor="#cee8f3",style="filled",label="pitches 11 10 9 9 9 8 7 11"];
+    n4 -> n5;
+}

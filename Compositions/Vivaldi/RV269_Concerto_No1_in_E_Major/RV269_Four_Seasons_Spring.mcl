@@ -1,0 +1,18 @@
+title "La Primavera Mv. 1: Allegro"
+composer "Antonio Vivaldi"
+
+composition
+{
+    key E
+    {
+        rhythm (8) 8 8 8 16 16 4. _8
+        {
+            pitches 7 9 9 9 8 7 11
+        }
+        
+        rhythm (16 16) 8 8 8 16 16 4. _8
+        {
+            pitches 11 10 9 9 9 8 7 11
+        }
+    }
+}
