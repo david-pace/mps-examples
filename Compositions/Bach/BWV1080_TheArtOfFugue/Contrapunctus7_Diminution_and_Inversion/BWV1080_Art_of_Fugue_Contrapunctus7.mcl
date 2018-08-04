@@ -1,0 +1,50 @@
+/*
+ * Example composition model for Music Processing Suite
+ * written in MC2L (Musical Context Composition Language)
+ * 
+ * Website: www.musicprocessing.net
+ * 
+ * License: www.musicprocessing.net/license/license.html
+ * 
+ * @author: David Hofmann <dev@davehofmann.de>
+ */
+
+title "Contrapunctus 7"
+composer "J.S. Bach"
+
+composition
+{
+    key Dm
+    {
+        parallel
+        {
+            fragmentRef soprano
+            fragmentRef tenor
+        }
+    }
+}
+
+fragment soprano
+{
+    rhythm _1
+    inversion 11
+    {
+        fragmentRef subject    
+    }
+}
+
+fragment tenor
+{
+    diminution, scale melodicMinor
+    {
+        fragmentRef subject
+    }
+}
+
+fragment subject
+{
+    rhythm 2 4. 8 4. 8 2 2 4. 8 5/8 8 8 8 4 _4 _2
+    {
+        pitches 0 4 3 2 1 0 -1 0 1 2 3 2 1 0
+    }
+}
