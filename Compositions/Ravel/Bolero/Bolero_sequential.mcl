@@ -1,0 +1,25 @@
+title "Bolero"
+composer "Maurice Ravel"
+
+composition
+{
+    time 3/4, tempo 80
+    {
+        instrument flute
+        {
+            fragmentRef melody
+        }
+        instrument clarinet
+        {
+            fragmentRef melody
+        }
+    }    
+}
+
+fragment melody
+{
+    rhythm 4. 16 16 16 16 16 16, pitches 7 6 7 8 7 6 5
+    rhythm 8 16 16 4. 16 16, pitches 7 7 5 7 6 7
+    rhythm 16 16 16 16 9/16, pitches 5 4 2 3 4
+    rhythm 16 16 16 16 16 16 16 4, pitches 3 2 1 2 3 4 5 4
+}

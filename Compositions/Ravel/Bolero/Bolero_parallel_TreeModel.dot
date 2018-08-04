@@ -1,0 +1,37 @@
+digraph compositionModel {
+    graph [ordering="out"];
+    n0 [fillcolor="#cef2f3",style="filled",label="composition"];
+    n1 [fillcolor="#f3e1ce",style="filled",label="3/4 time"];
+    n0 -> n1;
+    n2 [fillcolor="#f3e1ce",style="filled",label="tempo 80"];
+    n1 -> n2;
+    n3 [fillcolor="#f0f0f0",style="filled",label="parallelization"];
+    n2 -> n3;
+    n4 [fillcolor="#f3f3ce",style="filled",label="instrument flute"];
+    n3 -> n4;
+    n5 [fillcolor="#f0f0f0",style="filled",label="reference"];
+    n4 -> n5;
+    n6 [fillcolor="#f3f3ce",style="filled",label="instrument clarinet"];
+    n3 -> n6;
+    n7 [fillcolor="#f0f0f0",style="filled",label="reference"];
+    n6 -> n7;
+    n8 [fillcolor="#cef2f3",style="filled",label="melody"];
+    n9 [fillcolor="#f3ced0",style="filled",label="rhythm 4. 16 16 16 16 16 16"];
+    n8 -> n9;
+    n10 [fillcolor="#cee8f3",style="filled",label="pitches 7 6 7 8 7 6 5"];
+    n9 -> n10;
+    n11 [fillcolor="#f3ced0",style="filled",label="rhythm 8 16 16 4. 16 16"];
+    n8 -> n11;
+    n12 [fillcolor="#cee8f3",style="filled",label="pitches 7 7 5 7 6 7"];
+    n11 -> n12;
+    n13 [fillcolor="#f3ced0",style="filled",label="rhythm 16 16 16 16 9 / 16"];
+    n8 -> n13;
+    n14 [fillcolor="#cee8f3",style="filled",label="pitches 5 4 2 3 4"];
+    n13 -> n14;
+    n15 [fillcolor="#f3ced0",style="filled",label="rhythm 16 16 16 16 16 16 16 4"];
+    n8 -> n15;
+    n16 [fillcolor="#cee8f3",style="filled",label="pitches 3 2 1 2 3 4 5 4"];
+    n15 -> n16;
+    n5 -> n8 [style="dashed"];
+    n7 -> n8 [style="dashed"];
+}
