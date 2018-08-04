@@ -1,0 +1,10 @@
+digraph compositionModel {
+    graph [ordering="out"];
+    n0 [fillcolor="#cef2f3",style="filled",label="composition"];
+    n1 [fillcolor="#f0f0f0",style="filled",label="while getMeasureNumber() <= 2"];
+    n0 -> n1;
+    n2 [fillcolor="#f3ced0",style="filled",label="rhythm 8"];
+    n1 -> n2;
+    n3 [fillcolor="#cee8f3",style="filled",label="pitches @getRandomInteger(0, 7)"];
+    n2 -> n3;
+}

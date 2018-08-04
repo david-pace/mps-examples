@@ -1,0 +1,10 @@
+composition
+{
+    while getMeasureNumber() <= 2
+    {
+        rhythm 8
+        {
+            pitches @getRandomInteger(0, 7)
+        }
+    }
+}
