@@ -1,0 +1,26 @@
+digraph compositionModel {
+    graph [ordering="out"];
+    n0 [fillcolor="#cef2f3",style="filled",label="composition"];
+    n1 [fillcolor="#f3f3ce",style="filled",label="instrument vocals"];
+    n0 -> n1;
+    n2 [fillcolor="#f0f0f0",style="filled",label="repeat 3"];
+    n1 -> n2;
+    n3 [fillcolor="#f3ced0",style="filled",label="rhythm (4) 4 _2."];
+    n2 -> n3;
+    n4 [fillcolor="#cee8f3",style="filled",label="pitches 4 2"];
+    n3 -> n4;
+    n5 [fillcolor="white",style="filled",label="lyrics 'Hey Jude'"];
+    n4 -> n5;
+    n6 [fillcolor="#f3ced0",style="filled",label="rhythm (8 8 8) 4 _2."];
+    n2 -> n6;
+    n7 [fillcolor="#cee8f3",style="filled",label="pitches 2 4 5 1"];
+    n6 -> n7;
+    n8 [fillcolor="#f0f0f0",style="filled",label="switch"];
+    n7 -> n8;
+    n9 [fillcolor="white",style="filled",label="lyrics 'don't make it bad'"];
+    n8 -> n9;
+    n10 [fillcolor="white",style="filled",label="lyrics 'don't be af-raid'"];
+    n8 -> n10;
+    n11 [fillcolor="white",style="filled",label="lyrics 'don't let me down'"];
+    n8 -> n11;
+}

@@ -1,0 +1,28 @@
+composition
+{
+    instrument vocals
+    {
+        repeat 3
+        {
+            rhythm (4) 4 _2.
+            {
+                pitches 4 2
+                {
+                    lyrics "Hey Jude"
+                }
+            }
+            rhythm (8 8 8) 4 _2.
+            {
+                pitches 2 4 5 1
+                {
+                    switch
+                    {
+                        lyrics "don't make it bad"
+                        lyrics "don't be af-raid"
+                        lyrics "don't let me down"
+                    }
+                }
+            }
+        }
+    }
+}
