@@ -1,0 +1,68 @@
+composition
+{
+    key Ebm
+    {
+        harmonicProgression Eb m7 Bb7b 13 Eb m7 Ab7 Db maj7 Gb7 F m7 E °7 Eb m7 Eb m7/Db C m7 b 5 F7b 9 Bb m7 Eb m7 Ab7 Db6 Gb7 Fm7 b 5 Bb7
+        {
+            harmonicRhythm 2 2 2 2 2 2 2 2 2 2 2 2 2 4 4 4 4 4 4
+            {
+                rhythm 2
+                {
+                    fragmentRef chordAndBass
+                }
+                
+                rhythm 2
+                {
+                    parallel
+                    {
+                        pitches [F Ab Bb D_5 Gb_5]
+                        fragmentRef bassNote
+                    }
+                }
+                
+                rhythm 2 2 2 2 2 2 2 2 2
+                {
+                    fragmentRef chordAndBass
+                }
+                
+                rhythm 2
+                {
+                    parallel
+                    {
+                        pitches [F A C_5 Eb_5 Gb_5]
+                        fragmentRef bassNote
+                    }
+                }
+                
+                rhythm 2 4 4 4 4
+                {
+                    fragmentRef chordAndBass
+                }
+                
+                rhythm 4
+                {
+                    fragmentRef chordAndBass
+                }
+                
+                rhythm 4
+                {
+                    fragmentRef chordAndBass
+                }
+            }
+        }
+    }
+}
+
+fragment chordAndBass
+{
+    parallel
+    {
+        chordGenerator findNearestInversion true
+        fragmentRef bassNote
+    }
+}
+
+fragment bassNote
+{
+    pitches (startOctave 3) @getBassNote()
+}
