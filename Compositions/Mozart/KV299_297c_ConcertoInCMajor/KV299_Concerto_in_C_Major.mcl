@@ -20,49 +20,19 @@ composition
         {
             repeat 2
             {
-                rhythm 4. 8 8 8 8 8
-                {
-                    pitches 14 11 9 7 9 11
-                }
+                rhythm 4. 8 8 8 8 8, pitches 14 11 9 7 9 11
             }
-            rhythm 4
-            {
-                pitches 14
-            }
+            rhythm 4, pitches 14
         }
         rhythm 4
         {
-            loudness p
-            {
-                pitches 7 6 7
-            }
-            loudness f
-            {
-                pitches 8
-            }
-            loudness p
-            {
-                pitches 8 7# 8
-            }
-            loudness f
-            {
-                pitches 9
-            }
-            loudness p
-            {
-                pitches 9 8# 9
-            }
-            loudness current -> f
-            {
-                pitches 10 11 12 13
-            }
+            loudness p, pitches 7 6 7
+            loudness f, pitches 8
+            loudness p, pitches 8 7# 8
+            loudness f, pitches 9
+            loudness p, pitches 9 8# 9
+            loudness current -> f, pitches 10 11 12 13
         }
-        loudness f
-        {
-            rhythm 7/4 _4
-            {
-                pitches 14
-            }
-        }
+        loudness f, rhythm 7/4 _4, pitches 14
     }
 }
