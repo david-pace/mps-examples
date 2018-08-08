@@ -10,7 +10,7 @@
 \score {
     \new PianoStaff <<
 
-        \set PianoStaff.instrumentName = #"Piano"\new Staff {
+        \new Staff {
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble
             \time 4/4
@@ -82,6 +82,7 @@
         }
     }
     \layout {
+        indent = 0\cm
     }
 }
 
