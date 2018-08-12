@@ -1,0 +1,18 @@
+digraph compositionModel {
+    graph [ordering="out"];
+    n0 [fillcolor="#cef2f3",style="filled",label="composition"];
+    n1 [fillcolor="#f3e1ce",style="filled",label="tempo 98"];
+    n0 -> n1;
+    n2 [fillcolor="#daf3ce",style="filled",label="key Bbm"];
+    n1 -> n2;
+    n3 [fillcolor="#f3f3ce",style="filled",label="instrument bass"];
+    n2 -> n3;
+    n4 [fillcolor="#f0f0f0",style="filled",label="repeat 4"];
+    n3 -> n4;
+    n5 [fillcolor="#f3ced0",style="filled",label="rhythm (8 8 8) 8 _16 16 _8 8 _2"];
+    n4 -> n5;
+    n6 [fillcolor="#cee8f3",style="filled",label="pitches (startOctave 1) G Ab A Bb Ab2 Bb2"];
+    n5 -> n6;
+    n7 [fillcolor="#cee8f3",style="filled",label="pitches (startOctave 2) C Db D Eb Bb Db3"];
+    n5 -> n7;
+}

@@ -1,0 +1,20 @@
+title "Chameleon"
+composer "Herbie Hancock"
+
+composition
+{
+    tempo 98, key Bbm
+    {
+        instrument bass
+        {
+            repeat 4
+            {
+                rhythm (8 8 8) 8 _16 16 _8 8 _2
+                {
+                    pitches (startOctave 1) G Ab A Bb Ab_2 Bb_2 
+                    pitches (startOctave 2) C Db D Eb Bb Db_3
+                }
+            }
+        }
+    }
+}
