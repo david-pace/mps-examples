@@ -3,7 +3,7 @@
 #(set-default-paper-size "a4")
 
 \header {
-    title = "Piano Sonata No. 21 in C major, Op. 53 (Waldstein)"
+    title = "Piano Sonata No. 21 in C major, Op. 53 (\"Waldstein\")"
     composer = "Ludwig van Beethoven"
 }
 
