@@ -1,0 +1,106 @@
+composition
+{
+    tempo 144, loudness pp
+    {
+        parallel
+        {
+            fragment voice1
+            {
+                pitches [C_3 E_3]
+                {
+                    rhythm _8 8 8 8 8 8 8 8
+                    fragmentRef rhythm1
+                }
+                fragmentRef rhythm2
+                {
+                    pitches [D_3 F#_3]
+                }
+                fragmentRef rhythm3
+                {
+                    pitches [D_3 G_3] B_3 A_3 G_3
+                }
+                fragmentRef rhythm4
+                {
+                    pitches D_6 C_6 B_5 A_5 G_5
+                }
+                fragmentRef rhythm0
+                {
+                    pitches [Bb_2 D_3]
+                }
+                fragmentRef rhythm1
+                {
+                    pitches [Bb_2 D_3]
+                }
+                fragmentRef rhythm2
+                {
+                    pitches [C_3 E_3]
+                }
+                fragmentRef rhythm3
+                {
+                    pitches [C_3 F_3] A_3 G_3 F_3
+                }
+                fragmentRef rhythm4
+                {
+                    pitches C_6 Bb_5 Ab_5 G_5 F_5
+                }
+            }
+            fragmentRef rhythm0
+            {
+
+                fragment voice2
+                {
+                    rhythm 8, pitches C_2
+                    pitches [C_2 G_2]
+                    {
+                        rhythm 8 8 8 8 8 8 8
+                        fragmentRef rhythm1
+                    }
+                    fragmentRef rhythm2
+                    {
+                        pitches [C_2 A_2]
+                    }
+                    repeat 2
+                    {
+                        pitches [B_1 G_2]
+                    }
+                    pitches [Bb_1 F_2]
+                    fragmentRef rhythm1
+                    {
+                        pitches [Bb_1 F_2]
+                    }
+                    fragmentRef rhythm2
+                    {
+                        pitches [Bb_1 G_2]
+                    }
+                    pitches [A_1 F_2]
+                    pitches [Ab_1 F_2]
+                }
+            }
+        }
+    }
+}
+
+fragment rhythm0
+{
+    rhythm 8 8 8 8 8 8 8 8
+}
+
+fragment rhythm1
+{
+    rhythm 8 8 8 8 8 8
+}
+
+fragment rhythm2
+{
+    rhythm 8 8
+}
+
+fragment rhythm3
+{
+    rhythm 4. 16 16 8 _8 _4
+}
+
+fragment rhythm4
+{
+    rhythm 4 ~ 16 16 16 16 4 _4
+}
