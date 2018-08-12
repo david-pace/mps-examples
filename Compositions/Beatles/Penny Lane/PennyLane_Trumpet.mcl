@@ -1,0 +1,16 @@
+title "Penny Lane"
+composer "John Lennon & Paul McCartney"
+
+composition
+{
+    tempo 104, key B
+    {
+        instrument trumpet
+        {
+            rhythm ((3/2: 8 8 8~)) 4. 8 8 4 8~ 4. 8 8 4 8~ 1
+            {
+                pitches (startOctave 4) 2 3 4 3 2 3 4 3 2 1 0
+            }
+        }        
+    }
+}
