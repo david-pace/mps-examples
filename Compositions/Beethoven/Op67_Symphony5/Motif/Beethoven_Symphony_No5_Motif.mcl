@@ -1,3 +1,17 @@
+/*
+ * Example composition model for Music Processing Suite
+ * written in MC2L (Musical Context Composition Language)
+ * 
+ * Website: www.musicprocessing.net
+ * 
+ * License: www.musicprocessing.net/license/license.html
+ * 
+ * @author: David Hofmann <dev@davehofmann.de>
+ */
+
+composer "Ludwig van Beethoven"
+title "Symphony No. 5, 1st Movement"
+
 composition
 {
     time 2/4, key Cm

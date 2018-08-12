@@ -1,3 +1,14 @@
+/*
+ * Example composition model for Music Processing Suite
+ * written in MC2L (Musical Context Composition Language)
+ * 
+ * Website: www.musicprocessing.net
+ * 
+ * License: www.musicprocessing.net/license/license.html
+ * 
+ * @author: David Hofmann <dev@davehofmann.de>
+ */
+
 title "La Primavera Mv. 1: Allegro"
 composer "Antonio Vivaldi"
 
