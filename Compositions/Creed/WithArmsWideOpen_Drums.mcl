@@ -1,0 +1,52 @@
+title "With Arms Wide Open"
+composer "Creed"
+
+composition
+{
+    tempo 68
+    {
+        repeat 4
+        {
+            parallel
+            {
+                fragmentRef ride
+                fragmentRef snare
+                fragmentRef bassDrum
+            }
+        }
+    }
+}
+
+fragment ride
+{
+    instrument ride
+    {
+        repeat 8
+        {
+            rhythm 8
+        }
+    }
+}
+
+fragment snare
+{
+    instrument snare
+    {
+        rhythm _8. 16 _2
+        {
+            loudness p
+        }
+        rhythm 4
+        {
+            loudness f
+        }
+    }
+}
+
+fragment bassDrum
+{
+    instrument bassDrum
+    {
+        rhythm 8. _16 _8 8. 16 8 _4
+    }
+}

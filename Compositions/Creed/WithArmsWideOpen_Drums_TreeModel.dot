@@ -1,0 +1,36 @@
+digraph compositionModel {
+    graph [ordering="out"];
+    n0 [fillcolor="#cef2f3",style="filled",label="composition"];
+    n1 [fillcolor="#f3e1ce",style="filled",label="tempo 68"];
+    n0 -> n1;
+    n2 [fillcolor="#f0f0f0",style="filled",label="repeat 4"];
+    n1 -> n2;
+    n3 [fillcolor="#f0f0f0",style="filled",label="parallelization"];
+    n2 -> n3;
+    n4 [fillcolor="#cef2f3",style="filled",label="ride"];
+    n5 [fillcolor="#f3f3ce",style="filled",label="instrument ride"];
+    n4 -> n5;
+    n6 [fillcolor="#f0f0f0",style="filled",label="repeat 8"];
+    n5 -> n6;
+    n7 [fillcolor="#f3ced0",style="filled",label="rhythm 8"];
+    n6 -> n7;
+    n8 [fillcolor="#cef2f3",style="filled",label="snare"];
+    n9 [fillcolor="#f3f3ce",style="filled",label="instrument snare"];
+    n8 -> n9;
+    n10 [fillcolor="#f3ced0",style="filled",label="rhythm _8. 16 _2"];
+    n9 -> n10;
+    n11 [fillcolor="#efcef3",style="filled",label="loudness p"];
+    n10 -> n11;
+    n12 [fillcolor="#f3ced0",style="filled",label="rhythm 4"];
+    n9 -> n12;
+    n13 [fillcolor="#efcef3",style="filled",label="loudness f"];
+    n12 -> n13;
+    n14 [fillcolor="#cef2f3",style="filled",label="bassDrum"];
+    n15 [fillcolor="#f3f3ce",style="filled",label="instrument bassDrum"];
+    n14 -> n15;
+    n16 [fillcolor="#f3ced0",style="filled",label="rhythm 8. _16 _8 8. 16 8 _4"];
+    n15 -> n16;
+    n3 -> n4 [style="dashed"];
+    n3 -> n8 [style="dashed"];
+    n3 -> n14 [style="dashed"];
+}
