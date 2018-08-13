@@ -1,0 +1,431 @@
+/*
+ * Example composition model for Music Processing Suite
+ * written in MC2L (Musical Context Composition Language)
+ * 
+ * Website: www.musicprocessing.net
+ * 
+ * License: www.musicprocessing.net/license/license.html
+ * 
+ * @author: David Hofmann <dev@davehofmann.de>
+ */
+
+title "Don't Stop Me Now"
+composer "Freddie Mercury"
+
+composition
+{
+    tempo 150, key F, instrument vocals
+    {
+        fragmentRef intro
+        fragmentRef verse1
+        fragmentRef preChorus
+        fragmentRef chorus
+        fragmentRef verse2
+        fragmentRef preChorus
+        fragmentRef bridge
+        fragmentRef solo
+        fragmentRef preChorus
+        fragmentRef chorus
+        fragmentRef outro
+    }
+
+}
+
+fragment intro
+{
+    tempo 100
+    {
+        harmonicProgression F Am Dm Gm C
+        {
+            harmonicRhythm 1 1 1 1 1
+            {
+                rhythm (8) 8 4 8 8 8 8 8 2 _8 8 8 4 4. _2
+                {
+                    pitches (startOctave 3) 1 1 0 0 0 2 4 7 6 4 2 1 0
+                    {
+                        lyrics "To-night _ I'm gon-na have my-self a real good time"
+                    }
+                }
+            }
+        }
+        harmonicProgression Gm C
+        {
+            harmonicRhythm 1 1
+            {
+                rhythm (_8 16 8. 16 16) 4. 4 4 8 ~ 2 _2
+                {
+                    pitches (startOctave 3) 2 1 1 0 1 2 3 4
+                    {
+                        lyrics "I _ feel a-li---ve"
+                    }
+                }
+            }
+        }
+        harmonicProgression F F7 Bb
+        {
+            harmonicRhythm 1 1 1
+            {
+                rhythm (8 8) 2. _8 8 4 8 4 4 8 ~ 4. 4. _4
+                {
+                    pitches (startOctave 3) 5 6 7 4 9 10 9 8 7 5
+                    {
+                        lyrics "And the world it's tur-ning in-side out yeah"
+                    }
+                }
+            }
+        }
+        harmonicProgression G m7 D7
+        {
+            harmonicRhythm 1 1
+            {
+                rhythm (8) 8 8 8 4. _8 8 8 4 4. 4
+                {
+                    pitches (startOctave 3) 5 9 9 10 9 8 7# 8 9 5
+                    {
+                        lyrics "I'm floa-ting a-round in ecs-ta-sy so"
+                    }
+                }
+            }
+        }
+        harmonicProgression Gm F C Gm
+        {
+            harmonicRhythm 4. 4 4 9/8
+            {
+                rhythm 8 _4 8 _8 8 _8 8 ~ 2 _2
+                {
+                    pitches (startOctave 3) 10 9 8 3
+                    {
+                        lyrics "don't stop me now"
+                    }
+                }
+            }
+        }
+        harmonicProgression Gm F C
+        {
+            harmonicRhythm 4. 4 4.
+            {
+                rhythm 8 _4 8 _8 8 8 8
+                {
+                    pitches (startOctave 3) 10 9 8 8 8
+                    {
+                        lyrics "don't stop me 'cause I'm"
+                    }
+                }
+            }
+        }
+    }
+    harmonicProgression Gm C
+    {
+        harmonicRhythm 1 1
+        {
+            rhythm 8 8 8 4 4.
+            {
+                lyrics "ha-ving a good time"
+                {
+                    pitches (startOctave 3) 3 3 3 4 5
+                    pitches (startOctave 3) 6 6 6 7 8
+                }
+            }
+        }
+    }
+}
+
+fragment verse1 scoreLabel "Verse 1"
+{
+    harmonicProgression F Am Dm Gm C7
+    {
+        harmonicRhythm 1 1 1 1 1
+        {
+            rhythm (8 8) 8 8 4 8 8 8 8 2 _8 8 8 4 4 8 8 8 8 4 4. 8 4 8 ~ 2 _2
+            {
+                pitches (startOctave 3) 1 2 1 0 0 0 2 4 7 6 4 2 1 0 0 2 1 0 1 1 2 3 4
+                {
+                    lyrics "I'm a shoo-tin' star lea-ping through the skies like a ti-ger de-fy-ing the laws of gra-vi-ty"
+                }
+            }
+        }
+    }
+    harmonicProgression F Am Dm Gm C7 F
+    {
+        harmonicRhythm 1 1 1 1 1 1
+        {
+            rhythm (8 8) 8 8 4 _8 8 8 4. _8 8 8 8 8 4 8 _4 _2
+            {
+                pitches (startOctave 3) 2 2 1 0 0 4 7 6 4 9 9 9 8 7
+                {
+                    lyrics "I'm a ra-cing car pas-sing by like la-dy Go-di-va"
+                }
+            }
+            rhythm (8 8 8) 4. 4. 4 _8 4 8 8 4 8 ~ 2. _4
+            {
+                pitches (startOctave 3) 2 1 0 1 2 3 4 4 5 6 7
+                {
+                    lyrics "I'm gon-na go, go, go, there's no stop-ping me!"
+                }
+            }
+        }
+    }
+}
+
+fragment preChorus scoreLabel "Pre-Chorus"
+{
+    harmonicProgression F7 Bb G m7 D7 Gm D7 Gm Gm/A Gm/Bb Gm/B C
+    {
+        harmonicRhythm 1 1 1 1 1 1 5/4 4 4 8 9/8
+        {
+            rhythm (8) 4 8 4 4 8 ~ 4. 4. _4
+            {
+                pitches (startOctave 3) 7 9 10 9 8 7 5
+                {
+                    lyrics "I'm bur-nin' through the sky yeah"
+                }
+            }
+            rhythm (8) 8 8 8 4 8 8 8 8 8 8 8 8 4 4 4. _2
+            {
+                pitches (startOctave 3) 9 9 9 10 9 8 8 8 7# 7# 7# 7# 8 9 9 8
+                {
+                    lyrics "Two-hund-red de-grees that's why they call me mis-ter Fah-ren-he-it"
+                }
+            }
+            rhythm (8) 8 8 8 8 8 4 2
+            {
+                pitches (startOctave 3) 8 7# 7# 7# 7# 8 9 10
+                {
+                    lyrics "I'm trav'-lin' at the speed of light"
+                }
+            }
+            rhythm 8
+            {
+                pitches (startOctave 3) 10 10 9 8 7 7 7 7 7 7 7 7
+                {
+                    switch
+                    {
+                        lyrics "I wan-na make a su-per-so-nic man out-ta"
+                        lyrics "I wan-na make a su-per-so-nic wo-man of"
+                    }
+                }
+            }
+            pitches (startOctave 3) 8
+            {
+                lyrics "you"
+                {
+                    switch
+                    {
+                        rhythm 8 ~ 2 _2
+                        rhythm 8 _1
+                    }
+                }
+            }
+        }
+    }
+}
+
+fragment chorus scoreLabel "Chorus"
+{
+    harmonicProgression F Gm Am Dm Gm C
+    {
+        harmonicRhythm 4. 4 4 9/8 1 1
+        {
+            rhythm 8 _4 8 _8 8 _8 2 8 8 8 8 8 4 4 _4. 8 8 8 8 4 4 8
+            {
+                pitches (startOctave 3) 2 3 4 7 2 2 2 1 0 1 2 1 2 2 4 2 1 0
+                {
+                    lyrics "Don't stop me now, I'm ha-ving such a good time, I'm ha-ving a ba--ll"
+                }
+            }
+        }
+    }
+    harmonicProgression F Gm Am Dm Gm D7
+    {
+        harmonicRhythm 4. 4 4 9/8 1 1
+        {
+            rhythm 8 _4 8 _8 8 _8 4 4 8 8 8 8 8 4 4 _4. 8 8 8 8 4. 4
+            {
+                pitches (startOctave 3) 2 3 4 7 7 7 2 2 1 0 1 2 9 9 9 10 9 5
+                {
+                    lyrics "Don't stop me now if you wan-na have a good time just give me a call _"
+                }
+            }
+        }
+    }
+    repeat 2
+    {
+        harmonicProgression Gm F C Gm
+        {
+            harmonicRhythm 4. 4 4 9/8
+            {
+                rhythm 8 _4 8 _8 8 _8 8 8 8 8 4 4 _8
+                {
+                    pitches (startOctave 3) 10 9 8 3 3 3 3 4 5
+                    {
+                        lyrics "Don't stop me now ha-vin' a good time"
+                    }
+                }
+            }
+        }
+    }
+    harmonicProgression C Ab/Bb
+    {
+        pitches (startOctave 3) 5 4 4 4 5 6 7
+        {
+            switch
+            {
+                harmonicRhythm 1 2!
+                {
+                    rhythm (8) 4 8 8 8 4 8 ~ 1 ~ 2 _2
+                    {
+                        lyrics "I don't wan-na stop at all"
+                    }
+                }
+                harmonicRhythm 1 1
+                {
+                    rhythm (8) 4 8 8 8 4 8 ~
+                    {
+                        lyrics "I don't wan-na stop at all"
+                    }
+                    rhythm 2 _2
+                    {
+                        pitches (startOctave 3) 7, tempo 100
+                    }
+                }
+            }
+        }
+    }
+}
+
+fragment verse2 scoreLabel "Verse 2"
+{
+    harmonicProgression F Am Dm Gm C7
+    {
+        harmonicRhythm 1 1 1 1 1
+        {
+            rhythm (8 8) 8 8 4 8 8 8 8 2 _8 8 8 8 8 8 8 _4 8 8 8 8 8 8 _2 8 8 8 8 4 4.
+            {
+                pitches (startOctave 3) 1 2 1 0 0 0 2 4 7 6 4 2 1 1 0 0 2 1 0 1 1 2 1 2 2 4 2
+                {
+                    lyrics "I'm a roc-ket ship on my way to mars on a col-li-sion course I am a sa-tel-lite I'm out-ta con-trol"
+                }
+            }
+        }
+    }
+    harmonicProgression F Am Dm Gm C7 F
+    {
+        harmonicRhythm 1 1 1 1 1 1
+        {
+            rhythm (4 8) 8 8 4 8 8 8 8 2
+            {
+                pitches (startOctave 3) 2 2 1 0 0 0 2 4 7 6
+                {
+                    lyrics "I'm a sex ma-chine rea-dy to re-load"
+                }
+            }
+            rhythm _8 4 8 8 8 8 _4 8 8 8 4. 4. 4. 4. 8 4 8 ~ 2 _2
+            {
+                pitches (startOctave 3) 9 9 8 7 7 2 1 0 1 2 3 4 5 6 7
+                {
+                    lyrics "like an a-tom-bomb a-bout to oh, oh, oh, oh, oh, ex-plode!"
+                }
+            }
+        }
+    }
+}
+
+fragment bridge scoreLabel "Bridge"
+{
+    rhythm _2 _4 _8
+    rhythm 8 8 8 _8
+    {
+        repeat 2
+        {
+            fragmentRef dontStopMe
+        }
+        rhythm 8 8 8 _4 _4 _8
+        {
+            fragmentRef dontStopMe
+        }
+        repeat 2
+        {
+            fragmentRef dontStopMe
+        }
+    }
+    rhythm 8 _8 8 _8 4 _8 _8
+    {
+        pitches (startOctave 3) [8 6b 3] [7 5 2] [6b 4 1]
+        {
+            lyrics "ooh"
+        }
+    }
+    rhythm 8 8 8 _8
+    {
+        fragmentRef dontStopMe
+    }
+    rhythm 8 8 8
+    {
+        fragmentRef dontStopMe
+    }
+    rhythm 8 8 4 4 4 8
+    {
+        pitches (startOctave 3) 4 4 6b 4 6b 4
+        {
+            lyrics "have a good time good time"
+        }
+    }
+    rhythm 8 8 8 _8
+    {
+        fragmentRef dontStopMe
+    }
+    rhythm 8 8 8 _4 _1
+    {
+        fragmentRef dontStopMe
+    }
+}
+
+fragment dontStopMe
+{
+    pitches (startOctave 3) 4 3 4
+    {
+        lyrics "don't stop me"
+    }
+}
+
+fragment solo scoreLabel "Solo"
+{
+    harmonicProgression F Am Dm Gm C7 F Am Dm Gm C7 F
+    {
+        harmonicRhythm 1 1 1 1 1 1 1 1 1 1 1
+    }
+}
+
+fragment outro scoreLabel "Outro (Fade Out)"
+{
+    tempo 100
+    {
+        harmonicProgression F Am Dm Gm C7 F F7 Bb
+        {
+            harmonicRhythm 1 1 1 1 1 1 1 1
+            {
+                rhythm _2 8 8 8 8 2 ~ 8 8 8 4 4. _2
+                {
+                    pitches (startOctave 3) 0 2 4 7 6 4 2 1 0
+                    {
+                        lyrics "la da da da da da da da _"
+                    }
+                }
+                rhythm (_8 4 16 16) 4. 4 4 7/8 _4
+                {
+                    pitches (startOctave 3) 2 1 0 1 2 3 4
+                    {
+                        lyrics "ah _ da da ah _ _"
+                    }
+                }
+                rhythm (8. 16) 2. _4 4 8 4 4 8 ~ 1
+                {
+                    pitches (startOctave 3) 5 6 7 9 10 9 8 7
+                    {
+                        lyrics "ah da da ah da da _ _"
+                    }
+                }
+            }
+        }
+    }
+}
