@@ -8,14 +8,13 @@
 }
 
 \score {
-    <<
+    \new PianoStaff <<
 
         \context ChordNames {
             \chordmode {cis1:m cis:m/+b a2 d/+fis gis4:7 cis:m/+gis gis:sus4 gis:7 }
         }
 
         \new Staff {
-            \set Staff.instrumentName = #"Piano"
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble
             \time 2/2
@@ -72,13 +71,12 @@
             }}
 
         \new Staff {
-            \set Staff.instrumentName = #"Piano"
             \set Staff.midiInstrument = #"acoustic grand"
             \clef bass
             \time 2/2
             \tempo 4 = 54
             \key cis \minor
-            <cis cis,>1
+            <cis cis,>1\pp
             <b, b,,>
             <a, a,,>2
             <fis, fis,,>
@@ -94,6 +92,8 @@
             tempoWholesPerMinute = #(ly:make-moment 120 4)
         }
     }
-    \layout {}
+    \layout {
+        indent = 0\cm
+    }
 }
 
