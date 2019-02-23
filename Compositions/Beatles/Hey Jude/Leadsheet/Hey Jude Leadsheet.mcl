@@ -16,7 +16,7 @@ composition
 {
     time 4/4, tempo 72, key F
     {
-        harmonicProgression F C C7 F, harmonicRhythm 1 1 1 1
+        fragment verse scoreLabel "Verse", harmonicProgression F C C7 F, harmonicRhythm 1 1 1 1
         {
             instrument vocals
             {

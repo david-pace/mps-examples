@@ -1,0 +1,28 @@
+digraph compositionModel {
+    graph [ordering="out"];
+    n0 [fillcolor="#cef2f3",style="filled",label="composition"];
+    n1 [fillcolor="#f3f3ce",style="filled",label="instrument vocals"];
+    n0 -> n1;
+    n2 [fillcolor="#f3e1ce",style="filled",label="6/8 time"];
+    n1 -> n2;
+    n3 [fillcolor="#f3e1ce",style="filled",label="tempo 120"];
+    n2 -> n3;
+    n4 [fillcolor="#daf3ce",style="filled",label="key D"];
+    n3 -> n4;
+    n5 [fillcolor="#f3ced0",style="filled",label="rhythm 4."];
+    n4 -> n5;
+    n6 [fillcolor="#cee8f3",style="filled",label="pitches (startOctave 5) 2"];
+    n5 -> n6;
+    n7 [fillcolor="white",style="filled",label="lyrics 'Freu-de'"];
+    n6 -> n7;
+    n8 [fillcolor="#cee8f3",style="filled",label="pitches (startOctave 5) 3 4 4 3 2 1 0 0 1 2"];
+    n5 -> n8;
+    n9 [fillcolor="white",style="filled",label="lyrics 'schö-ner Göt-ter-fun-ken, Toch-ter aus E-'"];
+    n8 -> n9;
+    n10 [fillcolor="#f3ced0",style="filled",label="rhythm 5 / 8 8 4 _8 _4."];
+    n4 -> n10;
+    n11 [fillcolor="#cee8f3",style="filled",label="pitches (startOctave 5) 2 1 1"];
+    n10 -> n11;
+    n12 [fillcolor="white",style="filled",label="lyrics 'ly-si-um'"];
+    n11 -> n12;
+}
