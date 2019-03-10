@@ -3,13 +3,14 @@
 #(set-default-paper-size "a4")
 
 \header {
+    title = "Symphony No. 5, Mv. I, Motif"
+    composer = "Ludwig van Beethoven"
 }
 
 \score {
     <<
 
         \new Staff {
-            \set Staff.instrumentName = #"Piano"
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble
             \time 2/4
@@ -35,6 +36,8 @@
             tempoWholesPerMinute = #(ly:make-moment 120 4)
         }
     }
-    \layout {}
+    \layout {
+        indent = 0\cm
+    }
 }
 
