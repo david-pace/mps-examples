@@ -22,7 +22,7 @@ composition
             {
                 scale blues
                 {
-                    parallelInterval mode absolute -5
+                    parallelInterval mode absolute -5 recursive
                     {
                         fragmentRef fragment1
                         rhythm _8 8 _8 8 _8 8 4 _4

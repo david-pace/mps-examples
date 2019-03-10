@@ -50,6 +50,7 @@
             tempoWholesPerMinute = #(ly:make-moment 120 4)
         }
     }
-    \layout {}
+    \layout {
+    }
 }
 
