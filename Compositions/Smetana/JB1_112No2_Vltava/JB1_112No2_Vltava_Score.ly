@@ -5,13 +5,14 @@
 \header {
     title = "Vltava (Moldau)"
     composer = "Bedřich Smetana"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
     <<
-
         \new Staff {
             \set Staff.instrumentName = #"Violin"
+            \set Staff.shortInstrumentName = #"Vln."
             \set Staff.midiInstrument = #"violin"
             \clef treble
             \time 6/8
@@ -27,7 +28,7 @@
             b''4.
             c'''
             c'''
-            b''
+            b''~
             b''4
             b''8
             a''4.
@@ -54,7 +55,7 @@
             b''4.
             cis'''
             cis'''
-            b''
+            b''~
             b''4
             b''8
             a''4.
@@ -80,6 +81,7 @@
             tempoWholesPerMinute = #(ly:make-moment 120 4)
         }
     }
-    \layout {}
+    \layout {
+    }
 }
 

@@ -5,17 +5,17 @@
 \header {
     title = "La Primavera Mv. 1: Allegro"
     composer = "Antonio Vivaldi"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
     <<
-
         \new Staff {
             \set Staff.instrumentName = #"Piano"
+            \set Staff.shortInstrumentName = #"Pno."
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble
             \time 4/4
-            \tempo 4 = 120
             \key e \major
             \partial 8 e''8
             | gis''

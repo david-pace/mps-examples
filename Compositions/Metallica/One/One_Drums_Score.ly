@@ -5,13 +5,14 @@
 \header {
     title = "One"
     composer = "Metallica"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
     <<
-
         \new DrumStaff {
             \set DrumStaff.instrumentName = #"Hi Hat Closed"
+            \set DrumStaff.shortInstrumentName = #"Closed HH"
             \drummode {
                 \time 4/4
                 \tempo 4 = 100
@@ -53,6 +54,7 @@
 
         \new DrumStaff {
             \set DrumStaff.instrumentName = #"Bass Drum"
+            \set DrumStaff.shortInstrumentName = #"BD"
             \drummode {
                 \time 4/4
                 \tempo 4 = 100

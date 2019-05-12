@@ -21,7 +21,7 @@ composition
             parallel
             {
                 fragmentRef intro
-                transpose mode octaves -1, fragmentRef intro 
+                fragmentRef intro, transpose mode octaves -1 
             }
             rhythm 8
             {

@@ -5,13 +5,14 @@
 \header {
     title = "Symphony No. 9 in E minor, Op. 95, 2nd Mvmt. Theme"
     composer = "Antonin Dvořák"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
     <<
-
         \new Staff {
             \set Staff.instrumentName = #"English Horn"
+            \set Staff.shortInstrumentName = #"E. Hn."
             \set Staff.midiInstrument = #"english horn"
             \clef treble
             \time 4/4
@@ -49,6 +50,8 @@
             tempoWholesPerMinute = #(ly:make-moment 120 4)
         }
     }
-    \layout {}
+    \layout {
+        indent = 2.8\cm
+    }
 }
 

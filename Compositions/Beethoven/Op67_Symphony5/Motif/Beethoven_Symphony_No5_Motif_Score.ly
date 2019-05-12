@@ -5,11 +5,11 @@
 \header {
     title = "Symphony No. 5, Mv. I, Motif"
     composer = "Ludwig van Beethoven"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
     <<
-
         \new Staff {
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble

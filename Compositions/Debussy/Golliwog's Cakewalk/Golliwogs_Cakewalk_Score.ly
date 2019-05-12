@@ -5,12 +5,14 @@
 \header {
     title = "Golliwog's Cakewalk"
     composer = "Claude Debussy"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
-    \new PianoStaff <<
-
-        \set PianoStaff.instrumentName = #"Piano"\new Staff {
+    \new PianoStaff 
+    <<
+        \set PianoStaff.instrumentName = #"Piano"
+        \new Staff {
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble
             \time 2/4

@@ -5,19 +5,21 @@
 \header {
     title = "Piano Sonata No. 21 in C major, Op. 53 (\"Waldstein\")"
     composer = "Ludwig van Beethoven"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
-    \new PianoStaff <<
-
-        \set PianoStaff.instrumentName = #"Piano"\new Staff {
+    \new PianoStaff 
+    <<
+        \set PianoStaff.instrumentName = #"Piano"
+        \new Staff {
             \set Staff.midiInstrument = #"acoustic grand"
             \clef bass
             \time 4/4
             \tempo 4 = 144
             \key c \major
             r8
-            <c e>
+            <c e>\pp
             <c e>
             <c e>
             <c e>
@@ -33,7 +35,7 @@
             <d fis>
             <d fis>
             <d g>4.
-            b16\pp
+            b16
             a
             g8
             r

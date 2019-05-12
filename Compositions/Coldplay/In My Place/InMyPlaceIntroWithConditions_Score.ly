@@ -5,13 +5,14 @@
 \header {
     title = "In My Place"
     composer = "Coldplay"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
     <<
-
         \new DrumStaff {
-            \set DrumStaff.instrumentName = #"Crash"
+            \set DrumStaff.instrumentName = #"Crash Cymbal"
+            \set DrumStaff.shortInstrumentName = #"CC"
             \drummode {
                 \time 4/4
                 \tempo 4 = 72
@@ -24,6 +25,7 @@
 
         \new DrumStaff {
             \set DrumStaff.instrumentName = #"Hi Hat Open"
+            \set DrumStaff.shortInstrumentName = #"Open HH"
             \drummode {
                 \time 4/4
                 \tempo 4 = 72
@@ -49,6 +51,7 @@
 
         \new DrumStaff {
             \set DrumStaff.instrumentName = #"Bass Drum"
+            \set DrumStaff.shortInstrumentName = #"BD"
             \drummode {
                 \time 4/4
                 \tempo 4 = 72
@@ -72,6 +75,7 @@
 
         \new DrumStaff {
             \set DrumStaff.instrumentName = #"Snare"
+            \set DrumStaff.shortInstrumentName = #"SD"
             \drummode {
                 \time 4/4
                 \tempo 4 = 72
@@ -97,6 +101,7 @@
             tempoWholesPerMinute = #(ly:make-moment 120 4)
         }
     }
-    \layout {}
+    \layout {
+    }
 }
 

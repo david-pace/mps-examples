@@ -7,6 +7,7 @@
 \header {
     title = "Don't Stop Me Now"
     composer = "Freddie Mercury"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {

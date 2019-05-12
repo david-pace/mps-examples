@@ -5,13 +5,14 @@
 \header {
     title = "Symphony No. 9, Mv. IV, Chorus"
     composer = "Ludwig van Beethoven"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
     <<
-
         \new Staff {
             \set Staff.instrumentName = #"Vocals"
+            \set Staff.shortInstrumentName = #"Voc."
             \set Staff.midiInstrument = #"voice oohs"
             \clef treble
             \time 6/8

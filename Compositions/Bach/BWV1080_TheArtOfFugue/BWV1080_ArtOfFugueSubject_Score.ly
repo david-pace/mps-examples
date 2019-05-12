@@ -5,6 +5,7 @@
 \header {
     title = "Art of Fugue Subject"
     composer = "J. S. Bach"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
@@ -12,6 +13,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Piano"
+            \set Staff.shortInstrumentName = #"Pno."
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble
             \time 4/4

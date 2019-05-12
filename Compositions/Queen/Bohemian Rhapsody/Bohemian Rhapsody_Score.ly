@@ -5,6 +5,7 @@
 \header {
     title = "Bohemian Rhapsody"
     composer = "Freddie Mercury"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
@@ -12,6 +13,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Vocals"
+            \set Staff.shortInstrumentName = #"Voc."
             \set Staff.midiInstrument = #"voice oohs"
             \clef treble
             \time 4/4
@@ -53,6 +55,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Vocals"
+            \set Staff.shortInstrumentName = #"Voc."
             \set Staff.midiInstrument = #"voice oohs"
             \clef treble
             \time 4/4
@@ -94,6 +97,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Vocals"
+            \set Staff.shortInstrumentName = #"Voc."
             \set Staff.midiInstrument = #"voice oohs"
             \clef treble
             \time 4/4
@@ -136,6 +140,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Vocals"
+            \set Staff.shortInstrumentName = #"Voc."
             \set Staff.midiInstrument = #"voice oohs"
             \clef treble
             \time 4/4
@@ -184,6 +189,7 @@
             tempoWholesPerMinute = #(ly:make-moment 120 4)
         }
     }
-    \layout {}
+    \layout {
+    }
 }
 

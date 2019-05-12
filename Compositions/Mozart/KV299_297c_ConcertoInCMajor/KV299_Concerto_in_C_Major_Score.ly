@@ -5,13 +5,14 @@
 \header {
     title = "Concerto for Flute, Harp, and Orchestra in C major, K. 299/297c"
     composer = "W.A. Mozart"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
     <<
-
         \new Staff {
             \set Staff.instrumentName = #"Oboe"
+            \set Staff.shortInstrumentName = #"Ob."
             \set Staff.midiInstrument = #"oboe"
             \clef treble
             \time 4/4
@@ -57,6 +58,7 @@
             tempoWholesPerMinute = #(ly:make-moment 120 4)
         }
     }
-    \layout {}
+    \layout {
+    }
 }
 

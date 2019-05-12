@@ -5,13 +5,14 @@
 \header {
     title = "Clapping Music"
     composer = "Steve Reich"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
     <<
-
         \new DrumStaff {
             \set DrumStaff.instrumentName = #"Hand Claps"
+            \set DrumStaff.shortInstrumentName = #"Claps"
             \drummode {
                 \time 12/8
                 \tempo 4 = 168
@@ -645,6 +646,7 @@
 
         \new DrumStaff {
             \set DrumStaff.instrumentName = #"Hand Claps"
+            \set DrumStaff.shortInstrumentName = #"Claps"
             \drummode {
                 \time 12/8
                 \tempo 4 = 168
@@ -1284,6 +1286,7 @@
             tempoWholesPerMinute = #(ly:make-moment 120 4)
         }
     }
-    \layout {}
+    \layout {
+    }
 }
 

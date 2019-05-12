@@ -5,11 +5,12 @@
 \header {
     title = "Piano Sonata No. 14 in C♯ minor, Op. 27, No. 2"
     composer = "Ludwig van Beethoven"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
-    \new PianoStaff <<
-
+    \new PianoStaff 
+    <<
         \context ChordNames {
             \chordmode {cis1:m cis:m/+b a2 d/+fis gis4:7 cis:m/+gis gis:sus4 gis:7 }
         }

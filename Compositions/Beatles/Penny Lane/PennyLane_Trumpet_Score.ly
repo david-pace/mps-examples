@@ -5,13 +5,14 @@
 \header {
     title = "Penny Lane"
     composer = "John Lennon & Paul McCartney"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
     <<
-
         \new Staff {
             \set Staff.instrumentName = #"Trumpet"
+            \set Staff.shortInstrumentName = #"Tp."
             \set Staff.midiInstrument = #"trumpet"
             \clef treble
             \time 4/4
