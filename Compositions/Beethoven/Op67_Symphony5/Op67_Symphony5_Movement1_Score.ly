@@ -5,13 +5,14 @@
 \header {
     title = "Symphony No. 5, 1st Movement"
     composer = "Ludwig van Beethoven"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
     <<
-
         \new Staff {
             \set Staff.instrumentName = #"Violin"
+            \set Staff.shortInstrumentName = #"Vln."
             \set Staff.midiInstrument = #"violin"
             \clef treble
             \time 2/4
@@ -66,6 +67,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Violin"
+            \set Staff.shortInstrumentName = #"Vln."
             \set Staff.midiInstrument = #"violin"
             \clef treble
             \time 2/4
@@ -120,49 +122,54 @@
         }
 
         \new Staff {
-            \set Staff.instrumentName = #"Clarinet"
+            \set Staff.instrumentName = \markup { \center-column { "Clarinet" } \line { "in B" \smaller \flat } }
+            \set Staff.shortInstrumentName = #"Cl."
             \set Staff.midiInstrument = #"clarinet"
-            \clef treble
-            \time 2/4
-            \tempo 2 = 108
-            \key c \minor
-            r8
-            g'\ff
-            g'
-            g'
-            es'2
-            r8
-            f'
-            f'
-            f'
-            d'2~
-            d'
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r8
-            <b g>\p\<
-            <b d'>
-            <d' g'>
-            <g' es'>4\f
-            r
-            <fis' c'>
-            r
-            <b d'>
-            r
+            \transpose bes c' {
+                \transposition bes
+                \clef treble
+                \time 2/4
+                \tempo 2 = 108
+                \key c \minor
+                r8
+                g'\ff
+                g'
+                g'
+                es'2
+                r8
+                f'
+                f'
+                f'
+                d'2~
+                d'
+                r
+                r
+                r
+                r
+                r
+                r
+                r
+                r
+                r
+                r
+                r
+                r
+                r8
+                <b g>\p\<
+                <b d'>
+                <d' g'>
+                <g' es'>4\f
+                r
+                <fis' c'>
+                r
+                <b d'>
+                r
+            }
         }
 
         \new Staff {
             \set Staff.instrumentName = #"Viola"
+            \set Staff.shortInstrumentName = #"Vla."
             \set Staff.midiInstrument = #"viola"
             \clef alto
             \time 2/4
@@ -216,6 +223,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Cello"
+            \set Staff.shortInstrumentName = #"Vc."
             \set Staff.midiInstrument = #"cello"
             \clef bass
             \time 2/4
@@ -258,49 +266,53 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Double Bass"
+            \set Staff.shortInstrumentName = #"Cb."
             \set Staff.midiInstrument = #"contrabass"
-            \transposition c
-            \clef bass
-            \time 2/4
-            \tempo 2 = 108
-            \key c \minor
-            r8
-            g\ff
-            g
-            g
-            es2
-            r8
-            f
-            f
-            f
-            d2~
-            d
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r8
-            b,\p\<
-            b,
-            b,
-            c4\f
-            r
-            as,
-            r
-            g,
-            r
+            \transpose c c' {
+                \transposition c
+                \clef bass
+                \time 2/4
+                \tempo 2 = 108
+                \key c \minor
+                r8
+                g,\ff
+                g,
+                g,
+                es,2
+                r8
+                f,
+                f,
+                f,
+                d,2~
+                d,
+                r
+                r
+                r
+                r
+                r
+                r
+                r
+                r
+                r
+                r
+                r
+                r
+                r8
+                b,,\p\<
+                b,,
+                b,,
+                c,4\f
+                r
+                as,,
+                r
+                g,,
+                r
+            }
         }
 
         \new Staff {
             \set Staff.instrumentName = #"Bassoon"
+            \set Staff.shortInstrumentName = #"Bn."
             \set Staff.midiInstrument = #"bassoon"
             \clef bass
             \time 2/4
@@ -337,6 +349,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Flute"
+            \set Staff.shortInstrumentName = #"Fl."
             \set Staff.midiInstrument = #"flute"
             \clef treble
             \time 2/4
@@ -373,6 +386,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Oboe"
+            \set Staff.shortInstrumentName = #"Ob."
             \set Staff.midiInstrument = #"oboe"
             \clef treble
             \time 2/4
@@ -409,6 +423,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Frensh Horn"
+            \set Staff.shortInstrumentName = #"Hn."
             \set Staff.midiInstrument = #"frensh horn"
             \clef treble
             \time 2/4
@@ -445,6 +460,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Trumpet"
+            \set Staff.shortInstrumentName = #"Tp."
             \set Staff.midiInstrument = #"trumpet"
             \clef treble
             \time 2/4
@@ -481,6 +497,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Timpani"
+            \set Staff.shortInstrumentName = #"Timp."
             \set Staff.midiInstrument = #"timpani"
             \clef bass
             \time 2/4
@@ -524,6 +541,7 @@
         }
     }
     \layout {
+        indent = 2.8\cm
     }
 }
 

@@ -144,7 +144,7 @@ composition
                                         {
                                             pitches (startOctave 5) [D G] [D G] [D F]
                                         }
-                                        instrument clarinet
+                                        instrument clarinetInBb
                                         {
                                             pitches [B_3 G_3] [B_3 D] [D G]
                                         }
@@ -224,7 +224,7 @@ composition
                                                 pitches (startOctave 5) [C F#]
                                                 pitches (startOctave 5) [B_4 G]
                                             }
-                                            instrument clarinet
+                                            instrument clarinetInBb
                                             {
                                                 pitches [G Eb]
                                                 pitches [F# C]
@@ -338,15 +338,9 @@ fragment instrumentation
     {
         instrument violin
         instrument violin
-        instrument clarinet
-        instrument viola
-        {
-            transpose mode octaves -1 recursive
-        }
-        instrument cello
-        {
-            transpose mode octaves -1 recursive
-        }
+        instrument clarinetInBb
+        instrument viola, transpose mode octaves -1 recursive
+        instrument cello, transpose mode octaves -1 recursive
         instrument doubleBass
     }
 }

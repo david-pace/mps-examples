@@ -5,91 +5,93 @@
 \header {
     title = "Chameleon"
     composer = "Herbie Hancock"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
     <<
-
         \new Staff {
             \set Staff.instrumentName = #"Bass"
             \set Staff.midiInstrument = #"electric bass (finger)"
-            \transposition c
-            \clef bass
-            \time 4/4
-            \tempo 4 = 98
-            \key bes \minor
-            \partial 4. g,8
-            as,
-            a,
-            | bes,
-            r16
-            as
-            r8
-            bes
-            r
-            c
-            des
-            d
-            es
-            r16
-            bes
-            r8
-            des'
-            r
-            g,
-            as,
-            a,
-            bes,
-            r16
-            as
-            r8
-            bes
-            r
-            c
-            des
-            d
-            es
-            r16
-            bes
-            r8
-            des'
-            r
-            g,
-            as,
-            a,
-            bes,
-            r16
-            as
-            r8
-            bes
-            r
-            c
-            des
-            d
-            es
-            r16
-            bes
-            r8
-            des'
-            r
-            g,
-            as,
-            a,
-            bes,
-            r16
-            as
-            r8
-            bes
-            r
-            c
-            des
-            d
-            es
-            r16
-            bes
-            r8
-            des'
-            r2
+            \transpose c c' {
+                \transposition c
+                \clef bass
+                \time 4/4
+                \tempo 4 = 98
+                \key bes \minor
+                \partial 4. g,,8
+                as,,
+                a,,
+                | bes,,
+                r16
+                as,
+                r8
+                bes,
+                r
+                c,
+                des,
+                d,
+                es,
+                r16
+                bes,
+                r8
+                des
+                r
+                g,,
+                as,,
+                a,,
+                bes,,
+                r16
+                as,
+                r8
+                bes,
+                r
+                c,
+                des,
+                d,
+                es,
+                r16
+                bes,
+                r8
+                des
+                r
+                g,,
+                as,,
+                a,,
+                bes,,
+                r16
+                as,
+                r8
+                bes,
+                r
+                c,
+                des,
+                d,
+                es,
+                r16
+                bes,
+                r8
+                des
+                r
+                g,,
+                as,,
+                a,,
+                bes,,
+                r16
+                as,
+                r8
+                bes,
+                r
+                c,
+                des,
+                d,
+                es,
+                r16
+                bes,
+                r8
+                des
+                r2
+            }
         }
 
     >>

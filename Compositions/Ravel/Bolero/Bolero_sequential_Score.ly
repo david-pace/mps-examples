@@ -12,6 +12,7 @@
 
         \new Staff {
             \set Staff.instrumentName = #"Flute"
+            \set Staff.shortInstrumentName = #"Fl."
             \set Staff.midiInstrument = #"flute"
             \clef treble
             \time 3/4
@@ -51,43 +52,47 @@
         }
 
         \new Staff {
-            \set Staff.instrumentName = #"Clarinet"
+            \set Staff.instrumentName = \markup { \center-column { "Clarinet" } \line { "in B" \smaller \flat } }
+            \set Staff.shortInstrumentName = #"Cl."
             \set Staff.midiInstrument = #"clarinet"
-            \clef treble
-            \time 3/4
-            \tempo 4 = 80
-            \key c \major
-            r2.
-            r
-            r
-            r
-            c''4.
-            b'16
-            c''
-            d''
-            c''
-            b'
-            a'
-            c''8
-            c''16
-            a'
-            c''4.
-            b'16
-            c''
-            a'
-            g'
-            e'
-            f'
-            g'2~
-            g'16
-            f'
-            e'
-            d'
-            e'
-            f'
-            g'
-            a'
-            g'4
+            \transpose bes c' {
+                \transposition bes
+                \clef treble
+                \time 3/4
+                \tempo 4 = 80
+                \key c \major
+                r2.
+                r
+                r
+                r
+                c''4.
+                b'16
+                c''
+                d''
+                c''
+                b'
+                a'
+                c''8
+                c''16
+                a'
+                c''4.
+                b'16
+                c''
+                a'
+                g'
+                e'
+                f'
+                g'2~
+                g'16
+                f'
+                e'
+                d'
+                e'
+                f'
+                g'
+                a'
+                g'4
+            }
         }
 
     >>
@@ -99,6 +104,7 @@
         }
     }
     \layout {
+        indent = 2.8\cm
     }
 }
 

@@ -22,7 +22,7 @@ composition
             {
                 fragmentRef melody
             }
-            instrument clarinet
+            instrument clarinetInBb
             {
                 fragmentRef melody
             }
