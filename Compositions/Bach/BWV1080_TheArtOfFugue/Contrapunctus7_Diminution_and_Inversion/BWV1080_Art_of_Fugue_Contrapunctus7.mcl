@@ -27,17 +27,14 @@ composition
 fragment soprano
 {
     rhythm _1
-    inversion 11
-    {
-        fragmentRef subject    
-    }
+    fragmentRef subject, inversion 11
 }
 
 fragment tenor
 {
-    diminution, scale melodicMinor
+    scale melodicMinor
     {
-        fragmentRef subject
+        fragmentRef subject, diminution
     }
 }
 

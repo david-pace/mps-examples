@@ -5,13 +5,14 @@
 \header {
     title = "Contrapunctus 7"
     composer = "J.S. Bach"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
+    \new PianoStaff 
     <<
-
+        \set PianoStaff.instrumentName = #"Piano"
         \new Staff {
-            \set Staff.instrumentName = #"Piano"
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble
             \time 4/4
@@ -37,7 +38,6 @@
         }
 
         \new Staff {
-            \set Staff.instrumentName = #"Piano"
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble
             \time 4/4
@@ -73,6 +73,7 @@
             tempoWholesPerMinute = #(ly:make-moment 120 4)
         }
     }
-    \layout {}
+    \layout {
+    }
 }
 
