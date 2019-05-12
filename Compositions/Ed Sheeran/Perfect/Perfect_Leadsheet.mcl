@@ -1,0 +1,160 @@
+title "Perfect"
+composer "Ed Sheeran"
+
+composition
+{
+    time 12/8, tempo 62 noteDuration 4., instrument vocals
+    {
+        fragmentRef verse1
+        fragmentRef preChorus
+        fragmentRef chorus
+        fragmentRef chorusEnd1
+        fragmentRef verse2
+        fragmentRef preChorus2
+        fragmentRef chorus2
+        fragmentRef chorusEnd2
+        fragmentRef chorus3
+        fragmentRef outro
+    }
+}
+
+fragment verse1 scoreLabel "Verse 1"
+{    
+    harmonicProgression C Am F G, harmonicRhythm 1. 1. 1. 1.
+    {
+        rhythm (8 8 8) 4. _2. _4., pitches -3 -2 0 0, lyrics "I found a love"
+        rhythm (8 8 8) 4. _2. _4., pitches 2 1 0 2, lyrics "for _ _ me"
+        rhythm (8 8 8) 8 8 8 4. _2., pitches 1 2 2 2 1 0 0, lyrics "Dar-ling just dive _ right in"
+        rhythm (8 8 8) 2. _2., pitches 0 1 2 1, lyrics "fol-low my lead"
+    }
+    
+    harmonicProgression C Am F G, harmonicRhythm 1. 1. 1. 1.
+    {
+        rhythm (8 8 8) 8. 16 8 4. _2., pitches 2 1 0 2 1 0 0, lyrics "I found a girl _ _ _"
+        rhythm (4 8) 8 8 8 4. _2., pitches 4 2 1 0 0 0, lyrics "beau-ti-ful and sweet _"
+        rhythm (8 8 8 8) 4 8 4 8 8 4 8 8 8 2. _2., pitches 0 0 1 2 3 3 2 1 1 0 0 1 2 1, lyrics "well I ne-ver knew you were the some-one wai-ting for me"
+    }
+}
+
+fragment preChorus scoreLabel "Pre-Chorus"
+{
+    harmonicProgression C Am F G, harmonicRhythm 1. 1. 1. 1.
+    {
+        rhythm (8 8 8 8 8 8) 4. 4. 4. _4., pitches 4 4 4 5 2 1 2 2 2, lyrics "We were just kids when we fell in love"
+        rhythm (8 8 8) 4. 4. 4. _4., pitches 2 1 0 2 2 2, lyrics "not know-ing what it was"
+        rhythm (8 8 8) 4. 4. 4. 4. 4. 8 8 8 4. _4., pitches 2 1 0 4 3 0 -3 2 2 3 2 1, lyrics "I will not give you up this time _ _ _ _"
+    }
+    
+    harmonicProgression C Am F G, harmonicRhythm 1. 1. 1. 1.
+    {
+        rhythm (8 8 8) 4. 4. 4. _4., pitches 2 1 0 2 2 2, lyrics "Dar-ling just kiss me slow"
+        rhythm (8 8 8) 4. 4. 4. _4., pitches 2 1 0 2 2 2, lyrics "your heart is all I own"
+        rhythm (8 8 8) 4. 8 8 8 4. 4. 4. _4. 8 4 8 8 8, pitches 2 1 0 3 2 1 0 0 -3 1 2 4 2 1 0, lyrics "and in your eyes you're _ _ hol-ding mine Ba-by _ _ _"
+    }
+}
+
+fragment chorus scoreLabel "Chorus"
+{
+    harmonicProgression Am F C G Am F C G Am F C G Am F C G Am F C G, harmonicRhythm 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
+    {
+        rhythm 4. _4. 4 8 4 8 4. _4., pitches 0 7 6 5 6 2, lyrics "I Dan-cin' in the dark"
+        rhythm (8) 4 8 8 8 8 4. _4., pitches -3 4 3 2 1 0 0, lyrics "with you be-twe-en my arms"
+        rhythm 4 8 4 8 8. 16 8 4 _8, pitches 7 6 5 6 2 1 0 0, lyrics "Bare-foot on the grass _ _ _"
+        rhythm 8 8 8 4 8 8 8 4, pitches 2 4 4 4 5 2 1 0, lyrics "Lis-te-ing to our fa-vorite song"
+        rhythm 8 8 4 8 4 8 4., pitches 2 4 7 6 5 6 2, lyrics "When you said you looked a mess"
+        rhythm 8 8 8 4 8 4 8 4. 4. 4. 8 _4, pitches 0 1 2 4 3 2 3 2 1 3 2, lyrics "I whis-per un-der-neath my breath you heard it"
+        rhythm (16 16) 4. 4. 4. 4., pitches 0 1 2 1 1 0, lyrics "Dar-lin' you look per-fect"
+    }
+}
+
+fragment chorusEnd1
+{
+    harmonicProgression C G/B Am G F G7, harmonicRhythm 4. 4. 4. 4. 2. 2.
+    {
+        rhythm (8) 2. _2. _1., pitches 0 0, lyrics "to-night"
+    }
+}
+
+fragment verse2 scoreLabel "Verse 2"
+{   
+    harmonicProgression C Am F G, harmonicRhythm 1. 1. 1. 1.
+    {
+        rhythm (8 8 8 8) 4 8 _4. _2., pitches 0 2 4 0 2 2, lyrics "Well I found a wo-man"
+        rhythm (8 8 8) 8. 16 8 8 8 _8 _2., pitches 0 1 2 2 1 0 0 0, lyrics "strong-er than a-ny-one I know"
+        rhythm (8 8 8) 4 8 4 8 8 4 8 8 8 4. 4. 4. _4., pitches 0 1 2 3 3 2 1 1 0 0 1 2 1 2 4, lyrics "she shares my dreams I hope that some-day I'll share her home _ _"
+    }
+    
+    harmonicProgression C Am F G, harmonicRhythm 1. 1. 1. 1.
+    {
+        rhythm (8 8 8) 4 8 4. _2., pitches 5 4 2 4 1 0, lyrics "I found a love _ _"
+        rhythm (8 8 8) 4 8 4 8 8 4 _4., pitches 0 2 4 4 2 2 1 1 0, lyrics "to car-ry more than just my sec-rets"
+        rhythm (8 8 8) 4 8 4 8 8 8 _8 _4., pitches 0 1 2 3 3 2 1 1 0, lyrics "to car-ry love to car-ry child-ren"
+        rhythm (8 8) 4 8 4 8 _2., pitches 0 1 1 0 2 1, lyrics "of our own _ _ _"
+    }
+}
+
+fragment preChorus2 scoreLabel "Pre-Chorus 2"
+{
+    harmonicProgression C Am F G, harmonicRhythm 1. 1. 1. 1.
+    {
+        rhythm (8 8 8 8 8 8) 4. 4. 4. _4., pitches 4 4 4 5 2 1 2 2 2, lyrics "We are still kids but we're so in love"
+        rhythm (8 8 8) 4. 4. 4. _4., pitches 2 1 0 2 2 2, lyrics "figh-ting a-gainst all odds"
+        rhythm (8 8 8) 4. 4. 4. 4. 4. 8 8 8 4. _4., pitches 2 1 0 3 2 0 -3 2 2 3 2 1, lyrics "I know we'll be al-right this time _ _ _"
+    }
+    
+    harmonicProgression C Am F G, harmonicRhythm 1. 1. 1. 1.
+    {
+        rhythm (8 8 8 8) 4. 4. 4. _4., pitches -3 2 1 0 2 2 2, lyrics "but dar-ling just hold my hand"
+        rhythm (8 8 8) 4. 4. 4. _4., pitches 2 1 0 2 2 2, lyrics "be my girl be your man"
+        rhythm (8 8 8) 4. 8 8 8 4. 4. 4. _4. 8 4 8 8 8, pitches 2 1 0 3 2 1 0 0 -3 1 2 4 2 1 0, lyrics "I see my fu-ture _ _ in your eyes Ba-by _ _ _"
+    }
+}
+
+fragment chorus2 scoreLabel "Chorus 2" // TODO: variant
+{
+    harmonicProgression Am F C G Am F C G Am F C G Am F C G Am F C G, harmonicRhythm 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
+    {
+        rhythm 4. _4. 4 8 4 8 4. _4., pitches 0 7 6 5 6 2, lyrics "I Dan-cin' in the dark"
+        rhythm (8) 4 8 8 8 8 4. _4., pitches -3 4 3 2 1 0 0, lyrics "with you be-twe-en my arms"
+        rhythm 4 8 4 8 8. 16 8 4 _8, pitches 7 6 5 6 2 1 0 0, lyrics "Bare-foot on the grass _ _ _"
+        rhythm 8 8 8 4 8 8 8 4, pitches 2 4 4 4 5 2 1 0, lyrics "Lis-te-ing to our fa-vorite song"
+        rhythm 8 8 4 8 4 8 4., pitches 2 4 7 6 5 6 2, lyrics "When you said you looked a mess"
+        rhythm 8 8 8 4 8 4 8 4. 4. 4. 8 _4, pitches 0 1 2 4 3 2 3 2 1 3 2, lyrics "I whis-per un-der-neath my breath you heard it"
+        rhythm (16 16) 4. 4. 4. 4., pitches 0 1 2 1 1 0, lyrics "Dar-lin' you look per-fect"
+    }
+}
+
+
+fragment chorusEnd2
+{
+    harmonicProgression C Am F G, harmonicRhythm 1. 1. 1. 1.
+    {
+        rhythm (8) 2. _2., pitches 0 [0 2], lyrics "to-night"
+        rhythm (8 8 8) 4 16 16 2. _4., pitches 2 1 0 1 2 1 0
+        rhythm (16 16 8 8) 4. 8 8 8 4. 8 8 8 4. 4., pitches -3 -2 0 1 2 1 0 1 3 2 1 0 1 0
+        rhythm 4 8. 16, pitches 4 5 4 2, lyrics "Ba-by _ _"
+    }
+}
+
+fragment chorus3 scoreLabel "Chorus 3"
+{
+    harmonicProgression Am F C G Am F C G Am F C G Am F C G Am F C G, harmonicRhythm 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
+    {
+        rhythm 4 8 4. 4 8 4 8 4. _4., pitches 2 1 0 7 6 5 6 2, lyrics "I _ _ Dan-cin' in the dark"
+        rhythm (8) 4 8 8 8 8 4. _4., pitches -3 4 3 2 1 0 0, lyrics "with you be-twe-en my arms"
+        rhythm 4 8 4 8 8. 16 8 4 _8, pitches 7 6 5 6 2 1 0 0, lyrics "Bare-foot on the grass _ _ _"
+        rhythm 8 8 8 4 8 8 8 4, pitches 2 4 4 4 5 2 1 0, lyrics "Lis-te-ing to our fa-vorite song"
+        rhythm 8 8 4 8 4 8 4., pitches 2 4 7 6 5 6 2, lyrics "I have faith in what I see"
+        rhythm 8 8 8 4 8 4 8 4. 4 8 4. 4., pitches 0 1 2 4 3 2 3 2 1 3 2, lyrics "now I know I have met an an-gel in per-son"
+        rhythm 4. 4. 4. 8 _4, pitches 2 1 1 0, lyrics "she looks per-fect"
+        rhythm (8) 4. 4. 4. 4. 4. 4. 4. 8 _8 16 16, pitches 0 2 1 3 2 2 1 1 0 -1 0, lyrics "I don't de-serve this, you look per-fect to-night"
+    }
+}
+
+fragment outro scoreLabel "Outro"
+{
+    harmonicProgression C G/B Am G F G7 C, harmonicRhythm 4. 4. 4. 4. 2. 2. 1.
+    {
+        rhythm 4. 4. 4. 4. 2. 2. 1., pitches 9 8 7 6 5 6 7
+    }
+}
