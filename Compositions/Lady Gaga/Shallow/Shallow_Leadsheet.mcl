@@ -1,0 +1,124 @@
+title "Shallow"
+composer "Lady Gaga & Bradley Cooper"
+
+composition
+{
+    tempo 96, key G
+    {
+        fragmentRef intro
+        fragmentRef verse1, transpose mode octaves -1
+        fragmentRef interlude
+        fragmentRef verse2, transpose mode octaves -1
+        fragmentRef preChorus
+        fragmentRef chorus
+        fragmentRef bridge
+        fragmentRef preChorus
+        fragmentRef chorus
+    }
+}
+
+fragment intro scoreLabel "Intro"
+{
+    harmonicProgression Em D/F# G C G D Em D/F# G, harmonicRhythm 2 4. 9/8 1 4. 5/8 2 4. 9/8
+}
+
+fragment verse1 scoreLabel "Verse 1"
+{
+    harmonicProgression Em D/F# G C G D, harmonicRhythm 2 4. 9/8 1 4. 5/8
+    {
+        rhythm _4 8 8 8 4 5/8 _2, pitches 4 5 5 4 2, lyrics "Tell me some-thing girl"
+        rhythm _4 8 8 8 8 8 8 8 4 3/8 _4, pitches 3 3 3 3 3 3 3 2 1, lyrics "Are you hap-py in this mo-dern world"
+    }
+    
+    harmonicProgression Em D/F# G C G D, harmonicRhythm 2 4. 9/8 1 4. 5/8
+    {
+        rhythm _4 8 8 8 4 5/8 _2, pitches 4 5 5 4 2, lyrics "Or do you need more?"
+        rhythm _4 8 8 8 8 8 8 8 4 5/8, pitches 3 3 3 3 3 3 3 2 1, lyrics "Is there some-thing else you're sear-ching for?"
+    }
+    
+    harmonicProgression Em D/F# G C G D, harmonicRhythm 2 4. 9/8 1 4. 5/8
+    {
+        rhythm 2 4. 8 4 _4 _2, pitches 0 1 1 2, lyrics "I'm fal-li-ng"
+        rhythm _8 8 8 8 8 4 8 4 8 4 8 8 8, pitches 4 4 4 4 3 2 1 2 1 0 0 0, lyrics "In all the good times I find my-sel-f long-ing"
+    }
+    
+    harmonicProgression Em D/F# G C G D, harmonicRhythm 2 4. 9/8 1 4. 5/8
+    {
+        rhythm _2 4. 8 4 _4 _2, pitches 1 1 2, lyrics "for chan-ge"
+        rhythm _8 8 8 8 8 4 8 4 8 5/8, pitches 4 4 4 4 3 2 1 2 1, lyrics "and in the bad times I fear my-self"
+    }
+}
+
+fragment interlude scoreLabel "Interlude"
+{
+    harmonicProgression Em D/F# G Em D/F# G, harmonicRhythm 2 4. 9/8 2 4. 9/8
+}
+
+fragment verse2 scoreLabel "Verse 2"
+{
+    harmonicProgression Em D/F# G C G D, harmonicRhythm 2 4. 9/8 1 4. 5/8
+    {
+        rhythm _4 8 8 8 4 5/8 _2, pitches 4 5 5 4 2, lyrics "Tell me some-thing boy"
+        rhythm _4 8 8 8 8 8 8 8 4 3/8 _4, pitches 3 3 3 3 3 3 3 2 1, lyrics "Aren't you ti-red tryin' to fill that void?"
+    }
+    
+    harmonicProgression Em D/F# G C G D, harmonicRhythm 2 4. 9/8 1 4. 5/8
+    {
+        rhythm _4 8 8 8 4 16 16 2 _2, pitches 4 5 5 4 2 1 0, lyrics "Or do you need mo--re"
+        rhythm _4 8 8 8 8 8 8 8 4 4. _4, pitches 0 3 3 3 3 3 3 2 1, lyrics "Ain't it hard kee-ping it so hard-core"
+    }
+    
+    harmonicProgression Em D/F# G C G D, harmonicRhythm 2 4. 9/8 1 4. 5/8
+    {
+        rhythm 2 4. 4. _4 _2, pitches 0 1 2, lyrics "I'm fal-ling"
+        rhythm _8 8 8 8 8 4 8 4 8 4. 8 8, pitches 4 4 4 4 3 2 1 2 1 1 0, lyrics "In all the good times I find my-self long-ing"
+    }
+    
+    harmonicProgression Em D/F# G C G D, harmonicRhythm 2 4. 9/8 1 4. 5/8
+    {
+        rhythm _2 4. 16 16 4 _4 _2, pitches 4 2 1 0, lyrics "for chan--ge"
+        rhythm _8 8 8 8 8 4 8 4 8 5/8, pitches 4 4 4 4 3 2 1 2 1, lyrics "and in the bad times I fear my-self"
+    }
+}
+
+fragment preChorus scoreLabel "Pre-Chorus"
+{
+    harmonicProgression Am D/F# G D Em Am D/F# G D Em, harmonicRhythm 1 1 2 2 1 1 1 2 2 1
+    {
+        rhythm 8 8 8 4 4.
+        {
+            pitches 3 3 3 3 2, lyrics "I'm off the deep end"
+            pitches 1 1 2 1 0, lyrics "watch as I dive in"
+            rhythmicInsertion mode overwrite offset 7/8 rhythm 8. 16 2 _8 _4, pitches 2 2 2 4 0 0 1 2, lyrics "I'll ne-ver meet the grou--nd"
+            
+            pitches 3 3 3 3 2, lyrics "Crash through the sur-face"
+            rhythmicInsertion mode overwrite offset 7/8 rhythm 8, pitches 1 1 2 1 0 4, lyrics "where they can't hurt us we're"
+            rhythmicInsertion mode overwrite offset 7/8 rhythm 8. 16 2 _8 _4, pitches 2 2 2 4 0 0 1 2, lyrics "far from the shal-low no--w"
+        }
+    }
+}
+
+fragment chorus scoreLabel "Chorus"
+{
+    harmonicProgression Am D/F# G D Em, harmonicRhythm 1 1 2 2 1
+    {
+        rhythm _4 8 8 8 4. 8 8 8 5/8, pitches [0 -4] [0 -4] [0 -4] [0 -4] [-1 -6] [-1 -6] [0 -5] [-1 -6], lyrics "In the sha-ha sha-ha--low"
+        rhythm _4 8 8 8 8 8 8 8 4 4 _8 _4, pitches [0 -5] [0 -5] [0 -5] [0 -5] [-1 -6] [-1 -6] [-1 -6] [-2 -7] [-2 -7], lyrics "In the sha-ha sha-la la-la-low"
+    }
+    
+    harmonicProgression Am D/F# G D Em, harmonicRhythm 1 1 2 2 2!
+    {
+        rhythm _4 8 8 8 4. 8 8 8 2 8, pitches [0 -4] [0 -4] [0 -4] [0 -4] [-1 -6] [-1 -6] [0 -5] [-1 -6] [-3 -6], lyrics "In the sha-ha sha-ha--low we're"
+        rhythm 8 8 8 4 4 2 _8 _2 _1, pitches [0 -5] [0 -5] [0 -5] [0 -5] [-3 -6] [-5 -7] , lyrics "far from the sha-low now"
+    }
+}
+
+fragment bridge scoreLabel "Bridge"
+{
+    harmonicProgression Bm D A Em Bm D A, harmonicRhythm 1 1 1 1 1 1 1
+    {
+        rhythm 4 _4 8 8 4 4 _4 _4, pitches -1 -1 0 -1 -2, lyrics "Ha ha--a"
+        rhythm _8 4. _8 4 8 8 8 2, pitches -1 0 2 0 -1 -2, lyrics "ha ha---a"
+        rhythm 4. 4. _8 4 8 8 8 2!, pitches 2 -1 -1 0 -1 0 2, lyrics "Ha-a ha---ah"
+    }
+}
