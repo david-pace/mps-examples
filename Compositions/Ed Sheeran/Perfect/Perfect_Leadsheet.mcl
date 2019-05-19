@@ -138,7 +138,7 @@ fragment interlude
 
 fragment chorus3 scoreLabel "Chorus 3"
 {
-    harmonicProgression Am F C G Am F C G Am F C G Am F C G Am F C G, harmonicRhythm 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
+    harmonicProgression Am F C G Am F C G Am F C G Am F C G Am F C G, harmonicRhythm 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
     {
         rhythm 4 8 4. 4 8 4 8 4. _4., pitches 2 1 0 7 6 5 6 2, lyrics "I _ _ Dan-cin' in the dark"
         rhythm (8) 4 8 8 8 8 4. _4., pitches -3 4 3 2 1 0 0, lyrics "with you be-twe-en my arms"

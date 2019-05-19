@@ -11,7 +11,7 @@
 \score {
     <<
         \context ChordNames {
-            \chordmode {r4. c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 a2.:m f c g a:m f c g a:m f c g a:m f c g c4. g/+b a:m g f2. g:7 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 a2.:m f c g a:m f c g a:m f c g a:m f c g c1 c2 a1:m a2:m f1 f2 g1 g2 a2.:m f c g a:m f c g a:m f c g a:m f c g r1 r2 r1 r2 c4. g/+b a:m g f2. g:7 c1 c2 }
+            \chordmode {r4. c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 a2.:m f c g a:m f c g a:m f c g a:m f c g c4. g/+b a:m g f2. g:7 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 a2.:m f c g a:m f c g a:m f c g a:m f c g c1 c2 a1:m a2:m f1 f2 g1 g2 a2.:m f c g a:m f c g a:m f c g a:m f c g a:m f c g c4. g/+b a:m g f2. g:7 c1 c2 }
         }
 
         \new Staff {
