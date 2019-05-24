@@ -11,7 +11,7 @@
 \score {
     <<
         \context ChordNames {
-            \chordmode {r4. c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 a2.:m f c g a:m f c g a:m f c g a:m f c g c4. g/+b a:m g f2. g:7 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 c1 c2 a1:m a2:m f1 f2 g1 g2 a2.:m f c g a:m f c g a:m f c g a:m f c g c1 c2 a1:m a2:m f1 f2 g1 g2 a2.:m f c g a:m f c g a:m f c g a:m f c g a:m f c g c4. g/+b a:m g f2. g:7 c1 c2 }
+            \chordmode {r4. c1~ c2 a1:m~ a2:m f1~ f2 g1~ g2 c1~ c2 a1:m~ a2:m f1~ f2 g1~ g2 c1~ c2 a1:m~ a2:m f1~ f2 g1~ g2 c1~ c2 a1:m~ a2:m f1~ f2 g1~ g2 a2.:m f c g a:m f c g a:m f c g a:m f c g c4. g/+b a:m g f2. g:7 c1~ c2 a1:m~ a2:m f1~ f2 g1~ g2 c1~ c2 a1:m~ a2:m f1~ f2 g1~ g2 c1~ c2 a1:m~ a2:m f1~ f2 g1~ g2 c1~ c2 a1:m~ a2:m f1~ f2 g1~ g2 a2.:m f c g a:m f c g a:m f c g a:m f c g c1~ c2 a1:m~ a2:m f1~ f2 g1~ g2 a2.:m f c g a:m f c g a:m f c g a:m f c g a:m f c g c4. g/+b a:m g f2. g:7 c1~ c2 }
         }
 
         \new Staff {
@@ -50,14 +50,14 @@
             c'
             e'8.
             d'16
-            c'8
+            c'8~
             c'4.
             r
             g'4
             e'8
             d'
             c'
-            c'
+            c'~
             c'4.
             r4
             c'8
@@ -98,7 +98,7 @@
             e'
             c'
             g
-            e'
+            e'~
             e'8
             f'
             e'
@@ -155,7 +155,7 @@
             b'8
             e'8.
             d'16
-            c'8
+            c'8~
             c'4
             r8
             e'
@@ -287,7 +287,7 @@
             e'
             c'
             g
-            e'
+            e'~
             e'8
             f'
             e'
@@ -344,7 +344,7 @@
             c'8
             e'8.
             d'16
-            c'8
+            c'8~
             c'4
             r8
             e'
@@ -433,7 +433,7 @@
             c'8
             e'8.
             d'16
-            c'8
+            c'8~
             c'4
             r8
             e'
@@ -491,7 +491,7 @@
             c''1~
             c''2
         }\addlyrics {
-            I found a love for _ _ me Dar -- ling just dive _ right in fol -- low my lead I found a girl _ _ _ beau -- ti -- ful and sweet _ well I ne -- ver knew you were the some -- one wai -- ting for me We were just kids when we fell in love not know -- ing what it was I will not give you up this time _ _ _ _ Dar -- ling just kiss me slow your heart is all I own and in your eyes you're _ _ hol -- ding mine Ba -- by _ _ _ I Dan -- cin' in the dark with you be -- twe -- en my arms Bare -- foot on the grass _ _ _ Lis -- te -- ing to our fa -- vorite song When you said you looked a mess I whis -- per un -- der -- neath my breath you heard it Dar -- lin' you look per -- fect to -- night Well I found a wo -- man strong -- er than a -- ny -- one I know she shares my dreams I hope that some -- day I'll share her home _ _ I found a love _ _ to car -- ry more than just my sec -- rets to car -- ry love to car -- ry child -- ren of our own _ _ _ We are still kids but we're so in love figh -- ting a -- gainst all odds I know we'll be al -- right this time _ _ _ I but dar -- ling just hold my hand be my girl be your man I see my fu -- ture _ _ in your eyes Ba -- by _ _ _ I Dan -- cin' in the dark with you be -- tween my arms Bare -- foot on the grass _ _ _ Lis -- te -- ing to our fa -- vorite song When you said you looked a mess I whis -- per un -- der -- neath my breath you heard it Dar -- lin' you look per -- fect to -- night _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Ba -- by _ _ I _ _ Dan -- cin' in the dark with you be -- twe -- en my arms Bare -- foot on the grass _ _ _ Lis -- te -- ing to our fa -- vorite song I have faith in what I see now I know I have met an an -- gel in per -- son she looks per -- fect I don't de -- serve this, you look per -- fect to -- night _ _ _ _ _ _ _ 
+            I found a love for _ _ me Dar -- ling just dive _ right in fol -- low my lead I found a girl _ _ beau -- ti -- ful and sweet well I ne -- ver knew you were the some -- one wai -- ting for me We were just kids when we fell in love not know -- ing what it was I will not give you up this time _ _ _ Dar -- ling just kiss me slow your heart is all I own and in your eyes you're _ _ hol -- ding mine Ba -- by _ _ _ I Dan -- cin' in the dark with you be -- twe -- en my arms Bare -- foot on the grass _ _ Lis -- te -- ning to our fa -- vorite song When you said you looked a mess I whis -- per un -- der -- neath my breath you heard it Dar -- lin' you look per -- fect to -- night Well I found a wo -- man strong -- er than a -- ny -- one I know she shares my dreams I hope that some -- day I'll share her home _ _ I found a love _ _ to car -- ry more than just my sec -- rets to car -- ry love to car -- ry child -- ren of our own _ _ _ We are still kids but we're so in love figh -- ting a -- gainst all odds I know we'll be al -- right this time _ _ I but dar -- ling just hold my hand be my girl be your man I see my fu -- ture _ _ in your eyes Ba -- by _ _ _ I Dan -- cin' in the dark with you be -- tween my arms Bare -- foot on the grass _ _ Lis -- te -- ning to our fa -- vorite song When you said you looked a mess I whis -- per un -- der -- neath my breath you heard it Dar -- lin' you look per -- fect to -- night _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Ba -- by _ _ I _ _ Dan -- cin' in the dark with you be -- twe -- en my arms Bare -- foot on the grass _ _ Lis -- te -- ning to our fa -- vorite song I have faith in what I see now I know I have met an an -- gel in per -- son she looks per -- fect I don't de -- serve this, you look per -- fect to -- night _ _ _ _ _ _ _ 
         }
 
 
