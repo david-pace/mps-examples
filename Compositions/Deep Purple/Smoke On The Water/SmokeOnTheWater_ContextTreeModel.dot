@@ -1,11 +1,11 @@
 digraph compositionModel {
     graph [ordering="out"];
     n0 [fillcolor="#cef2f3",style="filled",label="composition"];
-    n1 [fillcolor="#f3e1ce",style="filled",label="4/4 time"];
+    n1 [fillcolor="#f3f3ce",style="filled",label="instrument electricGuitarOverdriven"];
     n0 -> n1;
-    n2 [fillcolor="#f3e1ce",style="filled",label="tempo 110"];
+    n2 [fillcolor="#f3e1ce",style="filled",label="4/4 time"];
     n1 -> n2;
-    n3 [fillcolor="#f3f3ce",style="filled",label="instrument electricGuitarOverdriven"];
+    n3 [fillcolor="#f3e1ce",style="filled",label="tempo 110"];
     n2 -> n3;
     n4 [fillcolor="#daf3ce",style="filled",label="key Gm"];
     n3 -> n4;

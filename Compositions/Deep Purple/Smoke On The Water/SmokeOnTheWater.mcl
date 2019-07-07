@@ -8,34 +8,24 @@
  * 
  * @author: David Hofmann <dev@davehofmann.de>
  */
-
 title "Smoke On The Water"
 composer "Deep Purple"
 
 composition
 {
-    time 4/4, tempo 110
+    instrument electricGuitarOverdriven, time 4/4, tempo 110, key Gm, scale blues
     {
-        instrument electricGuitarOverdriven
+        parallelInterval mode absolute -5 recursive
         {
-            key Gm
+            fragmentRef fragment1
+            rhythm _8 8 _8 8 _8 8 4 _4
             {
-                scale blues
-                {
-                    parallelInterval mode absolute -5 recursive
-                    {
-                        fragmentRef fragment1
-                        rhythm _8 8 _8 8 _8 8 4 _4
-                        {
-                            pitches 0 1 3 2
-                        }
-                        fragmentRef fragment1
-                        rhythm _8 8 _8 4. _2
-                        {
-                            pitches 1 0
-                        }
-                    }
-                }
+                pitches 0 1 3 2
+            }
+            fragmentRef fragment1
+            rhythm _8 8 _8 4. _2
+            {
+                pitches 1 0
             }
         }
     }
