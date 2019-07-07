@@ -13,14 +13,11 @@ composition
 {
     key E
     {
-        harmonicProgression I IV ii V7 I
-        {
-            harmonicRhythm 4 4 4 4 1
+        harmonicProgression I IV ii V7 I, harmonicRhythm 4 4 4 4 1
+        {    
+            rhythm 4 4 4 4 1
             {
-                rhythm 4 4 4 4 1
-                {
-                    chordGenerator
-                }
+                chordGenerator numberOfNotes 4
             }
         }
     }

@@ -9,6 +9,7 @@ digraph compositionModel {
     n2 -> n3;
     n4 [fillcolor="#f3ced0",style="filled",label="rhythm 4 4 4 4 1"];
     n3 -> n4;
-    n5 [fillcolor="#cee8f3",style="filled",label="chordGenerator"];
+    n5 [fillcolor="#cee8f3",style="filled",label="chordGenerator
+numberOfNotes: 4"];
     n4 -> n5;
 }

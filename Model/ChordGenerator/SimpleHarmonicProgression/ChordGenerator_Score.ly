@@ -3,22 +3,23 @@
 #(set-default-paper-size "a4")
 
 \header {
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
     <<
-
         \new Staff {
             \set Staff.instrumentName = #"Piano"
+            \set Staff.shortInstrumentName = #"Pno."
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble
             \time 4/4
             \key e \major
-            <e' gis' b'>4
-            <e' a' cis''>
-            <fis' a' cis''>
+            <e' gis' b' e''>4
+            <e' a' cis'' e''>
+            <fis' a' cis'' fis''>
             <fis' a' b' dis''>
-            <e' gis' b'>1
+            <e' gis' b' e''>1
         }
 
     >>
