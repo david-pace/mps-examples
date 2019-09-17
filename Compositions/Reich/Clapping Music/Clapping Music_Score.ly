@@ -12,7 +12,6 @@
     <<
         \new DrumStaff {
             \set DrumStaff.instrumentName = #"Hand Claps"
-            \set DrumStaff.shortInstrumentName = #"Claps"
             \drummode {
                 \time 12/8
                 \tempo 4 = 168
@@ -646,7 +645,6 @@
 
         \new DrumStaff {
             \set DrumStaff.instrumentName = #"Hand Claps"
-            \set DrumStaff.shortInstrumentName = #"Claps"
             \drummode {
                 \time 12/8
                 \tempo 4 = 168
