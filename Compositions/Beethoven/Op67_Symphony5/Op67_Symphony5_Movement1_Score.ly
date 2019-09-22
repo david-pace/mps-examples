@@ -542,6 +542,7 @@
     }
     \layout {
         indent = 2.8\cm
+        short-indent = 0.4\cm
     }
 }
 
