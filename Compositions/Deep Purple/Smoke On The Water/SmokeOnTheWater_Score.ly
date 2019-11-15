@@ -20,31 +20,14 @@
                 \time 4/4
                 \tempo 4 = 110
                 \key g \minor
-                <g' d'>8
-                r
-                <bes' f'>
-                r
-                <c'' g'>4
-                r8
-                <g' d'>
-                r
-                <bes' f'>
-                r
-                <des'' as'>
-                <c'' g'>4
-                r
-                <g' d'>8
-                r
-                <bes' f'>
-                r
-                <c'' g'>4
-                r8
-                <bes' f'>
-                r
-                <g' d'>4.
-                r2
+                <g' d'>8 r <bes' f'> r <c'' g'>4 r8 <g' d'> |
+                r <bes' f'> r <des'' as'> <c'' g'>4 r |
+                <g' d'>8 r <bes' f'> r <c'' g'>4 r8 <bes' f'> |
+                r <g' d'>4. r2 
             }
+
         }
+
 
     >>
 

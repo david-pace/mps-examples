@@ -21,55 +21,12 @@
             \time 2/2
             \tempo 4 = 54
             \key cis \minor
-            \tuplet 3/2 {gis8\pp
-            cis'
-            e'
-            }\tuplet 3/2 {gis8
-            cis'
-            e'
-            }\tuplet 3/2 {gis8
-            cis'
-            e'
-            }\tuplet 3/2 {gis8
-            cis'
-            e'
-            }\tuplet 3/2 {gis8
-            cis'
-            e'
-            }\tuplet 3/2 {gis8
-            cis'
-            e'
-            }\tuplet 3/2 {gis8
-            cis'
-            e'
-            }\tuplet 3/2 {gis8
-            cis'
-            e'
-            }\tuplet 3/2 {a8
-            cis'
-            e'
-            }\tuplet 3/2 {a8
-            cis'
-            e'
-            }\tuplet 3/2 {a8
-            d'
-            fis'
-            }\tuplet 3/2 {a8
-            d'
-            fis'
-            }\tuplet 3/2 {gis8
-            bis
-            fis'
-            }\tuplet 3/2 {gis8
-            cis'
-            e'
-            }\tuplet 3/2 {gis8
-            cis'
-            dis'
-            }\tuplet 3/2 {fis8
-            bis
-            dis'
-            }}
+            \tuplet 3/2 {gis8\pp cis' e' }\tuplet 3/2 {gis8 cis' e' }\tuplet 3/2 {gis8 cis' e' }\tuplet 3/2 {gis8 cis' e' }\tuplet 3/2 {|
+            gis8 cis' e' }\tuplet 3/2 {gis8 cis' e' }\tuplet 3/2 {gis8 cis' e' }\tuplet 3/2 {gis8 cis' e' }\tuplet 3/2 {|
+            a8 cis' e' }\tuplet 3/2 {a8 cis' e' }\tuplet 3/2 {a8 d' fis' }\tuplet 3/2 {a8 d' fis' }\tuplet 3/2 {|
+            gis8 bis fis' }\tuplet 3/2 {gis8 cis' e' }\tuplet 3/2 {gis8 cis' dis' }\tuplet 3/2 {fis8 bis dis' }
+        }
+
 
         \new Staff {
             \set Staff.midiInstrument = #"acoustic grand"
@@ -77,13 +34,12 @@
             \time 2/2
             \tempo 4 = 54
             \key cis \minor
-            <cis cis,>1\pp
-            <b, b,,>
-            <a, a,,>2
-            <fis, fis,,>
-            <gis, gis,,>
-            <gis, gis,,>
+            <cis cis,>1\pp |
+            <b, b,,> |
+            <a, a,,>2 <fis, fis,,> |
+            <gis, gis,,> <gis, gis,,> 
         }
+
 
     >>
 

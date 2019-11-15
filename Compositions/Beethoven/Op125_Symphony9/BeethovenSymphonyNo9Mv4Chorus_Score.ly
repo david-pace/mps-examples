@@ -17,25 +17,16 @@
             \clef treble
             \time 6/8
             \key d \major
-            fis''4.
-            fis''
-            g''
-            a''
-            a''
-            g''
-            fis''
-            e''
-            d''
-            d''
-            e''
-            fis''
-            fis''2~
-            fis''8
-            e''
-            e''4
-            r8
-            r4.
-        }\addlyrics {
+            fis''4. fis'' |
+            g'' a'' |
+            a'' g'' |
+            fis'' e'' |
+            d'' d'' |
+            e'' fis'' |
+            fis''2~ fis''8 e'' |
+            e''4 r8 r4. 
+        }
+        \addlyrics {
             Freu -- de schö -- ner Göt -- ter -- fun -- ken, Toch -- ter aus E -- ly -- si -- um 
         }
 

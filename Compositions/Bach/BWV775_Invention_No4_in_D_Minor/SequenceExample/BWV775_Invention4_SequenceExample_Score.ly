@@ -15,50 +15,24 @@
             \clef treble
             \time 3/8
             \key d \minor
-            f''16
-            d''
-            e''
-            f''
-            g''
-            a''
-            bes'
-            a''
-            g''
-            f''
-            e''
-            d''
-            e''
-            c''
-            d''
-            e''
-            f''
-            g''
-            a'
-            g''
-            f''
-            e''
-            d''
-            c''
+            f''16 d'' e'' f'' g'' a'' |
+            bes' a'' g'' f'' e'' d'' |
+            e'' c'' d'' e'' f'' g'' |
+            a' g'' f'' e'' d'' c'' 
         }
+
 
         \new Staff {
             \set Staff.midiInstrument = #"acoustic grand"
             \clef bass
             \time 3/8
             \key d \minor
-            d8
-            d'
-            f
-            g
-            a
-            bes
-            c
-            c'
-            e
-            f
-            g
-            a
+            d8 d' f |
+            g a bes |
+            c c' e |
+            f g a 
         }
+
 
     >>
 

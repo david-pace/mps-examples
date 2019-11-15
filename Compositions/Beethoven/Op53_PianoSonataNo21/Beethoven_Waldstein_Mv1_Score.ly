@@ -18,65 +18,16 @@
             \time 4/4
             \tempo 4 = 144
             \key c \major
-            r8
-            <c e>\pp
-            <c e>
-            <c e>
-            <c e>
-            <c e>
-            <c e>
-            <c e>
-            <c e>
-            <c e>
-            <c e>
-            <c e>
-            <c e>
-            <c e>
-            <d fis>
-            <d fis>
-            <d g>4.
-            b16
-            a
-            g8
-            r
-            r4
-            d'''~
-            d'''16
-            c'''
-            b''
-            a''
-            g''4
-            r
-            <bes, d>8
-            <bes, d>
-            <bes, d>
-            <bes, d>
-            <bes, d>
-            <bes, d>
-            <bes, d>
-            <bes, d>
-            <bes, d>
-            <bes, d>
-            <bes, d>
-            <bes, d>
-            <bes, d>
-            <bes, d>
-            <c e>
-            <c e>
-            <c f>4.
-            a16
-            g
-            f8
-            r
-            r4
-            c'''~
-            c'''16
-            bes''
-            as''
-            g''
-            f''4
-            r
+            r8 <c e>\pp <c e> <c e> <c e> <c e> <c e> <c e> |
+            <c e> <c e> <c e> <c e> <c e> <c e> <d fis> <d fis> |
+            <d g>4. b16 a g8 r r4 |
+            d'''~ d'''16 c''' b'' a'' g''4 r |
+            <bes, d>8 <bes, d> <bes, d> <bes, d> <bes, d> <bes, d> <bes, d> <bes, d> |
+            <bes, d> <bes, d> <bes, d> <bes, d> <bes, d> <bes, d> <c e> <c e> |
+            <c f>4. a16 g f8 r r4 |
+            c'''~ c'''16 bes'' as'' g'' f''4 r 
         }
+
 
         \new Staff {
             \set Staff.midiInstrument = #"acoustic grand"
@@ -84,71 +35,16 @@
             \time 4/4
             \tempo 4 = 144
             \key c \major
-            c,8\pp
-            <c, g,>
-            <c, g,>
-            <c, g,>
-            <c, g,>
-            <c, g,>
-            <c, g,>
-            <c, g,>
-            <c, g,>
-            <c, g,>
-            <c, g,>
-            <c, g,>
-            <c, g,>
-            <c, g,>
-            <c, a,>
-            <c, a,>
-            <b,, g,>
-            <b,, g,>
-            <b,, g,>
-            <b,, g,>
-            <b,, g,>
-            <b,, g,>
-            <b,, g,>
-            <b,, g,>
-            <b,, g,>
-            <b,, g,>
-            <b,, g,>
-            <b,, g,>
-            <b,, g,>
-            <b,, g,>
-            <b,, g,>
-            <b,, g,>
-            <bes,, f,>
-            <bes,, f,>
-            <bes,, f,>
-            <bes,, f,>
-            <bes,, f,>
-            <bes,, f,>
-            <bes,, f,>
-            <bes,, f,>
-            <bes,, f,>
-            <bes,, f,>
-            <bes,, f,>
-            <bes,, f,>
-            <bes,, f,>
-            <bes,, f,>
-            <bes,, g,>
-            <bes,, g,>
-            <a,, f,>
-            <a,, f,>
-            <a,, f,>
-            <a,, f,>
-            <a,, f,>
-            <a,, f,>
-            <a,, f,>
-            <a,, f,>
-            <as,, f,>
-            <as,, f,>
-            <as,, f,>
-            <as,, f,>
-            <as,, f,>
-            <as,, f,>
-            <as,, f,>
-            <as,, f,>
+            c,8\pp <c, g,> <c, g,> <c, g,> <c, g,> <c, g,> <c, g,> <c, g,> |
+            <c, g,> <c, g,> <c, g,> <c, g,> <c, g,> <c, g,> <c, a,> <c, a,> |
+            <b,, g,> <b,, g,> <b,, g,> <b,, g,> <b,, g,> <b,, g,> <b,, g,> <b,, g,> |
+            <b,, g,> <b,, g,> <b,, g,> <b,, g,> <b,, g,> <b,, g,> <b,, g,> <b,, g,> |
+            <bes,, f,> <bes,, f,> <bes,, f,> <bes,, f,> <bes,, f,> <bes,, f,> <bes,, f,> <bes,, f,> |
+            <bes,, f,> <bes,, f,> <bes,, f,> <bes,, f,> <bes,, f,> <bes,, f,> <bes,, g,> <bes,, g,> |
+            <a,, f,> <a,, f,> <a,, f,> <a,, f,> <a,, f,> <a,, f,> <a,, f,> <a,, f,> |
+            <as,, f,> <as,, f,> <as,, f,> <as,, f,> <as,, f,> <as,, f,> <as,, f,> <as,, f,> 
         }
+
 
     >>
 

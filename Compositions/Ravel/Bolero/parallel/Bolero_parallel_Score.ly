@@ -5,11 +5,11 @@
 \header {
     title = "Bolero"
     composer = "Maurice Ravel"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
     <<
-
         \new Staff {
             \set Staff.instrumentName = #"Flute"
             \set Staff.shortInstrumentName = #"Fl."
@@ -18,34 +18,12 @@
             \time 3/4
             \tempo 4 = 80
             \key c \major
-            c''4.
-            b'16
-            c''
-            d''
-            c''
-            b'
-            a'
-            c''8
-            c''16
-            a'
-            c''4.
-            b'16
-            c''
-            a'
-            g'
-            e'
-            f'
-            g'2~
-            g'16
-            f'
-            e'
-            d'
-            e'
-            f'
-            g'
-            a'
-            g'4
+            c''4. b'16 c'' d'' c'' b' a' |
+            c''8 c''16 a' c''4. b'16 c'' |
+            a' g' e' f' g'2~ |
+            g'16 f' e' d' e' f' g' a' g'4 
         }
+
 
         \new Staff {
             \set Staff.instrumentName = \markup { \center-column { "Clarinet" } \line { "in B" \smaller \flat } }
@@ -57,35 +35,14 @@
                 \time 3/4
                 \tempo 4 = 80
                 \key c \major
-                c''4.
-                b'16
-                c''
-                d''
-                c''
-                b'
-                a'
-                c''8
-                c''16
-                a'
-                c''4.
-                b'16
-                c''
-                a'
-                g'
-                e'
-                f'
-                g'2~
-                g'16
-                f'
-                e'
-                d'
-                e'
-                f'
-                g'
-                a'
-                g'4
+                c''4. b'16 c'' d'' c'' b' a' |
+                c''8 c''16 a' c''4. b'16 c'' |
+                a' g' e' f' g'2~ |
+                g'16 f' e' d' e' f' g' a' g'4 
             }
+
         }
+
 
     >>
 

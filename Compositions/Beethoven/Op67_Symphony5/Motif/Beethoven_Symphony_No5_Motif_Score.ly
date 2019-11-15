@@ -15,18 +15,13 @@
             \clef treble
             \time 2/4
             \key c \minor
-            r8
-            g'
-            g'
-            g'
-            es'2
-            r8
-            f'
-            f'
-            f'
-            d'2~
-            d'
+            r8 g' g' g' |
+            es'2 |
+            r8 f' f' f' |
+            d'2~ |
+            d' 
         }
+
 
     >>
 

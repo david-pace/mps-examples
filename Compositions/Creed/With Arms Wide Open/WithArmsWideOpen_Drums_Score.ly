@@ -16,41 +16,15 @@
             \drummode {
                 \time 4/4
                 \tempo 4 = 68
-                cymr8
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
-                cymr
+                cymr8 cymr cymr cymr cymr cymr cymr cymr |
+                cymr cymr cymr cymr cymr cymr cymr cymr |
+                cymr cymr cymr cymr cymr cymr cymr cymr |
+                cymr cymr cymr cymr cymr cymr cymr cymr 
             }
 
+
         }
+
 
         \new DrumStaff {
             \set DrumStaff.instrumentName = #"Snare"
@@ -58,25 +32,15 @@
             \drummode {
                 \time 4/4
                 \tempo 4 = 68
-                r8.
-                sn16\p
-                r2
-                sn4\f
-                r8.
-                sn16\p
-                r2
-                sn4\f
-                r8.
-                sn16\p
-                r2
-                sn4\f
-                r8.
-                sn16\p
-                r2
-                sn4\f
+                r8. sn16\p r2 sn4\f |
+                r8. sn16\p r2 sn4\f |
+                r8. sn16\p r2 sn4\f |
+                r8. sn16\p r2 sn4\f 
             }
 
+
         }
+
 
         \new DrumStaff {
             \set DrumStaff.instrumentName = #"Bass Drum"
@@ -84,37 +48,15 @@
             \drummode {
                 \time 4/4
                 \tempo 4 = 68
-                bd8.
-                r16
-                r8
-                bd8.
-                bd16
-                bd8
-                r4
-                bd8.
-                r16
-                r8
-                bd8.
-                bd16
-                bd8
-                r4
-                bd8.
-                r16
-                r8
-                bd8.
-                bd16
-                bd8
-                r4
-                bd8.
-                r16
-                r8
-                bd8.
-                bd16
-                bd8
-                r4
+                bd8. r16 r8 bd8. bd16 bd8 r4 |
+                bd8. r16 r8 bd8. bd16 bd8 r4 |
+                bd8. r16 r8 bd8. bd16 bd8 r4 |
+                bd8. r16 r8 bd8. bd16 bd8 r4 
             }
 
+
         }
+
 
     >>
 

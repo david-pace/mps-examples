@@ -20,35 +20,14 @@
                 \time 4/4
                 \tempo 4 = 70
                 \key a \minor
-                r8
-                c''
-                e''
-                a''
-                b''
-                e''
-                c''
-                b''
-                c'''
-                e''
-                c''
-                c'''
-                fis''
-                d''
-                a'
-                fis''
-                e''
-                c''
-                a'
-                c''4
-                e''8
-                c''
-                a'
-                <g' b'>
-                <a' c''>
-                <a' c''>4.
-                r
+                r8 c'' e'' a'' b'' e'' c'' b'' |
+                c''' e'' c'' c''' fis'' d'' a' fis'' |
+                e'' c'' a' c''4 e''8 c'' a' |
+                <g' b'> <a' c''> <a' c''>4. r 
             }
+
         }
+
 
         \new Staff {
             \set Staff.instrumentName = #"Guitar"
@@ -60,17 +39,14 @@
                 \time 4/4
                 \tempo 4 = 70
                 \key a \minor
-                a'2
-                gis'
-                g'
-                fis'
-                f'1
-                b8
-                a
-                a4.
-                r
+                a'2 gis' |
+                g' fis' |
+                f'1 |
+                b8 a a4. r 
             }
+
         }
+
 
     >>
 

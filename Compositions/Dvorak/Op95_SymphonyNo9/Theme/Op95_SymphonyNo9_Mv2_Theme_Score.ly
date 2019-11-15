@@ -18,29 +18,12 @@
             \time 4/4
             \tempo 4 = 50
             \key des \major
-            f'8.
-            as'16
-            as'4
-            f'8.
-            es'16
-            des'4
-            es'8.
-            f'16
-            as'8.
-            f'16
-            es'2
-            f'8.
-            as'16
-            as'4
-            f'8.
-            es'16
-            des'4
-            es'8
-            f'
-            es'8.
-            des'16
-            des'2
+            f'8. as'16 as'4 f'8. es'16 des'4 |
+            es'8. f'16 as'8. f'16 es'2 |
+            f'8. as'16 as'4 f'8. es'16 des'4 |
+            es'8 f' es'8. des'16 des'2 
         }
+
 
     >>
 
@@ -52,6 +35,7 @@
     }
     \layout {
         indent = 2.8\cm
+        short-indent = 0.4\cm
     }
 }
 

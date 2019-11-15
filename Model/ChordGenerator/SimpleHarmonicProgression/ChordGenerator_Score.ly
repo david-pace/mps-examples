@@ -8,6 +8,10 @@
 
 \score {
     <<
+        \context ChordNames {
+            \chordmode {e4 a fis:m b:7 e1 }
+        }
+
         \new Staff {
             \set Staff.instrumentName = #"Piano"
             \set Staff.shortInstrumentName = #"Pno."
@@ -15,12 +19,10 @@
             \clef treble
             \time 4/4
             \key e \major
-            <e' gis' b' e''>4
-            <e' a' cis'' e''>
-            <fis' a' cis'' fis''>
-            <fis' a' b' dis''>
-            <e' gis' b' e''>1
+            <e' gis' b' e''>4 <e' a' cis'' e''> <fis' a' cis'' fis''> <fis' a' b' dis''> |
+            <e' gis' b' e''>1 
         }
+
 
     >>
 

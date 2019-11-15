@@ -17,38 +17,16 @@
             \clef treble
             \time 4/4
             \key c \major
-            c'''4.\f
-            g''8
-            e''
-            c''
-            e''
-            g''
-            c'''4.
-            g''8
-            e''
-            c''
-            e''
-            g''
-            c'''4
-            c''\p
-            b'
-            c''
-            d''\f
-            d''\p
-            cis''
-            d''
-            e''\f
-            e''\p
-            dis''
-            e''
-            f''\<
-            g''
-            a''
-            b''
-            c'''1~\f
-            c'''2.
-            r4
+            c'''4.\f g''8 e'' c'' e'' g'' |
+            c'''4. g''8 e'' c'' e'' g'' |
+            c'''4 c''\p b' c'' |
+            d''\f d''\p cis'' d'' |
+            e''\f e''\p dis'' e'' |
+            f''\< g'' a'' b'' |
+            c'''1~\f |
+            c'''2. r4 
         }
+
 
     >>
 

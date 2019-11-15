@@ -19,80 +19,19 @@
                 \time 4/4
                 \tempo 4 = 98
                 \key bes \minor
-                \partial 4. g,,8
-                as,,
-                a,,
-                | bes,,
-                r16
-                as,
-                r8
-                bes,
-                r
-                c,
-                des,
-                d,
-                es,
-                r16
-                bes,
-                r8
-                des
-                r
-                g,,
-                as,,
-                a,,
-                bes,,
-                r16
-                as,
-                r8
-                bes,
-                r
-                c,
-                des,
-                d,
-                es,
-                r16
-                bes,
-                r8
-                des
-                r
-                g,,
-                as,,
-                a,,
-                bes,,
-                r16
-                as,
-                r8
-                bes,
-                r
-                c,
-                des,
-                d,
-                es,
-                r16
-                bes,
-                r8
-                des
-                r
-                g,,
-                as,,
-                a,,
-                bes,,
-                r16
-                as,
-                r8
-                bes,
-                r
-                c,
-                des,
-                d,
-                es,
-                r16
-                bes,
-                r8
-                des
-                r2
+                \partial 4. g,,8 as,, a,, |
+                bes,, r16 as, r8 bes, r c, des, d, |
+                es, r16 bes, r8 des r g,, as,, a,, |
+                bes,, r16 as, r8 bes, r c, des, d, |
+                es, r16 bes, r8 des r g,, as,, a,, |
+                bes,, r16 as, r8 bes, r c, des, d, |
+                es, r16 bes, r8 des r g,, as,, a,, |
+                bes,, r16 as, r8 bes, r c, des, d, |
+                es, r16 bes, r8 des r2 
             }
+
         }
+
 
     >>
 

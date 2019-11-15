@@ -17,23 +17,11 @@
             \clef treble
             \time 4/4
             \key e \major
-            \partial 8 e''8
-            | gis''
-            gis''
-            gis''
-            fis''16
-            e''
-            b''4.
-            b''16
-            a''
-            gis''8
-            gis''
-            gis''
-            fis''16
-            e''
-            b''4.
-            r8
+            \partial 8 e''8 |
+            gis'' gis'' gis'' fis''16 e'' b''4. b''16 a'' |
+            gis''8 gis'' gis'' fis''16 e'' b''4. r8 
         }
+
 
     >>
 

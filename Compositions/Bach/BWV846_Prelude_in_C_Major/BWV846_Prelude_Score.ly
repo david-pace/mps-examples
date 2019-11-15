@@ -17,15 +17,12 @@
             \clef treble
             \time 4/4
             \key c \major
-            c'2
-            c'
-            c'
-            c'
-            b
-            b
-            c'
-            c'
+            c'2 c' |
+            c' c' |
+            b b |
+            c' c' 
         }
+
 
         \new Staff {
             \set Staff.instrumentName = #"Piano"
@@ -34,23 +31,12 @@
             \clef treble
             \time 4/4
             \key c \major
-            r16
-            e'4..
-            r16
-            e'4..
-            r16
-            d'4..
-            r16
-            d'4..
-            r16
-            d'4..
-            r16
-            d'4..
-            r16
-            e'4..
-            r16
-            e'4..
+            r16 e'4.. r16 e'4.. |
+            r16 d'4.. r16 d'4.. |
+            r16 d'4.. r16 d'4.. |
+            r16 e'4.. r16 e'4.. 
         }
+
 
         \new Staff {
             \set Staff.instrumentName = #"Piano"
@@ -59,63 +45,12 @@
             \clef treble
             \time 4/4
             \key c \major
-            r8
-            g'16
-            c''
-            e''
-            g'
-            c''
-            e''
-            r8
-            g'16
-            c''
-            e''
-            g'
-            c''
-            e''
-            r8
-            a'16
-            d''
-            f''
-            a'
-            d''
-            f''
-            r8
-            a'16
-            d''
-            f''
-            a'
-            d''
-            f''
-            r8
-            g'16
-            d''
-            f''
-            g'
-            d''
-            f''
-            r8
-            g'16
-            d''
-            f''
-            g'
-            d''
-            f''
-            r8
-            g'16
-            c''
-            e''
-            g'
-            c''
-            e''
-            r8
-            g'16
-            c''
-            e''
-            g'
-            c''
-            e''
+            r8 g'16 c'' e'' g' c'' e'' r8 g'16 c'' e'' g' c'' e'' |
+            r8 a'16 d'' f'' a' d'' f'' r8 a'16 d'' f'' a' d'' f'' |
+            r8 g'16 d'' f'' g' d'' f'' r8 g'16 d'' f'' g' d'' f'' |
+            r8 g'16 c'' e'' g' c'' e'' r8 g'16 c'' e'' g' c'' e'' 
         }
+
 
     >>
 

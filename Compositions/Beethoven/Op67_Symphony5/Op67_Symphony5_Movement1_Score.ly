@@ -18,52 +18,29 @@
             \time 2/4
             \tempo 2 = 108
             \key c \minor
-            r8
-            g'\ff
-            g'
-            g'
-            es'2
-            r8
-            f'
-            f'
-            f'
-            d'2~
-            d'
-            r8
-            g'\p
-            g'
-            g'
-            es'2~
-            es'~
-            es'~
-            es'8
-            g'
-            g'
-            g'
-            d'2~
-            d'
-            g'~
-            g'~
-            g'8
-            es'
-            es'
-            f'
-            g'2~
-            g'8
-            es'
-            es'
-            f'
-            g'\<
-            d''
-            d''
-            g'
-            <c' g' es''>4\f
-            r
-            <as fis' c''>
-            r
-            <g d' b'>
-            r
+            r8 g'\ff g' g' |
+            es'2 |
+            r8 f' f' f' |
+            d'2~ |
+            d' |
+            r8 g'\p g' g' |
+            es'2~ |
+            es'~ |
+            es'~ |
+            es'8 g' g' g' |
+            d'2~ |
+            d' |
+            g'~ |
+            g'~ |
+            g'8 es' es' f' |
+            g'2~ |
+            g'8 es' es' f' |
+            g'\< d'' d'' g' |
+            <c' g' es''>4\f r |
+            <as fis' c''> r |
+            <g d' b'> r 
         }
+
 
         \new Staff {
             \set Staff.instrumentName = #"Violin"
@@ -73,53 +50,29 @@
             \time 2/4
             \tempo 2 = 108
             \key c \minor
-            r8
-            g'\ff
-            g'
-            g'
-            es'2
-            r8
-            f'
-            f'
-            f'
-            d'2~
-            d'
-            r
-            r
-            r8
-            es''\p
-            es''
-            es''
-            c''2~
-            c''4
-            r
-            r2
-            r8
-            f''
-            f''
-            f''
-            d''2~
-            d''8
-            g''
-            g''
-            f''
-            es''2
-            d''8
-            g''
-            g''
-            f''
-            es''2
-            d''8\<
-            g''
-            g''
-            f''
-            es''4\f
-            r
-            <as fis' c''>
-            r
-            <g d' b' g''>
-            r
+            r8 g'\ff g' g' |
+            es'2 |
+            r8 f' f' f' |
+            d'2~ |
+            d' |
+            r |
+            r |
+            r8 es''\p es'' es'' |
+            c''2~ |
+            c''4 r |
+            r2 |
+            r8 f'' f'' f'' |
+            d''2~ |
+            d''8 g'' g'' f'' |
+            es''2 |
+            d''8 g'' g'' f'' |
+            es''2 |
+            d''8\< g'' g'' f'' |
+            es''4\f r |
+            <as fis' c''> r |
+            <g d' b' g''> r 
         }
+
 
         \new Staff {
             \set Staff.instrumentName = \markup { \center-column { "Clarinet" } \line { "in B" \smaller \flat } }
@@ -131,41 +84,31 @@
                 \time 2/4
                 \tempo 2 = 108
                 \key c \minor
-                r8
-                g'\ff
-                g'
-                g'
-                es'2
-                r8
-                f'
-                f'
-                f'
-                d'2~
-                d'
-                r
-                r
-                r
-                r
-                r
-                r
-                r
-                r
-                r
-                r
-                r
-                r
-                r8
-                <b g>\p\<
-                <b d'>
-                <d' g'>
-                <g' es'>4\f
-                r
-                <fis' c'>
-                r
-                <b d'>
-                r
+                r8 g'\ff g' g' |
+                es'2 |
+                r8 f' f' f' |
+                d'2~ |
+                d' |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r8 <b g>\p\< <b d'> <d' g'> |
+                <g' es'>4\f r |
+                <fis' c'> r |
+                <b d'> r 
             }
+
         }
+
 
         \new Staff {
             \set Staff.instrumentName = #"Viola"
@@ -175,51 +118,29 @@
             \time 2/4
             \tempo 2 = 108
             \key c \minor
-            r8
-            g\ff
-            g
-            g
-            es2
-            r8
-            f
-            f
-            f
-            d2~
-            d
-            r
-            r8
-            as'\p
-            as'
-            as'
-            g'2~
-            g'~
-            g'4
-            r
-            r8
-            as'
-            as'
-            as'
-            g'2
-            d'~
-            d'
-            es'8
-            es'
-            es'
-            f'
-            g'2~
-            g'8
-            es'
-            es'
-            f'
-            g'4.\<
-            d'8
-            es'4\f
-            r
-            as
-            r
-            g
-            r
+            r8 g\ff g g |
+            es2 |
+            r8 f f f |
+            d2~ |
+            d |
+            r |
+            r8 as'\p as' as' |
+            g'2~ |
+            g'~ |
+            g'4 r |
+            r8 as' as' as' |
+            g'2 |
+            d'~ |
+            d' |
+            es'8 es' es' f' |
+            g'2~ |
+            g'8 es' es' f' |
+            g'4.\< d'8 |
+            es'4\f r |
+            as r |
+            g r 
         }
+
 
         \new Staff {
             \set Staff.instrumentName = #"Cello"
@@ -229,40 +150,29 @@
             \time 2/4
             \tempo 2 = 108
             \key c \minor
-            r8
-            g,\ff
-            g,
-            g,
-            es,2
-            r8
-            f,
-            f,
-            f,
-            d,2~
-            d,
-            r
-            c'~\p
-            c'~
-            c'~
-            c'
-            b~
-            b~
-            b~
-            b
-            c'
-            b
-            c'
-            b8\<
-            b
-            b
-            b
-            c'4\f
-            r
-            as,
-            r
-            g,
-            r
+            r8 g,\ff g, g, |
+            es,2 |
+            r8 f, f, f, |
+            d,2~ |
+            d, |
+            r |
+            c'~\p |
+            c'~ |
+            c'~ |
+            c' |
+            b~ |
+            b~ |
+            b~ |
+            b |
+            c' |
+            b |
+            c' |
+            b8\< b b b |
+            c'4\f r |
+            as, r |
+            g, r 
         }
+
 
         \new Staff {
             \set Staff.instrumentName = #"Double Bass"
@@ -274,41 +184,31 @@
                 \time 2/4
                 \tempo 2 = 108
                 \key c \minor
-                r8
-                g,\ff
-                g,
-                g,
-                es,2
-                r8
-                f,
-                f,
-                f,
-                d,2~
-                d,
-                r
-                r
-                r
-                r
-                r
-                r
-                r
-                r
-                r
-                r
-                r
-                r
-                r8
-                b,,\p\<
-                b,,
-                b,,
-                c,4\f
-                r
-                as,,
-                r
-                g,,
-                r
+                r8 g,\ff g, g, |
+                es,2 |
+                r8 f, f, f, |
+                d,2~ |
+                d, |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r |
+                r8 b,,\p\< b,, b,, |
+                c,4\f r |
+                as,, r |
+                g,, r 
             }
+
         }
+
 
         \new Staff {
             \set Staff.instrumentName = #"Bassoon"
@@ -318,34 +218,29 @@
             \time 2/4
             \tempo 2 = 108
             \key c \minor
-            r2
-            r
-            r
-            r
-            r
-            r
-            c'~\p
-            c'~
-            c'~
-            c'
-            b~
-            b~
-            b~
-            b
-            c'
-            b
-            c'
-            b8\<
-            b
-            b
-            b
-            c'4\f
-            r
-            as,
-            r
-            g,
-            r
+            r2 |
+            r |
+            r |
+            r |
+            r |
+            r |
+            c'~\p |
+            c'~ |
+            c'~ |
+            c' |
+            b~ |
+            b~ |
+            b~ |
+            b |
+            c' |
+            b |
+            c' |
+            b8\< b b b |
+            c'4\f r |
+            as, r |
+            g, r 
         }
+
 
         \new Staff {
             \set Staff.instrumentName = #"Flute"
@@ -355,34 +250,29 @@
             \time 2/4
             \tempo 2 = 108
             \key c \minor
-            r2
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r8
-            <d''' g'''>\p\<
-            <d''' g'''>
-            <d''' f'''>
-            <c''' es'''>4\f
-            r
-            c'''
-            r
-            <b'' g'''>
-            r
+            r2 |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r8 <d''' g'''>\p\< <d''' g'''> <d''' f'''> |
+            <c''' es'''>4\f r |
+            c''' r |
+            <b'' g'''> r 
         }
+
 
         \new Staff {
             \set Staff.instrumentName = #"Oboe"
@@ -392,34 +282,29 @@
             \time 2/4
             \tempo 2 = 108
             \key c \minor
-            r2
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r8
-            <d'' g''>\p\<
-            <d'' g''>
-            <d'' f''>
-            <c'' es''>4\f
-            r
-            <c'' fis''>
-            r
-            <b' g''>
-            r
+            r2 |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r8 <d'' g''>\p\< <d'' g''> <d'' f''> |
+            <c'' es''>4\f r |
+            <c'' fis''> r |
+            <b' g''> r 
         }
+
 
         \new Staff {
             \set Staff.instrumentName = #"Frensh Horn"
@@ -429,34 +314,29 @@
             \time 2/4
             \tempo 2 = 108
             \key c \minor
-            r2
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r8
-            g''\p\<
-            g''
-            g''
-            g''4\f
-            r
-            <es'' es'>
-            r
-            <g'' g'>
-            r
+            r2 |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r8 g''\p\< g'' g'' |
+            g''4\f r |
+            <es'' es'> r |
+            <g'' g'> r 
         }
+
 
         \new Staff {
             \set Staff.instrumentName = #"Trumpet"
@@ -466,34 +346,29 @@
             \time 2/4
             \tempo 2 = 108
             \key c \minor
-            r2
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r8
-            <g' g>\p\<
-            <g' g>
-            <g' g>
-            <c'' c'>4\f
-            r
-            <c'' c'>
-            r
-            <g' g>
-            r
+            r2 |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r8 <g' g>\p\< <g' g> <g' g> |
+            <c'' c'>4\f r |
+            <c'' c'> r |
+            <g' g> r 
         }
+
 
         \new Staff {
             \set Staff.instrumentName = #"Timpani"
@@ -503,34 +378,29 @@
             \time 2/4
             \tempo 2 = 108
             \key c \minor
-            r2
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r
-            r8
-            g,\p\<
-            g,
-            g,
-            c4\f
-            r
-            c
-            r
-            g,
-            r
+            r2 |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r |
+            r8 g,\p\< g, g, |
+            c4\f r |
+            c r |
+            g, r 
         }
+
 
     >>
 

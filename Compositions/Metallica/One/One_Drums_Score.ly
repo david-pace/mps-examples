@@ -16,41 +16,15 @@
             \drummode {
                 \time 4/4
                 \tempo 4 = 100
-                hh8
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
-                hh
+                hh8 hh hh hh hh hh hh hh |
+                hh hh hh hh hh hh hh hh |
+                hh hh hh hh hh hh hh hh |
+                hh hh hh hh hh hh hh hh 
             }
 
+
         }
+
 
         \new DrumStaff {
             \set DrumStaff.instrumentName = #"Bass Drum"
@@ -58,29 +32,15 @@
             \drummode {
                 \time 4/4
                 \tempo 4 = 100
-                bd4.
-                bd4
-                bd8
-                bd8.
-                bd16
-                bd4.
-                bd4
-                bd8
-                bd8.
-                bd16
-                bd4.
-                bd4
-                bd8
-                bd8.
-                bd16
-                bd4.
-                bd4
-                bd8
-                bd8.
-                bd16
+                bd4. bd4 bd8 bd8. bd16 |
+                bd4. bd4 bd8 bd8. bd16 |
+                bd4. bd4 bd8 bd8. bd16 |
+                bd4. bd4 bd8 bd8. bd16 
             }
 
+
         }
+
 
     >>
 
@@ -91,6 +51,8 @@
         }
     }
     \layout {
+        indent = 2.8\cm
+        short-indent = 0.4\cm
     }
 }
 
