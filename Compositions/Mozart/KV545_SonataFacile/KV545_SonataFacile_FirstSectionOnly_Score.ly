@@ -5,73 +5,35 @@
 \header {
     title = "Sonata Facile (KV 545), 1st movement"
     composer = "W.A. Mozart"
+    tagline = "Generated using Music Processing Suite (www.musicprocessing.net) and LilyPond (www.lilypond.org)"
 }
 
 \score {
-    \new PianoStaff <<
+    \new PianoStaff 
+    <<
+        \new Staff {
+            \set Staff.midiInstrument = #"acoustic grand"
+            \clef treble
+            \time 4/4
+            \key c \major
+            c''2 e''4 g'' |
+            b'4. c''16 d'' c''4 r |
+            a''2 g''4 c''' |
+            g'' f''8 e''16 f'' e''4 r 
+        }
+
 
         \new Staff {
             \set Staff.midiInstrument = #"acoustic grand"
             \clef treble
             \time 4/4
             \key c \major
-            c''2
-            e''4
-            g''
-            b'4.
-            c''16
-            d''
-            c''4
-            r
-            a''2
-            g''4
-            c'''
-            g''
-            f''8
-            e''16
-            f''
-            e''4
-            r
+            c'8 g' e' g' c' g' e' g' |
+            d' g' f' g' c' g' e' g' |
+            c' a' f' a' c' g' e' g' |
+            b g' d' g' c' g' e' g' 
         }
 
-        \new Staff {
-            \set Staff.midiInstrument = #"acoustic grand"
-            \clef treble
-            \time 4/4
-            \key c \major
-            c'8
-            g'
-            e'
-            g'
-            c'
-            g'
-            e'
-            g'
-            d'
-            g'
-            f'
-            g'
-            c'
-            g'
-            e'
-            g'
-            c'
-            a'
-            f'
-            a'
-            c'
-            g'
-            e'
-            g'
-            b
-            g'
-            d'
-            g'
-            c'
-            g'
-            e'
-            g'
-        }
 
     >>
 
