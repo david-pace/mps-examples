@@ -83,13 +83,13 @@
             \mark "Chorus"
             |
             r <g' c'>8 <g' c'> <g' c'> <g' c'>4. |
-            <fis' a>8 <fis' a> <g' b> <fis'~ a~>2 <fis'~ a~>8 |
+            <fis' a>8 <fis' a> <g' b> <fis'~ a~>2 <fis' a>8 |
             r4 <g' b>8 <g' b> <g' b> <g' b> <fis' a> <fis' a> |
             <fis' a> <e' g>4 <e' g> r8 r4 |
             r <g' c'>8 <g' c'> <g' c'> <g' c'>4. |
             <fis' a>8 <fis' a> <g' b> <fis' a>2 <d' a>8 |
             <g' b> <g' b> <g' b> <g' b>4 <d' a> <b~ g~>8 |
-            <b~ g~>4. r8 r2 |
+            <b g>4. r8 r2 |
             r1 \break
             \mark "Bridge"
             |
@@ -113,13 +113,13 @@
             \mark "Chorus"
             |
             r <g' c'>8 <g' c'> <g' c'> <g' c'>4. |
-            <fis' a>8 <fis' a> <g' b> <fis'~ a~>2 <fis'~ a~>8 |
+            <fis' a>8 <fis' a> <g' b> <fis'~ a~>2 <fis' a>8 |
             r4 <g' b>8 <g' b> <g' b> <g' b> <fis' a> <fis' a> |
             <fis' a> <e' g>4 <e' g> r8 r4 |
             r <g' c'>8 <g' c'> <g' c'> <g' c'>4. |
             <fis' a>8 <fis' a> <g' b> <fis' a>2 <d' a>8 |
             <g' b> <g' b> <g' b> <g' b>4 <d' a> <b~ g~>8 |
-            <b~ g~>4. r8 r2 |
+            <b g>4. r8 r2 |
             r1 
         }
         \addlyrics {
